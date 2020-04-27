@@ -54,37 +54,62 @@
 
     <div class="nav-padding"></div>
     <h2 class="section-title nav-padding">Contacto</h2>
-
-    <form name="contact" method="POST" data-netlify="true">
-      <p>
-        <label>Tu Nombre: <input type="text" name="name" /></label>
-      </p>
-      <p>
-        <label>Tu Email: <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label>Your Número: <input type="tel" name="email" /></label>
-      </p>
-      <p>
-        <label>Mensaje: <textarea name="message"></textarea></label>
-      </p>
-      <p>
-        <button type="submit">Mandar</button>
-      </p>
-    </form>
-    <div class="map-container">
-      <iframe
-        class="map-frame"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.2191434170645!2d-86.24266361583884!3d12.097144807735386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73ff7ccf26bff7%3A0x2fd664f4e622727f!2sCarnation%20Studio!5e0!3m2!1ses-419!2sni!4v1587778070774!5m2!1ses-419!2sni"
-        width="300"
-        height="225"
-        frameborder="0"
-        style="border: 0.5px;"
-        allowfullscreen=""
-        aria-hidden="false"
-        tabindex="0"
-      ></iframe>
-    </div>
+    <section class="contact-container">
+      <form
+        class="contact-form"
+        name="contact"
+        method="POST"
+        data-netlify="true"
+      >
+        <p>
+          <input
+            class="contact-form-text"
+            type="text"
+            name="name"
+            placeholder="Nombre"
+          />
+        </p>
+        <p>
+          <input
+            class="contact-form-text"
+            type="email"
+            name="email"
+            placeholder="Correo"
+          />
+        </p>
+        <p>
+          <input
+            class="contact-form-text"
+            type="tel"
+            name="email"
+            placeholder="Número"
+          />
+        </p>
+        <p>
+          <textarea
+            class="contact-form-text"
+            name="message"
+            placeholder="Mensaje"
+          ></textarea>
+        </p>
+        <p>
+          <button class="contact-form-btn" type="submit">Mandar</button>
+        </p>
+      </form>
+      <div class="map-container">
+        <iframe
+          class="map-frame"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.2191434170645!2d-86.24266361583884!3d12.097144807735386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73ff7ccf26bff7%3A0x2fd664f4e622727f!2sCarnation%20Studio!5e0!3m2!1ses-419!2sni!4v1587778070774!5m2!1ses-419!2sni"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0.5px;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+    </section>
     <!-- footer -->
     <div class="footer-container">
       <div class="contact-info-container">
