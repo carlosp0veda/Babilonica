@@ -1201,7 +1201,7 @@ p {
   display: grid;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .product-modal_item {
