@@ -141,6 +141,9 @@ textarea {
 }
 
 @media screen and (max-width: 560px) {
+  .nav-top {
+    display: none;
+  }
   .contact-wrapper {
     padding-top: 10vh;
   }
@@ -169,5 +172,9 @@ textarea {
     justify-items: start;
     align-items: center;
     font-size: 1.5rem;
+  }
+
+  .contact-form-btn {
+    float: none;
   }
 }

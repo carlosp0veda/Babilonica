@@ -1,3 +1,5 @@
+// scrolling banner
+
 var bannerStatus = 1;
 var bannerTimer = 4000;
 
@@ -88,6 +90,8 @@ function bannerLoop() {
     bannerStatus = 1;
   }
 }
+
+// end scrolling banner
 
 // hide preloader
 // all the images scripts links have finished loading
