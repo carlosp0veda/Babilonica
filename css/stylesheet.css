@@ -1046,7 +1046,7 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 9999;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -1057,8 +1057,8 @@ p {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 50vw;
-  height: 80vh;
+  width: 100vw;
+  height: 100%;
   border: 0.2rem solid var(--green);
   border-radius: 0.5rem;
 }
@@ -1303,8 +1303,8 @@ p {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: 100vw;
   border: 0.2rem solid var(--green);
   border-radius: 0.5rem;
 }
@@ -1312,7 +1312,7 @@ p {
 @media screen and (min-width: 768px) {
   .work-modal_item {
     height: 90vh;
-    width: 75vw;
+    width: 100vw;
   }
 }
 
