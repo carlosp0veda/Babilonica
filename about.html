@@ -16,6 +16,12 @@
     <title>Babilonica</title>
   </head>
   <body>
+    <!-- pre loader -->
+    <div class="preloader">
+      <img src="css/img/preloader.gif" class="preloader_item" />
+    </div>
+    <!-- end preloader -->
+
     <!-- top nav -->
     <nav class="nav-top" id="nav-top">
       <ul class="navlinks-top">
@@ -174,5 +180,36 @@
       </div>
     </footer>
     <!-- end footer -->
+
+    <script>
+      EventListener();
+      function EventListener() {
+        const ui = new UI();
+        // window list
+
+        window.addEventListener("load", function () {
+          ui.hidePreloader();
+        });
+
+        // nav btn
+
+        document
+          .querySelector(".navBtn")
+          .addEventListener("click", function () {
+            ui.showNav();
+          });
+      }
+      function UI() {}
+
+      // hide preloader
+      UI.prototype.hidePreloader = function () {
+        document.querySelector(".preloader").style.display = "none";
+      };
+
+      // show Nav
+      UI.prototype.showNav = function () {
+        document.querySelector(".nav").classList.toggle("nav-show");
+      };
+    </script>
   </body>
 </html>
