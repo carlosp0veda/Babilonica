@@ -60,7 +60,13 @@
         name="contact"
         method="POST"
         data-netlify="true"
+        netlify-honeypot="bot-field"
       >
+        <p class="hidden-form-text" style="display: none;">
+          <label
+            >No llenes esto si eres humano: <input name="bot-field"
+          /></label>
+        </p>
         <p>
           <input
             class="contact-form-text"
