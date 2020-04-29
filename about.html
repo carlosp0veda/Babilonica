@@ -109,7 +109,7 @@
           <!-- second child -->
           <div class="about_image-container">
             <img
-              src="/css/img/fer2.jpg"
+              data-lazy="/css/img/fer2.jpg"
               class="about_img-item"
               alt="about img"
             />
@@ -131,7 +131,7 @@
           <!-- second child -->
           <div class="about_image-container about_image_special">
             <img
-              src="/css/img/fer.jpg"
+              data-lazy="/css/img/fer.jpg"
               class="about_img-item"
               alt="about img"
             />
@@ -182,6 +182,27 @@
     <!-- end footer -->
 
     <script>
+      const targets = document.querySelectorAll("img");
+
+      const lazyLoad = (target) => {
+        const io = new IntersectionObserver((entries, observer) => {
+          console.log(entries);
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              const src = img.getAttribute("data-lazy");
+
+              img.setAttribute("src", src);
+              observer.disconnect();
+            }
+          });
+        });
+
+        io.observe(target);
+      };
+
+      targets.forEach(lazyLoad);
+
       EventListener();
       function EventListener() {
         const ui = new UI();
