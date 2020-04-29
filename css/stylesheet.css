@@ -517,23 +517,26 @@ p {
   display: grid;
   grid-template-rows: 250px;
   grid-template-columns: repeat(4, 25%);
-  align-items: stretch;
+  align-items: baseline;
   justify-items: center;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .factor {
-  height: 200px;
-  padding: 20px;
+  height: 300px;
+  box-sizing: border-box;
 }
 
 .factor-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "brixtonbold";
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 .factor-text {
+  padding: 10px;
+  font-family: "brixtonlight";
 }
 
 .factor-icon {
@@ -544,7 +547,7 @@ p {
 
 @media screen and (max-width: 720px) {
   .unique-factors {
-    grid-template-rows: 40vh 40vh;
+    grid-template-rows: 350px 350px;
     grid-template-columns: 50% 50%;
   }
 }
