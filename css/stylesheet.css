@@ -1196,6 +1196,7 @@ p {
   grid-template-rows: repeat(auto-fit, max-height: 250px);
   justify-content: center;
 }
+
 .work-item_img {
   top: 50%;
   width: 100%;
