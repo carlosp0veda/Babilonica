@@ -21,6 +21,8 @@ const lazyLoad = (target) => {
 
 targets.forEach(lazyLoad);
 
+// finish lazy loading
+
 // scrolling banner
 
 var bannerStatus = 1;
