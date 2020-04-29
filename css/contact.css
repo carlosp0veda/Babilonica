@@ -14,8 +14,8 @@
   padding-top: 14vh;
 }
 
-h1 {
-  font-family: "brixtonbold";
+.contact-heading {
+  font-family: "brixtonbook";
   opacity: 1;
   font-size: 5rem;
   margin: auto;
@@ -71,7 +71,6 @@ textarea.contact-form-text {
   font-family: "brixtonbold";
   text-decoration: none;
   padding: 12px 48px;
-  margin: ;
   background-color: var(--green);
   border-radius: 20px;
   cursor: pointer;
