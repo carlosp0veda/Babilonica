@@ -519,13 +519,12 @@ p {
   grid-template-columns: repeat(4, 25%);
   align-items: stretch;
   justify-items: center;
-  gap: 10px;
   margin: auto;
 }
 
 .factor {
   height: 200px;
-  padding: 10px 0;
+  padding: 20px;
 }
 
 .factor-title {
@@ -535,12 +534,11 @@ p {
 }
 
 .factor-text {
-  padding: 5px;
 }
 
 .factor-icon {
   color: var(--green);
-  font-size: 5rem;
+  font-size: 4.5rem;
   padding-bottom: 1rem;
 }
 
@@ -549,7 +547,6 @@ p {
     grid-template-rows: 40vh 40vh;
     grid-template-columns: 50% 50%;
   }
-
 }
 
 /* about */
