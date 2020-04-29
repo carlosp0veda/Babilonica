@@ -1006,6 +1006,9 @@ p {
 }
 
 @media screen and (max-width: 568px) {
+  .new-products-wrapper {
+    padding: 2rem 0;
+  }
   .new-products {
     display: grid;
     grid-auto-flow: row;
@@ -1058,13 +1061,13 @@ p {
   background-position: center;
   background-size: 500px;
   background-repeat: no-repeat;
-  width: 90vw;
-  height: 90vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media screen and (max-width: 568px) {
   .product-modal-item {
-    width: 100vw;
+    background-size: cover;
   }
 }
 
