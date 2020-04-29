@@ -904,7 +904,7 @@ p {
 .new-products {
   display: grid;
   grid-auto-flow: column;
-  grid-template: 250px / repeat(auto, 100vw);
+  grid-template: 300px / repeat(auto, 100vw);
   gap: 50px;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
@@ -924,7 +924,6 @@ p {
 
 .product {
   scroll-snap-align: center;
-  scrollbar-color: var(--green) var(--purple);
 }
 
 .product-img-wrapper {
@@ -1009,7 +1008,7 @@ p {
   .new-products {
     display: grid;
     grid-auto-flow: row;
-    grid-template: repeat(auto, 1fr) / 100vw;
+    grid-template: repeat(auto, 1fr) / 96vw;
     margin-left: auto;
     margin-right: auto;
     width: 250px;
