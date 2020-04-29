@@ -90,8 +90,25 @@ p {
   align-items: center;
 }
 
-/* TOP NAV BAR */
+.noticia {
+  width: 100vw;
+  height: 5vh;
+  background-color: var(--purple);
+  color: var(--light);
+  font-family: "brixtonbold";
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 1rem;
+}
 
+@media screen and (max-width: 568px) {
+  .noticia {
+    height: 7vh;
+  }
+}
+
+/* TOP NAV BAR */
 .nav-top {
   width: 100vw;
   height: 15vh;
