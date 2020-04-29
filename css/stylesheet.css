@@ -1065,8 +1065,6 @@ p {
   background-repeat: no-repeat;
   width: 90vw;
   height: 90vh;
-  border: 0.2rem solid var(--green);
-  border-radius: 0.5rem;
 }
 
 @media screen and (mix-width: 568px) {
@@ -1317,8 +1315,6 @@ p {
   background-repeat: no-repeat;
   height: 100%;
   width: 100vw;
-  border: 0.2rem solid var(--green);
-  border-radius: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
