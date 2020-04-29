@@ -898,6 +898,7 @@ p {
 
 .new-products-wrapper {
   width: 100vw;
+  padding: 2rem 1rem;
 }
 
 .new-products {
@@ -905,7 +906,6 @@ p {
   grid-auto-flow: column;
   grid-template: 250px / repeat(auto, 100vw);
   gap: 50px;
-  padding: 2rem 0;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
@@ -1013,7 +1013,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 250px;
-    padding: 2rem 0;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
   }
