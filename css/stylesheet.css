@@ -831,7 +831,7 @@ p {
 .section-title {
   display: inline-block;
   letter-spacing: 2px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   position: relative;
   padding: 1.5rem 0.5rem;
   z-index: 3;
@@ -899,6 +899,7 @@ p {
 .new-products-wrapper {
   width: 100vw;
   padding: 2rem 1rem;
+  margin: 0;
 }
 
 .new-products {
@@ -1061,7 +1062,7 @@ p {
   height: 90vh;
 }
 
-@media screen and (mix-width: 568px) {
+@media screen and (max-width: 568px) {
   .product-modal-item {
     width: 100vw;
   }
