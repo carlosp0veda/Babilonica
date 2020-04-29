@@ -654,12 +654,12 @@ p {
 
 @media screen and (max-width: 568px) {
   .about {
-    height: 250vh;
+    height: 230vh;
   }
   .grid-container-medium2 {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 120vh 120vh;
+    grid-template-rows: 100vh 100vh;
     column-gap: 1rem;
   }
 
@@ -667,7 +667,7 @@ p {
     display: grid;
     margin: 0;
     grid-template-columns: 100%;
-    grid-template-rows: 60vh 60vh;
+    grid-template-rows: 80vh 40vh;
     border-radius: 0.25rem;
     padding: 1rem;
     box-sizing: border-box;
