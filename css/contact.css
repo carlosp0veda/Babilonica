@@ -14,10 +14,13 @@
   padding-top: 14vh;
 }
 
-.contact-heading {
+h1 {
+  font-family: "brixtonbold";
+  opacity: 1;
   font-size: 5rem;
   margin: auto;
   padding: 0 auto;
+  letter-spacing: 2px;
 }
 
 .contact-container {
