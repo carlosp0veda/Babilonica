@@ -1418,3 +1418,8 @@ p {
 }
 
 /* end footer section  */
+.fade {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all ease-in 500ms;
+}
