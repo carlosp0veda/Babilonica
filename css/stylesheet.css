@@ -896,10 +896,14 @@ p {
 
 /* new products */
 
-.new_products {
+.new-products-wrapper {
+  width: 100vw;
+}
+
+.new-products {
   display: grid;
   grid-auto-flow: column;
-  grid-template: 250px / repeat(auto, 1fr);
+  grid-template: 250px / repeat(auto, 100vw);
   gap: 50px;
   width: 100%;
   padding: 2rem 0.5rem;
@@ -1003,13 +1007,12 @@ p {
 }
 
 @media screen and (max-width: 568px) {
-  .new_products {
+  .new-products {
     display: grid;
     grid-auto-flow: row;
-    grid-template: repeat(auto, 1fr) / 300px;
+    grid-template: repeat(auto, 1fr) / 100vw;
     margin-left: auto;
     margin-right: auto;
-    gap: 50px;
     width: 250px;
     padding: 2rem 0;
     overflow-x: scroll;
