@@ -28,7 +28,7 @@ targets.forEach(lazyLoad);
 // scrolling banner
 
 var bannerStatus = 1;
-var bannerTimer = 4000;
+var bannerTimer = 5000;
 
 window.onload = function () {
   bannerLoop();
@@ -77,11 +77,11 @@ function bannerLoop() {
       document.getElementById("imgban2").style.zIndex = 1500;
       document.getElementById("imgban3").style.right = "1500px";
       document.getElementById("imgban3").style.zIndex = 500;
-    }, 1000);
+    }, 1500);
 
     setTimeout(function () {
       document.getElementById("imgban2").style.opacity = "1";
-    }, 2000);
+    }, 3000);
     bannerStatus = 2;
   } else if (bannerStatus === 2) {
     document.getElementById("imgban2").style.opacity = "1";
@@ -93,11 +93,11 @@ function bannerLoop() {
       document.getElementById("imgban3").style.zIndex = 1500;
       document.getElementById("imgban1").style.right = "1500px";
       document.getElementById("imgban1").style.zIndex = 500;
-    }, 1000);
+    }, 1500);
 
     setTimeout(function () {
       document.getElementById("imgban3").style.opacity = "1";
-    }, 2000);
+    }, 3000);
     bannerStatus = 3;
   } else if (bannerStatus === 3) {
     document.getElementById("imgban3").style.opacity = "1";
@@ -109,11 +109,11 @@ function bannerLoop() {
       document.getElementById("imgban1").style.zIndex = 1500;
       document.getElementById("imgban2").style.right = "1500px";
       document.getElementById("imgban2").style.zIndex = 500;
-    }, 1000);
+    }, 1500);
 
     setTimeout(function () {
       document.getElementById("imgban1").style.opacity = "1";
-    }, 2000);
+    }, 3000);
     bannerStatus = 1;
   }
 }

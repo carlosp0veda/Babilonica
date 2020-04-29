@@ -173,7 +173,7 @@ p {
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
-  transform: translateY(30vh);
+  transform: translateY(33vh);
 }
 
 .banner_logo_container {
@@ -942,7 +942,6 @@ p {
   height: 20%;
   width: 50%;
   padding-top: 0.4rem;
-
   transform: translate(-50%, -50%) scale(0);
   transition: all linear 250ms;
   z-index: 3;
@@ -1055,12 +1054,18 @@ p {
 
 .product-modal_item {
   background-position: center;
-  background-size: 100%;
+  background-size: 100px;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 100%;
+  width: 90vw;
+  height: 90vh;
   border: 0.2rem solid var(--green);
   border-radius: 0.5rem;
+}
+
+@media screen and (mix-width: 560px) {
+  .product-modal-item {
+    width: 100vw;
+  }
 }
 
 .product-modal_close {
@@ -1311,7 +1316,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .work-modal_item {
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
   }
 }
