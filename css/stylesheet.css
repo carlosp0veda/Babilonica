@@ -905,8 +905,7 @@ p {
   grid-auto-flow: column;
   grid-template: 250px / repeat(auto, 100vw);
   gap: 50px;
-  width: 100%;
-  padding: 2rem 0.5rem;
+  padding: 2rem 0;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
