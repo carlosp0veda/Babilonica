@@ -62,7 +62,7 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 /* section padding */
@@ -128,7 +128,7 @@ p {
   align-items: center;
   padding: 0 2rem;
   list-style-type: none;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 .navlinks-top-left {
@@ -546,12 +546,13 @@ p {
 }
 
 .factor-title {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: "brixtonbold";
   padding: 10px;
 }
 
 .factor-text {
+  font-size: 1.25rem;
   padding: 10px;
   font-family: "brixtonlight";
 }
@@ -1151,19 +1152,22 @@ p {
 .category-text {
   width: fit-content;
   font-family: "brixtonlight";
-  font-size: 1rem;
+  color: var(--purple);
+  font-size: 1.25rem;
   letter-spacing: 1px;
   margin: 0 25%;
   padding-bottom: 2rem;
+  text-transform: none;
 }
 
 .category-cta {
   display: block;
   justify-self: center;
   font-family: "brixtonbold";
-  width: 100px;
-  height: 50px;
-  line-height: 50px;
+  width: 120px;
+  height: 60px;
+  font-size: 1.25rem;
+  line-height: 60px;
   border-radius: 0.5rem;
   bottom: 20%;
   border: 2px solid var(--green);
