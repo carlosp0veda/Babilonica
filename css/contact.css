@@ -31,7 +31,7 @@
 /* form */
 
 .contact-form {
-  width: 100%;
+  width: 90%;
   height: 85vh;
   margin-top: 2vh;
   margin-right: 5vw;
@@ -42,11 +42,12 @@
 }
 
 .form-wrapper {
+  width: 100%;
 }
 
 .contact-form-text {
   display: block;
-  width: 96%;
+  width: 100%;
   box-sizing: border-box;
   margin: 16px 0;
   border: 0;
@@ -103,7 +104,7 @@ textarea {
 /* social media contacts */
 
 .socials-wrapper {
-  width: 50vw;
+  width: 50%;
   padding-top: 2.5rem;
   padding-left: 5rem;
 }
