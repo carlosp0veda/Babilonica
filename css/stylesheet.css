@@ -660,6 +660,7 @@ p {
 @media screen and (max-width: 568px) {
   .about {
     height: 300vh;
+    padding-top: 10vh;
   }
   .grid-container {
     display: grid;
