@@ -575,7 +575,7 @@ p {
 .about {
   display: grid;
   width: 100vw;
-  height: 250vh;
+  height: 150vh;
   padding-top: 5vh;
 }
 
@@ -584,13 +584,12 @@ p {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 75vh;
+  grid-template-rows: 75vh 75vh;
   row-gap: 1rem;
 }
 
 .about-container {
   display: grid;
-  height: 100%;
   margin: 0;
   grid-template-columns: 50vw 50vw;
   grid-template-rows: 75vh;
@@ -631,8 +630,8 @@ p {
 
 .main-title_text {
   text-align: justify;
-  font-size: 1.5rem;
-  padding: 2rem;
+  font-size: 1.25rem;
+  padding: 1rem;
   padding-top: 1rem;
 }
 
@@ -645,6 +644,7 @@ p {
   object-fit: cover;
   box-sizing: border-box;
   padding: 2rem;
+  justify-self: end;
 }
 
 .about_img-item {
@@ -664,7 +664,7 @@ p {
   .grid-container {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 150vh 150vh;
+    grid-template-rows: 1fr 1fr;
     column-gap: 1rem;
   }
 
