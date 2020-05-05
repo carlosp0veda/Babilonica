@@ -17,7 +17,7 @@
 .contact-heading {
   font-family: "brixtonbook";
   opacity: 1;
-  font-size: 5rem;
+  font-size: 4rem;
   margin: auto;
   padding: 0 auto;
   letter-spacing: 2px;
@@ -104,7 +104,7 @@ textarea {
 /* social media contacts */
 
 .socials-wrapper {
-  width: 50%;
+  width: 100%;
   padding-top: 2.5rem;
   padding-left: 5rem;
 }
