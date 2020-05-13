@@ -1,5 +1,5 @@
 :root {
-  --green: #9ab157;
+  --green: #8fb149;
   --purple: #4d1841;
   --gray: #d7d9d2;
   --light: #ffffff;
@@ -250,12 +250,12 @@ p {
   margin: 0 auto;
   width: 100vw;
   top: 0;
-  height: 90vh;
+  height: 100vh;
   background-color: var(--light);
   overflow: hidden;
   position: absolute;
   padding: 0 5%;
-  transform: translateY(10vh);
+
   z-index: -1;
 }
 
@@ -276,7 +276,7 @@ p {
 
 #imgban1 {
   background-image: url(/css/img/banner5.jpg);
-  background-size: 100vw 90vh;
+  background-size: 100vw 100vh;
   background-position: center top;
   background-repeat: no-repeat;
   position: absolute;
@@ -284,7 +284,7 @@ p {
 
 #imgban2 {
   background-image: url(/css/img/img1.jpg);
-  background-size: 100vw 90vh;
+  background-size: 100vw 100vh;
   background-position: center top;
   background-repeat: no-repeat;
   position: absolute;
@@ -292,7 +292,7 @@ p {
 
 #imgban3 {
   background-image: url(/css/img/banner6.jpg);
-  background-size: 100vw 90vh;
+  background-size: 100vw 100vh;
   background-position: center top;
   background-repeat: no-repeat;
   position: absolute;
@@ -641,7 +641,7 @@ p {
 .main-title_text {
   text-align: justify;
   font-size: 1.25rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 .about_image-container {
@@ -686,6 +686,10 @@ p {
     border-radius: 0.25rem;
     padding: 1rem;
     box-sizing: border-box;
+  }
+
+  .main-title_text {
+    padding: 1rem 0.5rem;
   }
 
   .about_image_special {
