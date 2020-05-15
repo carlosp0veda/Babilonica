@@ -186,42 +186,42 @@ textarea {
   .contact-form-btn {
     float: none;
   }
-}
 
-@media screen and (max-height: 736px) {
-  .contact-form {
-    height: 72.5vh;
-  }
+  @media screen and (max-height: 736px) {
+    .contact-form {
+      height: 72.5vh;
+    }
 
-  .contact-container {
-    grid-template-columns: 100vw;
-    grid-template-rows: 72.5vh 30vh;
-  }
+    .contact-container {
+      grid-template-columns: 100vw;
+      grid-template-rows: 72.5vh 30vh;
+    }
 
-  .contact-icons {
-    font-size: 0.5rem;
-    height: 10vh;
-  }
-  .socials-wrapper {
-    height: 30vh;
-  }
-}
-
-@media screen and (max-height: 570px) {
-  .contact-form {
-    height: 85vh;
+    .contact-icons {
+      font-size: 0.5rem;
+      height: 10vh;
+    }
+    .socials-wrapper {
+      height: 30vh;
+    }
   }
 
-  .contact-container {
-    grid-template-columns: 100vw;
-    grid-template-rows: 85vh 50vh;
-  }
+  @media screen and (max-height: 570px) {
+    .contact-form {
+      height: 85vh;
+    }
 
-  .contact-icons {
-    font-size: 0.5rem;
-    height: 10vh;
-  }
-  .socials-wrapper {
-    height: 50vh;
+    .contact-container {
+      grid-template-columns: 100vw;
+      grid-template-rows: 85vh 50vh;
+    }
+
+    .contact-icons {
+      font-size: 0.5rem;
+      height: 10vh;
+    }
+    .socials-wrapper {
+      height: 50vh;
+    }
   }
 }
