@@ -11,7 +11,7 @@
 
 .contact-wrapper {
   background-image: url(/css/img/bg3.jpeg);
-  padding-top: 14vh;
+  padding-top: 12.5vh;
 }
 
 .contact-heading {
@@ -26,13 +26,14 @@
 .contact-container {
   display: grid;
   grid-template-columns: 50vw 50vw;
+  grid-template-rows: 100vh;
 }
 
 /* form */
 
 .contact-form {
   width: 90%;
-  height: 85vh;
+  height: 100%;
   margin-top: 2vh;
   margin-right: 5vw;
   margin-left: 5vw;
@@ -84,7 +85,7 @@ textarea.contact-form-text {
 }
 
 .contact-form-btn:hover {
-  background-color: #227307;
+  background-color: #738f3a;
 }
 
 input[type="text"],
@@ -163,21 +164,23 @@ textarea {
 
   .socials-wrapper {
     width: 100vw;
+    height: 25vh;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--light);
     opacity: 0.8;
-    padding-left: 2rem;
-    padding-top: 10px;
+    padding-left: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .contact_icons {
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     margin: auto;
     justify-items: start;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .contact-form-btn {
@@ -187,31 +190,38 @@ textarea {
 
 @media screen and (max-height: 736px) {
   .contact-form {
-    height: 75vh;
-  }
-
-  .contact-icons {
-    font-size: 1.2rem;
-    height: 10vh;
-  }
-}
-
-@media screen and (max-height: 568px) {
-  .contact-form {
-    height: 65vh;
-  }
-
-  .contact-icons {
-    font-size: 1.2rem;
-    height: 10vh;
+    height: 72.5vh;
   }
 
   .contact-container {
     grid-template-columns: 100vw;
-    grid-template-rows: 90vh 25vh;
+    grid-template-rows: 72.5vh 30vh;
   }
 
-  .contact-form-btn {
-    float: none;
+  .contact-icons {
+    font-size: 0.5rem;
+    height: 10vh;
+  }
+  .socials-wrapper {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-height: 570px) {
+  .contact-form {
+    height: 85vh;
+  }
+
+  .contact-container {
+    grid-template-columns: 100vw;
+    grid-template-rows: 85vh 50vh;
+  }
+
+  .contact-icons {
+    font-size: 0.5rem;
+    height: 10vh;
+  }
+  .socials-wrapper {
+    height: 50vh;
   }
 }
