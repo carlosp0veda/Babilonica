@@ -1371,6 +1371,7 @@ p {
   padding: 2rem 0;
   gap: 50px;
   margin-bottom: 0;
+  box-shadow: 0 50vh 0 50vh var(--green);
 }
 
 .footer_content {
