@@ -162,7 +162,6 @@ function EventListener() {
   // display product modal
 
   const btn = document.querySelectorAll(".cta-product-btn");
-  console.log(btn);
   btn.forEach(function (item) {
     item.addEventListener("click", function (event) {
       ui.showProductModal(event);

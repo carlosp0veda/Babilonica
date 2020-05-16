@@ -113,7 +113,7 @@ p {
   width: 100vw;
   height: 15vh;
   background: var(--light);
-  z-index: 9998;
+  z-index: 9997;
   position: fixed;
   opacity: 1;
   transition: all ease-in-out 400ms;
@@ -575,7 +575,7 @@ p {
 .about {
   display: grid;
   width: 100vw;
-  height: 160vh;
+  grid-template-rows: fit-content(150vh);
   padding-top: 2.5vh;
 }
 
@@ -594,7 +594,7 @@ p {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 75vh 75vh;
+  grid-template-rows: fit-content(800px) fit-content(800px);
   row-gap: 20px;
 }
 
@@ -602,7 +602,7 @@ p {
   display: grid;
   margin: 0;
   grid-template-columns: 50vw 50vw;
-  grid-template-rows: 75vh;
+  grid-template-rows: fit-content(800px);
   border-radius: 0.25rem;
   justify-items: center;
   align-items: center;
@@ -621,7 +621,7 @@ p {
   font-size: 2.5rem;
   padding-bottom: 1rem;
   position: relative;
-  text-align: left;
+  text-align: center;
   justify-self: start;
   display: inline-block;
 }
@@ -630,17 +630,17 @@ p {
   content: "";
   position: absolute;
   bottom: 10px;
-  width: 50%;
+  width: 75%;
   background-image: var(--gradientbabi);
-  height: 4px;
-  left: 50%;
+  height: 5px;
+  left: 25%;
   border-radius: 0.5rem;
-  transform: translateX(-50%);
+  transform: translateX(-12.5%);
 }
 
 .main-title_text {
   text-align: justify;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 1rem 2rem;
 }
 
@@ -692,6 +692,15 @@ p {
 
   .about_image_special {
     order: 0;
+  }
+
+  .main-title_text {
+    text-align: justify;
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+  .main-title_name {
+    font-size: 2.25rem;
   }
 
   @media screen and (max-height: 768px) {
@@ -1055,6 +1064,11 @@ p {
   }
 }
 
+body.product-modal {
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
 .product-modal {
   display: none;
 }
@@ -1066,8 +1080,8 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 9999;
-  display: grid;
+  z-index: 10000;
+  display: block;
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
@@ -1320,7 +1334,7 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 10000;
   display: grid;
   justify-content: center;
   align-items: center;
