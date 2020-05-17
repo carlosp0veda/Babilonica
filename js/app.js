@@ -310,6 +310,33 @@ if (pageTitle === "Babilonica Nicaragua") {
     },
   ];
 
+  EventListener();
+  function EventListener() {
+    const ui = new UI();
+    // window list
+
+    window.addEventListener("load", function () {
+      ui.hidePreloader();
+    });
+
+    // nav btn
+
+    document.querySelector(".navBtn").addEventListener("click", function () {
+      ui.showNav();
+    });
+  }
+  function UI() {}
+
+  // hide preloader
+  UI.prototype.hidePreloader = function () {
+    document.querySelector(".preloader").style.display = "none";
+  };
+
+  // show Nav
+  UI.prototype.showNav = function () {
+    document.querySelector(".nav").classList.toggle("nav-show");
+  };
+
   const sectionCenter = document.querySelector(".section-center");
 
   window.addEventListener("DOMContentLoaded", function () {
