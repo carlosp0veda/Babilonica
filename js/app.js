@@ -1,27 +1,3 @@
-// lazy loading
-
-const targets = document.querySelectorAll("img");
-
-const lazyLoad = (target) => {
-  const io = new IntersectionObserver((entries, observer) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const img = entry.target;
-        const src = img.getAttribute("data-lazy");
-
-        img.setAttribute("src", src);
-        observer.disconnect();
-      }
-    });
-  });
-
-  io.observe(target);
-};
-
-targets.forEach(lazyLoad);
-
-// finish lazy loading
-
 EventListener();
 function EventListener() {
   const ui = new UI();
@@ -74,6 +50,30 @@ window.onscroll = function () {
 var pageTitle = window.document.title;
 
 if (pageTitle === "Babilonica Nicaragua") {
+  // lazy loading
+
+  const targets = document.querySelectorAll("img");
+
+  const lazyLoad = (target) => {
+    const io = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          const src = img.getAttribute("data-lazy");
+
+          img.setAttribute("src", src);
+          observer.disconnect();
+        }
+      });
+    });
+
+    io.observe(target);
+  };
+
+  targets.forEach(lazyLoad);
+
+  // finish lazy loading
+
   // scrolling banner
 
   var bannerStatus = 1;
@@ -343,25 +343,25 @@ if (pageTitle === "Babilonica Nicaragua") {
     });
     // lazy loading
 
-    const targets = document.querySelectorAll("img");
+    // const targets = document.querySelectorAll("img");
 
-    const lazyLoad = (target) => {
-      const io = new IntersectionObserver((entries, observer) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const img = entry.target;
-            const src = img.getAttribute("data-lazy");
+    // const lazyLoad = (target) => {
+    //   const io = new IntersectionObserver((entries, observer) => {
+    //     entries.forEach((entry) => {
+    //       if (entry.isIntersecting) {
+    //         const img = entry.target;
+    //         const src = img.getAttribute("data-lazy");
 
-            img.setAttribute("src", src);
-            observer.disconnect();
-          }
-        });
-      });
+    //         img.setAttribute("src", src);
+    //         observer.disconnect();
+    //       }
+    //     });
+    //   });
 
-      io.observe(target);
-    };
+    //   io.observe(target);
+    // };
 
-    targets.forEach(lazyLoad);
+    // targets.forEach(lazyLoad);
 
     // finish lazy loading
     displayMenu = displayMenu.join("");
