@@ -1565,6 +1565,11 @@ position: relative;
   padding: 1rem 0;
 }
 .photo-wrapper {
+  height: 225px;
+width: 225px;
   justify-self: center;
+}
+.item-text {
+  text-align: justify;
 }
 }
