@@ -74,30 +74,6 @@ window.onscroll = function () {
 var pageTitle = window.document.title;
 
 if (pageTitle === "Babilonica Nicaragua") {
-  // lazy loading
-
-  const targets = document.querySelectorAll("img");
-
-  const lazyLoad = (target) => {
-    const io = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const img = entry.target;
-          const src = img.getAttribute("data-lazy");
-
-          img.setAttribute("src", src);
-          observer.disconnect();
-        }
-      });
-    });
-
-    io.observe(target);
-  };
-
-  targets.forEach(lazyLoad);
-
-  // finish lazy loading
-
   // scrolling banner
 
   var bannerStatus = 1;
@@ -299,7 +275,7 @@ if (pageTitle === "Babilonica Nicaragua") {
     {
       id: 1,
       title: "Kalanchoe Tomentosa",
-      category: "Crassulaceae",
+      category: "Kalanchoe",
       price: 12.0,
       img: "../plantas/planta1_1.jpg",
       desc:
@@ -325,7 +301,7 @@ if (pageTitle === "Babilonica Nicaragua") {
     {
       id: 4,
       title: "Crassula Ovata",
-      category: "Crassulaceae",
+      category: "Crassula",
       price: 15.0,
       img: "../plantas/planta4_1.JPG",
       desc:
@@ -333,11 +309,12 @@ if (pageTitle === "Babilonica Nicaragua") {
     },
     {
       id: 5,
-      title: "Planta 5",
-      category: "Crassulaceae",
+      title: "Kalanchoe Fedtschenkoi",
+      category: "Kalanchoe",
       price: 15.0,
       img: "../plantas/planta5_1.JPG",
-      desc: "Este catus pudede ser muy bonita blablabla",
+      desc:
+        "Se caracterizan por abrir sus flores haciendo crecer nuevas células en la superficie interior de los pétalos para forzarlas a salir y en la parte exterior para cerrarlas.",
     },
   ];
 
