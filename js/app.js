@@ -1,30 +1,3 @@
-EventListener();
-function EventListener() {
-  const ui = new UI();
-  // preloader
-  window.addEventListener("load", function () {
-    ui.hidePreloader();
-  });
-
-  // nav btn
-
-  document.querySelector(".navBtn").addEventListener("click", function () {
-    ui.showNav();
-  });
-}
-
-function UI() {}
-
-// hide preloader
-UI.prototype.hidePreloader = function () {
-  document.querySelector(".preloader").style.display = "none";
-};
-
-// show Nav
-UI.prototype.showNav = function () {
-  document.querySelector(".nav").classList.toggle("nav-show");
-};
-
 // top-nav animation
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
@@ -175,7 +148,16 @@ if (pageTitle === "Babilonica Nicaragua") {
   function EventListener() {
     const ui = new UI();
     // window list
+    // preloader
+    window.addEventListener("load", function () {
+      ui.hidePreloader();
+    });
 
+    // nav btn
+
+    document.querySelector(".navBtn").addEventListener("click", function () {
+      ui.showNav();
+    });
     // pause/play video
     // document
     //   .querySelector(".video_switch_container")
@@ -217,6 +199,16 @@ if (pageTitle === "Babilonica Nicaragua") {
   }
 
   function UI() {}
+
+  // hide preloader
+  UI.prototype.hidePreloader = function () {
+    document.querySelector(".preloader").style.display = "none";
+  };
+
+  // show Nav
+  UI.prototype.showNav = function () {
+    document.querySelector(".nav").classList.toggle("nav-show");
+  };
 
   //play/pause the video
   UI.prototype.videoControls = function () {
