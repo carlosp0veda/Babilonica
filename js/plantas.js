@@ -2,7 +2,7 @@ const menu = [
   {
     id: 1,
     title: "Kalanchoe Tomentosa",
-    category: "Suculenta",
+    category: "Kalanchoe",
     price: 12.0,
     img: "../plantas/planta1_1.jpg",
     desc:
@@ -11,23 +11,24 @@ const menu = [
   {
     id: 2,
     title: "Echeveria Cuspidata",
-    category: "Suculenta",
+    category: "Echeveria",
     price: 12.0,
     img: "../plantas/planta2_1.JPG",
     desc: "Este catus pudede ser muy bonita blablabla",
   },
   {
     id: 3,
-    title: "Planta 3",
-    category: "Suculenta",
+    title: "Haworthia Cymbiformis",
+    category: "Haworthia",
     price: 10.0,
     img: "../plantas/planta3_1.JPG",
-    desc: "Esta planta pudede ser muy bonita blablabla",
+    desc:
+      'El nombre de cymbiformis significa "con forma de bote", se caracteriza por presentar hojas muy carnosas y jugosas, suaves y que se  hinchan con el agua almacenada.sta planta pudede ser muy bonita blablabla',
   },
   {
     id: 4,
     title: "Crassula Ovata",
-    category: "Suculenta",
+    category: "Crassula",
     price: 15.0,
     img: "../plantas/planta4_1.JPG",
     desc:
@@ -35,13 +36,41 @@ const menu = [
   },
   {
     id: 5,
-    title: "Planta 5",
-    category: "Cacti",
+    title: "Kalanchoe Fedtschenkoi",
+    category: "Kalanchoe",
     price: 15.0,
     img: "../plantas/planta5_1.JPG",
-    desc: "Este catus pudede ser muy bonita blablabla",
+    desc:
+      "Se caracterizan por abrir sus flores haciendo crecer nuevas células en la superficie interior de los pétalos para forzarlas a salir y en la parte exterior para cerrarlas.",
   },
 ];
+
+EventListener();
+function EventListener() {
+  const ui = new UI();
+  // window list
+
+  window.addEventListener("load", function () {
+    ui.hidePreloader();
+  });
+
+  // nav btn
+
+  document.querySelector(".navBtn").addEventListener("click", function () {
+    ui.showNav();
+  });
+}
+function UI() {}
+
+// hide preloader
+UI.prototype.hidePreloader = function () {
+  document.querySelector(".preloader").style.display = "none";
+};
+
+// show Nav
+UI.prototype.showNav = function () {
+  document.querySelector(".nav").classList.toggle("nav-show");
+};
 
 const sectionCenter = document.querySelector(".section-center");
 
@@ -66,6 +95,29 @@ function displayMenuItems(menuItems) {
         </div>
       </article>`;
   });
+  // lazy loading
+
+  // const targets = document.querySelectorAll("img");
+
+  // const lazyLoad = (target) => {
+  //   const io = new IntersectionObserver((entries, observer) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         const img = entry.target;
+  //         const src = img.getAttribute("data-lazy");
+
+  //         img.setAttribute("src", src);
+  //         observer.disconnect();
+  //       }
+  //     });
+  //   });
+
+  //   io.observe(target);
+  // };
+
+  // targets.forEach(lazyLoad);
+
+  // finish lazy loading
   displayMenu = displayMenu.join("");
   sectionCenter.innerHTML = displayMenu;
 }
