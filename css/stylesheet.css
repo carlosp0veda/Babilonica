@@ -1551,3 +1551,20 @@ position: relative;
   transform: translateY(-55%);
  
 }
+
+@media screen and (max-width: 700px) {
+  .section-center {
+    grid-template-columns: 100vw;
+    margin: auto;
+  }
+  .menu-item {
+  display: grid;
+  width:300px;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+  padding: 1rem 0;
+}
+.photo-wrapper {
+  justify-self: center;
+}
+}
