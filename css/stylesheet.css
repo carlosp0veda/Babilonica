@@ -1473,3 +1473,81 @@ body.product-modal {
   opacity: 1;
   transition: all ease-in 500ms;
 }
+
+.section-center {
+  display: grid;
+  max-width: 100vw;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(auto-fit, fit-content(250px));
+  place-items: center;
+  justify-content: space-evenly;
+  padding: 2rem ;
+  margin: 0 4rem;
+  gap: 25px;
+}
+
+.menu-item {
+  display: grid;
+  width:400px;
+  /* height: auto; */
+  grid-template-columns: auto 70%;
+  padding: 1rem 0;
+}
+
+.item-info {
+ place-self: center stretch;
+}
+
+.productItem-header {
+  display: flex;
+  width: 96%;
+  right: 10px;
+  justify-content: space-around ;
+  padding: 0.5rem 0 ;
+  padding-left: 1rem;
+  border-bottom: 1px solid var(--green);
+  font-size: 1.5rem;
+}
+
+.item-text {
+  font-size: 1rem;
+  text-align: start;
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.plant-name {
+  flex-grow: 1;
+  width: 100px;
+  word-wrap: break-word;
+}
+.plant-price {
+  font-family: "brixtonbold";
+  text-align: end;
+  flex-grow: 2;
+}
+
+.photo-wrapper {
+height: 200px;
+width: 200px;
+border: 4px solid var(--purple);
+border-radius: 0.5rem;
+overflow: hidden;
+text-align: center;
+position: relative;
+
+
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  vertical-align: middle;
+  position: absolute;
+  top:50%;
+  left: 0;
+  margin: auto;
+  transform: translateY(-55%);
+ 
+}
