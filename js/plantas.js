@@ -2,7 +2,7 @@ const menu = [
   {
     id: 1,
     title: "Kalanchoe Tomentosa",
-    category: "Kalanchoe",
+    category: "kalanchoe",
     price: 12.0,
     img: "../plantas/planta1_1.jpg",
     desc:
@@ -11,7 +11,7 @@ const menu = [
   {
     id: 2,
     title: "Echeveria Cuspidata",
-    category: "Echeveria",
+    category: "echeveria",
     price: 12.0,
     img: "../plantas/planta2_1.JPG",
     desc: "Este catus pudede ser muy bonita blablabla",
@@ -19,7 +19,7 @@ const menu = [
   {
     id: 3,
     title: "Haworthia Cymbiformis",
-    category: "Haworthia",
+    category: "haworthia",
     price: 10.0,
     img: "../plantas/planta3_1.JPG",
     desc:
@@ -28,7 +28,7 @@ const menu = [
   {
     id: 4,
     title: "Crassula Ovata",
-    category: "Crassula",
+    category: "crassula",
     price: 15.0,
     img: "../plantas/planta4_1.JPG",
     desc:
@@ -37,7 +37,7 @@ const menu = [
   {
     id: 5,
     title: "Kalanchoe Fedtschenkoi",
-    category: "Kalanchoe",
+    category: "kalanchoe",
     price: 15.0,
     img: "../plantas/planta5_1.JPG",
     desc:
@@ -73,9 +73,31 @@ UI.prototype.showNav = function () {
 };
 
 const sectionCenter = document.querySelector(".section-center");
+const filterBtns = document.querySelectorAll(".filter-btn");
 
 window.addEventListener("DOMContentLoaded", function () {
   displayMenuItems(menu);
+});
+// filter btn
+filterBtns.forEach(function (btn) {
+  btn.addEventListener("click", function (e) {
+    const allMenu = menu;
+    const category = e.currentTarget.dataset.id;
+    console.log(category);
+
+    const menuCategory = menu.filter(function (menuItem) {
+      if (menuItem.category === category) {
+        return menuItem;
+      }
+    });
+
+    if (category === "todas") {
+      displayMenuItems(menu);
+    } else {
+      displayMenuItems(menuCategory);
+    }
+    console.log(menuCategory);
+  });
 });
 
 function displayMenuItems(menuItems) {

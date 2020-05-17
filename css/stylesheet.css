@@ -1486,6 +1486,36 @@ body.product-modal {
   gap: 25px;
 }
 
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 5px;
+  margin: 0 auto;
+}
+.filter-btn {
+  display: block;
+  justify-self: center;
+  font-family: "brixtonbold";
+  width: 80px;
+  height: 30px;
+  font-size: 0.8rem;
+  gap: 20px;
+  line-height: 30px;
+  border-radius: 0.5rem;
+  border: 2px solid var(--green);
+  text-transform: capitalize;
+  transition: all ease-in-out 300ms;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.filter-btn:hover {
+  background-color: var(--purple);
+  border: 2px solid var(--purple);
+  color: var(--light);
+}
+
 .menu-item {
   display: grid;
   width:400px;
