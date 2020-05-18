@@ -15,7 +15,7 @@ const menu = [
     price: 12.0,
     img: "../plantas/planta2_1.JPG",
     desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit reiciendis accusamus ullam praesentium non.",
+      "Nuestra variedad zaragozae es de mis favoritas, especialmente cuando están presentes las flores de color naranja rojizo brillante y los tallos florecientes.",
   },
   {
     id: 3,
