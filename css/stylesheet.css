@@ -1497,7 +1497,7 @@ body.product-modal {
   opacity: 1;
   font-size: 4rem;
   margin: auto;
-  padding: 0 auto;
+  padding: 2rem 0;
   letter-spacing: 2px;
 }
 
@@ -1508,8 +1508,8 @@ body.product-modal {
   grid-template-rows: repeat(auto-fit, fit-content(250px));
   place-items: center;
   justify-content: space-evenly;
-  padding: 2rem ;
-  margin: 0 4rem;
+  padding: 2rem 0 ;
+  margin: auto 6rem;
   gap: 25px;
 }
 
@@ -1661,6 +1661,7 @@ box-shadow: var(--shadow);
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(auto-fill, fit-content(400px));
     margin: auto;
+    padding: 2rem 3rem;
   }
 
   .cta-container-wrapper { 
@@ -1714,6 +1715,6 @@ box-shadow: var(--shadow);
 
 .catalog-heading {
   font-size: 3rem;
-  padding: 5vh 0;
+  padding: 2rem 0;
 }
 }

@@ -2,7 +2,7 @@ const menu = [
   {
     id: 1,
     title: "Kalanchoe Tomentosa",
-    category: "kalanchoe",
+    category: "suculenta",
     price: 12.0,
     img: "../plantas/planta1_1.jpg",
     desc:
@@ -11,7 +11,7 @@ const menu = [
   {
     id: 2,
     title: "Echeveria Cuspidata",
-    category: "echeveria",
+    category: "suculenta",
     price: 12.0,
     img: "../plantas/planta2_1.JPG",
     desc:
@@ -20,7 +20,7 @@ const menu = [
   {
     id: 3,
     title: "Haworthia Cymbiformis",
-    category: "haworthia",
+    category: "suculenta",
     price: 10.0,
     img: "../plantas/planta3_1.JPG",
     desc:
@@ -29,7 +29,7 @@ const menu = [
   {
     id: 4,
     title: "Crassula Ovata",
-    category: "crassula",
+    category: "suculenta",
     price: 15.0,
     img: "../plantas/planta4_1.JPG",
     desc:
@@ -38,7 +38,7 @@ const menu = [
   {
     id: 5,
     title: "Kalanchoe Fedtschenkoi",
-    category: "kalanchoe",
+    category: "suculenta",
     price: 15.0,
     img: "../plantas/planta5_1.JPG",
     desc:
@@ -47,7 +47,7 @@ const menu = [
   {
     id: 6,
     title: "Aglanomea Prosperity",
-    category: "Ornamental",
+    category: "ornamental",
     price: 15.0,
     img: "../plantas/planta6_1.JPG",
     desc:
@@ -56,7 +56,7 @@ const menu = [
   {
     id: 7,
     title: "Parodia Ottonis",
-    category: "Cacti",
+    category: "cacti",
     price: 15.0,
     img: "../plantas/planta7_1.JPG",
     desc:
