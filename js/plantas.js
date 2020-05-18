@@ -4,7 +4,7 @@ const menu = [
     title: "Kalanchoe Tomentosa",
     category: "suculenta",
     price: 12.0,
-    img: "../plantas/planta1_1.jpg",
+    img: "../plantas/img/planta1_1.jpg",
     desc:
       "Popularmente conocida como Oreja de Panda. Es una suculenta bien resistente, fácil de cultivar tanto en interiores como exteriores.",
   },
@@ -13,7 +13,7 @@ const menu = [
     title: "Echeveria Cuspidata",
     category: "suculenta",
     price: 12.0,
-    img: "../plantas/planta2_1.JPG",
+    img: "../plantas/img/planta2_1.JPG",
     desc:
       "Nuestra variedad zaragozae es de mis favoritas, especialmente cuando están presentes las flores de color naranja rojizo brillante y los tallos florecientes.",
   },
@@ -22,7 +22,7 @@ const menu = [
     title: "Haworthia Cymbiformis",
     category: "suculenta",
     price: 10.0,
-    img: "../plantas/planta3_1.JPG",
+    img: "../plantas/img/planta3_1.JPG",
     desc:
       'El nombre de cymbiformis significa "con forma de bote", se caracteriza por presentar hojas muy carnosas y jugosas, suaves y que se  hinchan con el agua almacenada.',
   },
@@ -31,7 +31,7 @@ const menu = [
     title: "Crassula Ovata",
     category: "suculenta",
     price: 15.0,
-    img: "../plantas/planta4_1.JPG",
+    img: "../plantas/img/planta4_1.JPG",
     desc:
       'Conociada como "árbol de jade", característico por sus hojas carnosas y su forma de arbolito, su resistencia a sequías la hace una buena especie para principiantes.',
   },
@@ -40,7 +40,7 @@ const menu = [
     title: "Kalanchoe Fedtschenkoi",
     category: "suculenta",
     price: 15.0,
-    img: "../plantas/planta5_1.JPG",
+    img: "../plantas/img/planta5_1.JPG",
     desc:
       "Se caracterizan por abrir sus flores haciendo crecer nuevas células en la superficie interior de los pétalos para forzarlas a salir y en la parte exterior para cerrarlas.",
   },
@@ -49,7 +49,7 @@ const menu = [
     title: "Aglanomea Prosperity",
     category: "ornamental",
     price: 15.0,
-    img: "../plantas/planta6_1.JPG",
+    img: "../plantas/img/planta6_1.JPG",
     desc:
       "Esta es una hermosa planta de interior, tiene un hermoso color verde con hojas rojas con manchas y rayas llamativas. Las aglaonemas son de crecimiento lento, atractivas y son plantas de excelente follaje. Lo mejor de todo es que no le gusta el sol directo, por lo que es perfecta para interiores.",
   },
@@ -58,7 +58,7 @@ const menu = [
     title: "Parodia Ottonis",
     category: "cacti",
     price: 15.0,
-    img: "../plantas/planta7_1.JPG",
+    img: "../plantas/img/planta7_1.JPG",
     desc:
       "Caracterizados por tener flores de colores vibrantes, como son el amarillo, el naranja y el rojo. Estamos frente a un género especial para principiantes. Son cactus fáciles de mantener en maceta, pero siempre teniendo en cuenta los consejos básicos.",
   },
@@ -111,7 +111,7 @@ function displayMenuItems(menuItems) {
           <div class="cta-container-wrapper">
             <div class="cta-container">
               <span class="plant-price">$${item.price}</span>
-              <span class="cta-item-btn"><a href="index.html" <strong>Ver más</strong></a></span>
+              <span class="cta-item-btn"><a href="/plantas/plantas.html" <strong>Ver más</strong></a></span>
             </div
           </div>
       </article>`;

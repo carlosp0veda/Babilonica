@@ -1656,7 +1656,7 @@ box-shadow: var(--shadow);
   
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 640px) {
   .section-center {
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(auto-fill, fit-content(400px));
@@ -1670,6 +1670,10 @@ box-shadow: var(--shadow);
   overflow: hidden;
   padding-top: 10px;
 
+}
+
+.cta-container {
+  transition: all ease-out 400ms;
 }
 
   .plant-name {
@@ -1688,6 +1692,7 @@ box-shadow: var(--shadow);
   padding: 0;
   padding-bottom: 10px;
 }
+
 .photo-wrapper {
   height: 125px;
   width: 125px;
