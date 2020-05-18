@@ -33,7 +33,7 @@ const menu = [
     price: 15.0,
     img: "../plantas/planta4_1.JPG",
     desc:
-      'También es conocido como "árbol de jade", característico por sus hojas carnosas y su forma de arbolito, además, su resistencia a la sequía la hace una especie óptima para principiantes.',
+      'Conociada como "árbol de jade", característico por sus hojas carnosas y su forma de arbolito, su resistencia a sequías la hace una buena especie para principiantes.',
   },
   {
     id: 5,
