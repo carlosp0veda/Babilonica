@@ -1476,6 +1476,17 @@ body.product-modal {
 
 
 /* plant catalog */
+
+.catalog-heading {
+  font-family: "brixtonbook";
+  opacity: 1;
+  font-size: 4rem;
+  margin: auto;
+  padding: 0 auto;
+  letter-spacing: 2px;
+  padding: 5vh 0;
+}
+
 .section-center {
   display: grid;
   max-width: 100vw;
@@ -1630,6 +1641,10 @@ width: 125px;
   right: 10px;
   justify-content: space-around ;
   padding: 0.5rem 0 ;
-  
+}
+
+.catalog-heading {
+  font-size: 3rem;
+  padding: 5vh 0;
 }
 }
