@@ -75,8 +75,12 @@ strong {
   padding: 2.5rem 2rem;
 }
 
-.nav-padding {
-  padding-top: 12vh;
+.top-logo-padding { 
+  display: none;
+  position: absolute;
+  top: 2.5vh;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Preloader */
@@ -176,6 +180,14 @@ strong {
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 568px) {
+  .nav-top {
+    display: none;
+  }
+  .top-logo-padding {
+    display: inline;
+  }
 }
 
 /* Header */
@@ -335,10 +347,6 @@ strong {
 }
 
 @media screen and (max-width: 568px) {
-  .nav-top {
-    display: none;
-  }
-
   .rotating-banner {
     display: none;
   }
@@ -582,6 +590,10 @@ strong {
 
 /* about */
 
+.about-wrapper {
+  padding-top: 15vh;
+}
+
 .about {
   display: grid;
   width: 100vw;
@@ -596,7 +608,6 @@ strong {
   margin: auto;
   padding: 0 auto;
   letter-spacing: 2px;
-  padding-top: 15vh;
 }
 
 .grid-container {
@@ -1477,6 +1488,9 @@ body.product-modal {
 
 
 /* plant catalog */
+.catalog-wrapper {
+  padding-top: 15vh;
+}
 
 .catalog-heading {
   font-family: "brixtonbook";
@@ -1485,7 +1499,6 @@ body.product-modal {
   margin: auto;
   padding: 0 auto;
   letter-spacing: 2px;
-  padding: 5vh 0;
 }
 
 .section-center {
