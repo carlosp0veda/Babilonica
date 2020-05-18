@@ -14,7 +14,8 @@ const menu = [
     category: "echeveria",
     price: 12.0,
     img: "../plantas/planta2_1.JPG",
-    desc: "Este catus pudede ser muy bonita blablabla",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit reiciendis accusamus ullam praesentium non.",
   },
   {
     id: 3,
@@ -23,7 +24,7 @@ const menu = [
     price: 10.0,
     img: "../plantas/planta3_1.JPG",
     desc:
-      'El nombre de cymbiformis significa "con forma de bote", se caracteriza por presentar hojas muy carnosas y jugosas, suaves y que se  hinchan con el agua almacenada.sta planta pudede ser muy bonita blablabla',
+      'El nombre de cymbiformis significa "con forma de bote", se caracteriza por presentar hojas muy carnosas y jugosas, suaves y que se  hinchan con el agua almacenada.',
   },
   {
     id: 4,
@@ -32,7 +33,7 @@ const menu = [
     price: 15.0,
     img: "../plantas/planta4_1.JPG",
     desc:
-      'También es conocido como "árbol de jade", característico por sus hojas carnosas y su forma de arbolito, además de su resistencia a la sequía, hacen de ella una especie óptima para principiantes.',
+      'También es conocido como "árbol de jade", característico por sus hojas carnosas y su forma de arbolito, además, su resistencia a la sequía la hace una especie óptima para principiantes.',
   },
   {
     id: 5,

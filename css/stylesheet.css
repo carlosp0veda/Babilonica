@@ -1474,6 +1474,8 @@ body.product-modal {
   transition: all ease-in 500ms;
 }
 
+
+/* plant catalog */
 .section-center {
   display: grid;
   max-width: 100vw;
@@ -1584,22 +1586,40 @@ position: relative;
 
 @media screen and (max-width: 700px) {
   .section-center {
-    grid-template-columns: 100vw;
+    grid-template-rows: repeat(auto-fill, fit-content(400px));
     margin: auto;
+  }
+
+  .plant-name {
+    font-size: 1rem;
+  }
+
+  .item-text {
+  font-size: 0.8rem;
+   padding: 0.5rem 0.6rem;
   }
   .menu-item {
   display: grid;
-  width:300px;
-  grid-template-columns: auto;
-  grid-template-rows: 1fr 1fr;
-  padding: 1rem 0;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+  padding: 0;
 }
 .photo-wrapper {
-  height: 225px;
-width: 225px;
+  height: 125px;
+width: 125px;
   justify-self: center;
+  border: 2px solid var(--purple);
 }
 .item-text {
   text-align: justify;
+  word-wrap: break-word;
+}
+
+.filter-btn {
+  border-radius: 0.5rem;
+  border: 1px solid var(--green);
+  margin: 0 2px;
+  width: 90px;
 }
 }
