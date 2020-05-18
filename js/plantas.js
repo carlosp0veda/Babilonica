@@ -44,34 +44,25 @@ const menu = [
     desc:
       "Se caracterizan por abrir sus flores haciendo crecer nuevas células en la superficie interior de los pétalos para forzarlas a salir y en la parte exterior para cerrarlas.",
   },
+  {
+    id: 6,
+    title: "Aglanomea Prosperity",
+    category: "Ornamental",
+    price: 15.0,
+    img: "../plantas/planta6_1.JPG",
+    desc:
+      "Esta es una hermosa planta de interior, tiene un hermoso color verde con hojas rojas con manchas y rayas llamativas. Las aglaonemas son de crecimiento lento, atractivas y son plantas de excelente follaje. Lo mejor de todo es que no le gusta el sol directo, por lo que es perfecta para interiores.",
+  },
+  {
+    id: 7,
+    title: "Parodia Ottonis",
+    category: "Cacti",
+    price: 15.0,
+    img: "../plantas/planta7_1.JPG",
+    desc:
+      "Caracterizados por tener flores de colores vibrantes, como son el amarillo, el naranja y el rojo. Estamos frente a un género especial para principiantes. Son cactus fáciles de mantener en maceta, pero siempre teniendo en cuenta los consejos básicos.",
+  },
 ];
-
-EventListener();
-function EventListener() {
-  const ui = new UI();
-  // window list
-
-  window.addEventListener("load", function () {
-    ui.hidePreloader();
-  });
-
-  // nav btn
-
-  document.querySelector(".navBtn").addEventListener("click", function () {
-    ui.showNav();
-  });
-}
-function UI() {}
-
-// hide preloader
-UI.prototype.hidePreloader = function () {
-  document.querySelector(".preloader").style.display = "none";
-};
-
-// show Nav
-UI.prototype.showNav = function () {
-  document.querySelector(".nav").classList.toggle("nav-show");
-};
 
 const sectionCenter = document.querySelector(".section-center");
 const filterBtns = document.querySelectorAll(".filter-btn");
@@ -82,9 +73,16 @@ window.addEventListener("DOMContentLoaded", function () {
 // filter btn
 filterBtns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
-    const allMenu = menu;
+    inactiveFilters = filterBtns.forEach(removeFilter);
+    function removeFilter(btn) {
+      btn.classList.remove("active-filter");
+    }
     const category = e.currentTarget.dataset.id;
-    console.log(category);
+    const activeElement = document.getElementById(category);
+
+    if (activeElement.id === category) {
+      activeElement.classList.toggle("active-filter");
+    }
 
     const menuCategory = menu.filter(function (menuItem) {
       if (menuItem.category === category) {
@@ -97,7 +95,6 @@ filterBtns.forEach(function (btn) {
     } else {
       displayMenuItems(menuCategory);
     }
-    console.log(menuCategory);
   });
 });
 
@@ -145,3 +142,30 @@ function displayMenuItems(menuItems) {
   displayMenu = displayMenu.join("");
   sectionCenter.innerHTML = displayMenu;
 }
+
+EventListener();
+function EventListener() {
+  const ui = new UI();
+  // window list
+
+  window.addEventListener("load", function () {
+    ui.hidePreloader();
+  });
+
+  // nav btn
+
+  document.querySelector(".navBtn").addEventListener("click", function () {
+    ui.showNav();
+  });
+}
+function UI() {}
+
+// hide preloader
+UI.prototype.hidePreloader = function () {
+  document.querySelector(".preloader").style.display = "none";
+};
+
+// show Nav
+UI.prototype.showNav = function () {
+  document.querySelector(".nav").classList.toggle("nav-show");
+};
