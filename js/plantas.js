@@ -110,12 +110,13 @@ function displayMenuItems(menuItems) {
         <div class="item-info">
           <header class="productItem-header">
             <h4 class="plant-name">${item.title}</h4>
-            <h4 class="plant-price"><strong>$${item.price}</strong></h4>
           </header>
-          <p class="item-text">
-            ${item.desc}
-          </p>
-        </div>
+          <div class="cta-container-wrapper">
+            <div class="cta-container">
+              <span class="plant-price">$${item.price}</span>
+              <span class="cta-item-btn"><a href="index.html" <strong>Ver más</strong></a></span>
+            </div
+          </div>
       </article>`;
   });
   // lazy loading
