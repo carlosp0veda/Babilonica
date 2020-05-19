@@ -199,6 +199,7 @@ strong {
   align-items: center;
   position: relative;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .banner {
@@ -552,6 +553,7 @@ strong {
   margin: auto;
   box-sizing: border-box;
   row-gap: 20px;
+  padding-top: ;
 }
 
 .factor {
@@ -566,7 +568,7 @@ strong {
 }
 
 .factor-text {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 10px;
   font-family: "brixtonlight";
 }
@@ -1590,7 +1592,7 @@ position: relative;
   width: 100%;
   vertical-align: middle;
   justify-content: space-around ;
-  padding: 0.5rem 0 ;
+  padding: 0 ;
   padding-left: 1rem;
   border-bottom: 1px solid var(--green);
   font-size: 1rem;
