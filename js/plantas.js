@@ -116,11 +116,15 @@ function displayMenuItems(menuItems) {
           </div>
       </article>`;
   });
+
+  displayMenu = displayMenu.join("");
+  sectionCenter.innerHTML = displayMenu;
   // lazy loading
 
-  // const targets = document.querySelectorAll("img");
+  // var targets = document.querySelectorAll("img");
+  // console.log(targets);
 
-  // const lazyLoad = (target) => {
+  // var lazyLoad = (target) => {
   //   const io = new IntersectionObserver((entries, observer) => {
   //     entries.forEach((entry) => {
   //       if (entry.isIntersecting) {
@@ -139,8 +143,6 @@ function displayMenuItems(menuItems) {
   // targets.forEach(lazyLoad);
 
   // finish lazy loading
-  displayMenu = displayMenu.join("");
-  sectionCenter.innerHTML = displayMenu;
 }
 
 EventListener();
@@ -169,3 +171,8 @@ UI.prototype.hidePreloader = function () {
 UI.prototype.showNav = function () {
   document.querySelector(".nav").classList.toggle("nav-show");
 };
+
+// hide preloader
+// UI.prototype.hideLoader = function () {
+//   document.querySelectorAll(".loader").style.display = "none";
+// };
