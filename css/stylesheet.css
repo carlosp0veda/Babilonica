@@ -978,8 +978,6 @@ strong {
 .product-img-wrapper {
   background-image: var(--blackgradient);
   box-shadow: var(--shadow);
-  border: 2.5px solid var(--purple);
-  border-radius: 0.5rem;
   position: relative;
 }
 
@@ -1001,7 +999,6 @@ strong {
 
 .product-img {
   display: block;
-  border-radius: 0.3rem;
   opacity: 1;
   transition: opacity ease-out 250ms;
 }
