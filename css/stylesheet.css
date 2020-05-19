@@ -1562,8 +1562,8 @@ body.product-modal {
 }
 
 .photo-wrapper {
-height: 150px;
-width: 150px;
+height: 200px;
+width: 200px;
 overflow: hidden;
 text-align: end;
 position: relative;
@@ -1707,8 +1707,8 @@ position: relative;
   }
 
   .photo-wrapper {
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width: 150px;
     justify-self: center;
   }
   .item-text {
@@ -1732,5 +1732,9 @@ position: relative;
     .section-center {
     grid-template-columns: 50% 50%;
     }
+    .photo-wrapper {
+    height: 125px;
+    width: 125px;
+  }
   }
 }
