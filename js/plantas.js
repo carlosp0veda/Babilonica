@@ -111,7 +111,7 @@ function displayMenuItems(menuItems) {
           <div class="cta-container-wrapper">
             <div class="cta-container">
               <span class="plant-price">$${item.price}</span>
-              <span class="cta-item-btn"><a href="/plantas/plantas.html" <strong>Ver más</strong></a></span>
+              <span class="cta-item-btn"><a href="/plantas/plantas.html" <strong>Ver más...</strong></a></span>
             </div
           </div>
       </article>`;
