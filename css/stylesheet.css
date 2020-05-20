@@ -1688,7 +1688,8 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
 
   .productItem-header {
 
-  width: 80%;
+  width: 85%;
+  word-wrap: normal;
   justify-content: space-around ;
   padding: 0.5rem 0 ;
   }
