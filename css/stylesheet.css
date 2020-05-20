@@ -1596,10 +1596,9 @@ position: relative;
 }
 
 .item-text {
-  font-size: 1rem;
-  text-align: start;
-  padding: 0.5rem 0;
-  padding-left: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 3rem 6rem;
 }
 
 .plant-name {
@@ -1693,7 +1692,7 @@ position: relative;
 
   .item-text {
   font-size: 0.8rem;
-   padding: 0.5rem 0.6rem;
+   padding: 0.5rem 2rem;
   }
   
   .menu-item {
@@ -1738,6 +1737,9 @@ position: relative;
   }
 }
 
+/* end plant catalog  */
+
+/* Plant Product Page */
 
 .plants-wrapper {
   padding-top: 15vh;
@@ -1751,8 +1753,8 @@ position: relative;
 }
 
 .gif-wrapper {
-  width: 25%;
-  padding: 5vh 0;
+  width: 50%;
+  padding: 2.5vh 0;
   text-align: center;
 }
 
