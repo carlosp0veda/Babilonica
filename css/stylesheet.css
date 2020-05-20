@@ -727,21 +727,17 @@ strong {
     box-sizing: border-box;
   }
 
-  .main-title_text {
-    padding: 1rem 0.5rem;
-  }
-
   .about_image_special {
     order: 0;
   }
 
   .main-title_text {
     text-align: justify;
-    font-size: 1.125rem;
+    font-size: 1.3rem;
     padding: 1rem 2rem;
   }
   .main-title_name {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
   }
 
   @media screen and (max-height: 768px) {
