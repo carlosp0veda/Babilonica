@@ -1550,7 +1550,7 @@ body.product-modal {
 
 .menu-item {
   display: grid;
-  width:100%;
+  width:80%;
   /* height: auto; */
   grid-template-columns: auto 60%;
   padding: 1rem;
@@ -1736,4 +1736,27 @@ position: relative;
     width: 125px;
   }
   }
+}
+
+
+.plants-wrapper {
+  padding-top: 15vh;
+  display: grid;
+  grid-template-rows: repeat(2, fit-content(500px));
+  justify-items: center;
+}
+
+.tba-heading {
+  font-size: 2rem;
+}
+
+.gif-wrapper {
+  width: 25%;
+  padding: 5vh 0;
+  text-align: center;
+}
+
+.loading-gif {
+  width: 50%;
+  height: auto;
 }
