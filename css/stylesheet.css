@@ -407,7 +407,7 @@ strong {
   }
 }
 
-/* nav mobile */
+/* nav  */
 
 .nav {
   position: fixed;
@@ -454,7 +454,7 @@ strong {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  padding: 6% 10%;
+  padding:2rem ;
 }
 
 .nav-logo {
@@ -468,16 +468,34 @@ strong {
   padding-left: 1.5rem;
 }
 
-.logo_container_nav {
+.mobile-icons {
   width: 100%;
-  position: absolute;
-  padding-top: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.logo_nav {
+.nav-icon-wrapper {
+  display: inline-block;
+  width: 50px;
+}
+
+.mobile_social_icon {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-decoration: none;
+  border: 0.1rem solid var(--light);
+  font-size: 1.5rem;
+  color: var(--light);
+  border-radius: 50%;
+  margin: 5px;
+  padding: 0.25rem;
+  transition: all linear 0.1ms;
+}
+
+.mobile_social_icon:hover {
+  border-color: var(--green);
+  color: var(--green);
 }
 
 @media screen and (max-width: 568px) {
