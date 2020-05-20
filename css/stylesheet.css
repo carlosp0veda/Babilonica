@@ -1216,7 +1216,7 @@ body.product-modal {
   font-family: "brixtonbold";
   width: 120px;
   height: 60px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 60px;
   border-radius: 0.5rem;
   bottom: 20%;
@@ -1235,12 +1235,6 @@ body.product-modal {
 
 .special-img {
   order: 3;
-}
-
-@media screen and (max-width: 568px) {
-  .category-cta {
-    font-size: 1rem;
-  }
 }
 
 /* work section */
