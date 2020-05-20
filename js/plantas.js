@@ -150,9 +150,9 @@ function EventListener() {
   const ui = new UI();
   // window list
 
-  window.addEventListener("load", function () {
-    ui.hidePreloader();
-  });
+  // window.addEventListener("load", function () {
+  //   ui.hidePreloader();
+  // });
 
   // nav btn
 
@@ -163,9 +163,9 @@ function EventListener() {
 function UI() {}
 
 // hide preloader
-UI.prototype.hidePreloader = function () {
-  document.querySelector(".preloader").style.display = "none";
-};
+// UI.prototype.hidePreloader = function () {
+//   document.querySelector(".preloader").style.display = "none";
+// };
 
 // show Nav
 UI.prototype.showNav = function () {
