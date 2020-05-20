@@ -1568,6 +1568,8 @@ text-align: end;
 position: relative;
 box-shadow: var(--shadow);
 position: relative;
+background-image: url(/css/img/loading.gif);
+background-size: contain;
 }
 
 .photo {
