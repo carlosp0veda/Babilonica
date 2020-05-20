@@ -96,7 +96,7 @@ const menu = [
   },
   {
     id: 12,
-    title: "Melocactus",
+    title: "Gymnocalycium Monvillei",
     category: "cacti",
     price: 15,
     img: "../plantas/img/planta12_1.JPG",
