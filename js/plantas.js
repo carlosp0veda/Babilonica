@@ -72,7 +72,7 @@ const menu = [
   },
   {
     id: 9,
-    title: "Echeveria Runyonii “Topsy Turvy”",
+    title: "Echeveria “Topsy Turvy”",
     category: "suculenta",
     price: 15,
     img: "../plantas/img/planta9_1.JPG",
