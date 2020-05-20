@@ -1529,7 +1529,6 @@ body.product-modal {
   gap: 25px;
 }
 
-
 .btn-container {
   display: flex;
   justify-content: center;
@@ -1538,11 +1537,12 @@ body.product-modal {
 }
 .filter-btn {
   display: block;
+  width: 90px;
+  height: 30px;
   justify-self: center;
   font-family: "brixtonbold";
-  width: 80px;
-  height: 30px;
   font-size: 0.8rem;
+  letter-spacing: 1px;
   gap: 20px;
   line-height: 30px;
   border-radius: 0.5rem;
@@ -1568,7 +1568,6 @@ body.product-modal {
 .menu-item {
   display: grid;
   width:80%;
-  /* height: auto; */
   grid-template-columns: auto 60%;
   padding: 1rem;
 }
@@ -1585,8 +1584,6 @@ text-align: end;
 position: relative;
 box-shadow: var(--shadow);
 background: url(/css/img/loading.gif) center/70px no-repeat;
-
-
 }
 
 .photo {
@@ -1600,7 +1597,6 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
   margin: auto;
   transform: translateY(-55%);
 }
-
 
 .productItem-header {
   display: inline-block;
@@ -1633,6 +1629,7 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
   margin-top: 10px;
 
 }
+
 .cta-container {
   display: flex;
   flex-direction: column;
@@ -1641,6 +1638,7 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
   height: 60px;
   transition: all ease-out 250ms;
 }
+
 .plant-price {
   display: block;
   font-family: "brixtonlight";
@@ -1650,6 +1648,7 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
   height: 30px;
   opacity: 0.8;
 }
+
 .cta-item-btn {
   display: block;
   font-family: "brixtonbold";
@@ -1666,13 +1665,9 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
   text-decoration: none;
 }
 
-
 .menu-item:hover .cta-container {
-
   transform: translateY(-30px);
-  
 }
-
 
 @media screen and (max-width: 1020px) {
   .section-center {
@@ -1694,7 +1689,6 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
   place-self: center;
   }
 
-
   .cta-container-wrapper { 
   width: 100%;
   height: 30px;
@@ -1702,7 +1696,7 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
   padding: 0;
   }
 
-.cta-container {
+  .cta-container {
   transition: all ease-out 400ms;
   }  
 
@@ -1729,6 +1723,7 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
     width: 150px;
     justify-self: center;
   }
+
   .item-text {
     text-align: justify;
     word-wrap: break-word;
