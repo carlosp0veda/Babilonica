@@ -250,7 +250,7 @@ UI.prototype.showProductModal = function (event) {
   const modalItem = document.querySelector(".product-modal_item");
 
   modal.classList.add("product-modal-show");
-  modalItem.style.backgroundImage = `url(/css/img/product${id}.jpg)`;
+  modalItem.style.backgroundImage = `url(./plantas/img/planta${id}_1.jpg)`;
 };
 
 // hide modal
