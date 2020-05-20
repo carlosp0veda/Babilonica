@@ -1088,7 +1088,7 @@ strong {
   .new-products {
     display: grid;
     grid-auto-flow: row;
-    grid-template: repeat(auto, 1fr) / 96vw;
+    grid-template: repeat(auto-fit, 1fr) / 96vw;
     margin-left: auto;
     margin-right: auto;
     width: 250px;
