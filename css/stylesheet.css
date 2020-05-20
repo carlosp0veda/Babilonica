@@ -1237,6 +1237,12 @@ body.product-modal {
   order: 3;
 }
 
+@media screen and (max-width: 568px) {
+  .category-cta {
+    font-size: 1rem;
+  }
+}
+
 /* work section */
 
 .work-container {
