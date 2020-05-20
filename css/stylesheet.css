@@ -1,6 +1,6 @@
 :root {
   --green: #8fb149;
-  --purple: #4d1841;
+  --purple: #54144b;
   --gray: #d7d9d2;
   --light: #ffffff;
   --dark: #333333;
@@ -1273,7 +1273,7 @@ body.product-modal {
 
 .work-item_icon {
   position: absolute;
-  color: purple;
+  color: #811b72;
   top: 50%;
   left: 50%;
   display: inline-block;
