@@ -152,12 +152,15 @@ textarea {
   .nav-top {
     display: none;
   }
+
   .contact-wrapper {
     padding-top: 15vh;
   }
+
   .contact-heading {
     font-size: 4rem;
   }
+
   .contact-container {
     grid-template-columns: 100vw;
     grid-template-rows: 65vh 25vh;

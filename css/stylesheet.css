@@ -1752,6 +1752,11 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
     height: 125px;
     width: 125px;
   }
+  .plant-name {
+
+  width: 100%;
+  font-size: 0.8rem;
+  }
   }
 }
 
