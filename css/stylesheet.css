@@ -872,12 +872,14 @@ strong {
 .box:hover .box-title {
   color: var(--purple);
   transform: translateY(-70%);
+  -webkit-transform: translateY(-70%) ;
 }
 
 .box:hover .box-text {
   color: var(--purple);
   transform: translateY(-10%);
   opacity: 1;
+  -webkit-transform: translateY(-10%);
 }
 
 .box:hover::after {
@@ -887,6 +889,7 @@ strong {
 .box:hover .cta-btn-box {
   transform: translatex(-50%);
   opacity: 1;
+  -webkit-transform: translatex(-50%);
 }
 
 /* New products section */
