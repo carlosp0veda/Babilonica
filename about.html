@@ -27,10 +27,10 @@
         <li class="topnav-item">
           <ul class="navlinks-top-left">
             <li>
-              <a href="plantas.html" class="top_nav_single_link">Suculentas</a>
+              <a href="index.html" class="top_nav_single_link">Inicio</a>
             </li>
             <li>
-              <a href="plantas.html" class="top_nav_single_link">Cacti</a>
+              <a href="plantas.html" class="top_nav_single_link">Plantas</a>
             </li>
           </ul>
         </li>
@@ -208,6 +208,26 @@
     <!-- end footer -->
 
     <script>
+// active menu item 
+
+      window.addEventListener("load", function () {
+          const activePageURL = window.location.href;
+          const menuLink = document.querySelectorAll(".top_nav_single_link");
+
+          menuLink.forEach(function (link) {
+            let url = link.href;
+            console.log(url);
+            console.log(activePageURL);
+            if (url === activePageURL) {
+              link.classList.add("active-link");
+            } else {
+              link.classList.remove("active-link")
+            }
+          });
+        })
+
+
+        // lazy loading
       const targets = document.querySelectorAll("img");
 
       const lazyLoad = (target) => {

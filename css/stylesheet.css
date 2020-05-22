@@ -176,6 +176,13 @@ strong {
   transform: perspective(100px) translateZ(15px);
 }
 
+.active-link {
+  -webkit-text-decoration: var(--purple)  underline;
+  text-decoration: var(--purple)  underline;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink;
+}
+
 
 
 

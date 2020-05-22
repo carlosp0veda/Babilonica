@@ -215,7 +215,13 @@ function EventListener() {
   document.querySelector(".navBtn").addEventListener("click", function () {
     ui.showNav();
   });
+
+  // active menu item
+  window.addEventListener("load", function () {
+    ui.showActiveLink();
+  });
 }
+
 function UI() {}
 
 // hide preloader
@@ -232,3 +238,20 @@ UI.prototype.showNav = function () {
 // UI.prototype.hideLoader = function () {
 //   document.querySelectorAll(".loader").style.display = "none";
 // };
+
+// show active menu link
+UI.prototype.showActiveLink = function () {
+  const activePageURL = window.location.href;
+  const menuLink = document.querySelectorAll(".top_nav_single_link");
+
+  menuLink.forEach(function (link) {
+    let url = link.href;
+    console.log(url);
+    console.log(activePageURL);
+    if (url === activePageURL) {
+      link.classList.add("active-link");
+    } else {
+      link.classList.remove("active-link");
+    }
+  });
+};
