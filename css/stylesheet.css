@@ -164,7 +164,21 @@ strong {
   margin: auto;
   letter-spacing: 1px;
   padding: 0 1rem;
+   
 }
+
+.link-item {
+  transform: perspective(100px) translateZ(0px);
+  transition: transform 100ms linear;
+}
+
+.link-item:hover {
+  transform: perspective(100px) translateZ(15px);
+}
+
+
+
+
 
 .topnav_logo_container {
   display: block;
