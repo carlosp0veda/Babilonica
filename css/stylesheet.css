@@ -1245,6 +1245,7 @@ body.product-modal {
   transition: all ease-in-out 300ms;
   transform: translateY(5vh);
   cursor: pointer;
+  -webkit-transform: ;
 }
 
 .category-cta:hover {
