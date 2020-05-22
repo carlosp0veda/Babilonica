@@ -926,35 +926,35 @@ strong {
     width: 100%;
   }
 
-  /* .cta-btn-box:hover {
-  background-color: var(--purple);
-  color: var(--light);
-}
-
-.box-img {
+  .box-img {
   opacity: 0.6;
   filter: blur(2px);
-}
+  }
 
-.box-title {
+  .box-title {
   color: var(--purple);
   transform: translateY(-70%);
-}
+  }
 
-.box-text {
+  .box-text {
   color: var(--purple);
   transform: translateY(-10%);
   opacity: 1;
-}
+  }
 
-.box:hover::after {
+  .box:hover::after {
   opacity: 1;
-}
+  }
 
-.cta-btn-box {
+  .cta-btn-box {
   transform: translatex(-50%);
   opacity: 1;
-} */
+  }
+
+  .cta-btn-box:hover {
+  background-color: var(--purple);
+  color: var(--light);
+  }
 }
 
 /* New products section */
