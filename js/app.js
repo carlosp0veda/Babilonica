@@ -45,24 +45,24 @@ document.getElementById("rotating-banner").onmouseleave = function () {
   }, bannerTimer);
 };
 
-document.getElementById("imgbanbtn-prev").onclick = function () {
-  if (bannerStatus === 1) {
-    bannerStatus = 2;
-    clearInterval(bannerLoop);
-  } else if (bannerStatus === 2) {
-    bannerStatus = 3;
-    clearInterval(bannerLoop);
-  } else if (bannerStatus === 3) {
-    bannerStatus = 1;
-    clearInterval(bannerLoop);
-  }
+// document.getElementById("imgbanbtn-prev").onclick = function () {
+//   if (bannerStatus === 1) {
+//     bannerStatus = 2;
+//     clearInterval(bannerLoop);
+//   } else if (bannerStatus === 2) {
+//     bannerStatus = 3;
+//     clearInterval(bannerLoop);
+//   } else if (bannerStatus === 3) {
+//     bannerStatus = 1;
+//     clearInterval(bannerLoop);
+//   }
 
-  bannerLoop();
-};
+//   bannerLoop();
+// };
 
-document.getElementById("imgbanbtn-next").onclick = function () {
-  bannerLoop();
-};
+// document.getElementById("imgbanbtn-next").onclick = function () {
+//   bannerLoop();
+// };
 
 function bannerLoop() {
   if (bannerStatus === 1) {
