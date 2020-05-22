@@ -774,6 +774,7 @@ strong {
   border-radius: 0.25rem;
   overflow: hidden;
   -webkit-transition: all ease-in-out 250ms ;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .box::before {
