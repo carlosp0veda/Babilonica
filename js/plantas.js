@@ -28,7 +28,7 @@ const menu = [
   },
   {
     id: 4,
-    title: "Crassula Ovata Variegata",
+    title: "Crassula Ovata Variegada",
     category: "suculenta",
     price: 15.0,
     img: "../plantas/img/planta4_1.JPG",
@@ -48,7 +48,7 @@ const menu = [
     id: 6,
     title: "Aglanomea Prosperity",
     category: "ornamental",
-    price: 15.0,
+    price: 20.0,
     img: "../plantas/img/planta6_1.JPG",
     desc:
       "Esta es una hermosa planta de interior, tiene un hermoso color verde con hojas rojas con manchas y rayas llamativas. Las aglaonemas son de crecimiento lento, atractivas y son plantas de excelente follaje. Lo mejor de todo es que no le gusta el sol directo, por lo que es perfecta para interiores.",
@@ -106,7 +106,7 @@ const menu = [
     id: 13,
     title: "Crassula Ovata Gollum",
     category: "suculenta",
-    price: 15,
+    price: 20,
     img: "../plantas/img/planta13_1.JPG",
     desc: "",
   },
