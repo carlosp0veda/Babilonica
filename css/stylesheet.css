@@ -867,7 +867,7 @@ strong {
   font-size: 2vw;
   font-family: "brixtonbold";
   text-decoration: none;
-  padding: 2vh 5vw;
+  padding: 2vh 3vw;
   bottom: 5%;
   left: 50%;
   background-color: var(--green);
@@ -875,7 +875,7 @@ strong {
   z-index: 5;
   transform: translate(-50%, 60px);
   transition: all ease-out 250ms;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   box-shadow: var(--shadow);
   opacity: 0;
 }
