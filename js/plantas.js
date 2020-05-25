@@ -159,6 +159,9 @@ function displayMenuItems(menuItems) {
     return `<article class="menu-item">
         <div class="photo-wrapper">
           <img src="${item.img}" class="photo" loading="lazy" alt=${item.title} />
+          <div class="wa-cta">
+              <a href="https://wa.me/50578214564" class="wa-link"><i class="fab fa-whatsapp fa-pulse fa-fw"></i></a>
+            </div>
         </div>
         <div class="item-info">
           <header class="productItem-header">
@@ -170,6 +173,7 @@ function displayMenuItems(menuItems) {
               <span class="cta-item-btn"><a href="/plantas/plantas.html" <strong>Ver más...</strong></a></span>
             </div
           </div>
+        </div>
       </article>`;
   });
 

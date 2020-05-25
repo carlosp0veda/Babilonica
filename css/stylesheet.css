@@ -1651,6 +1651,7 @@ text-align: end;
 position: relative;
 box-shadow: var(--shadow2);
 background: url(/css/img/loading.gif) center/70px no-repeat;
+position: relative;
 }
 
 .photo {
@@ -1735,6 +1736,58 @@ background: url(/css/img/loading.gif) center/70px no-repeat;
 .menu-item:hover .cta-container {
   transform: translateY(-30px);
 }
+
+.wa-cta {
+  top: 5%;
+  right:5%;
+  position: absolute;
+}
+
+.wa-link {
+  font-size: 1.6rem;
+  color: var(--purple);
+}
+
+.wa-link:hover {
+  font-size: 1.6rem;
+  color: var(--green);
+  transform: scaleZ(5px);
+}
+
+.fa-pulse {
+	display: inline-block;
+	-moz-animation: pulse 2s infinite linear;
+	-o-animation: pulse 2s infinite linear;
+	-webkit-animation: pulse 2s infinite linear;
+	animation: pulse 2s infinite ease-out;
+}
+
+@-webkit-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0.2; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0.2; }
+	100% { opacity: 1; }
+}
+@-o-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0.2; }
+	100% { opacity: 1; }
+}
+@-ms-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0.2; }
+	100% { opacity: 1; }
+}
+@keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0.2; }
+	100% { opacity: 1; }
+}
+
 
 @media screen and (max-width: 1020px) {
   .section-center {
