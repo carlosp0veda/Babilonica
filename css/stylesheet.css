@@ -1032,9 +1032,8 @@ strong {
 }
 
 .product-name {
-  letter-spacing: 1px;
-  font-size: 1.5rem;
-  padding-top: 5%;
+  font-size: 1.2rem;
+  padding: 5%;
 }
 
 .product-price {
