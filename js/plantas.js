@@ -3,7 +3,7 @@ const menu = [
     id: 1,
     title: "Kalanchoe Tomentosa",
     category: "suculenta",
-    price: "Vendida!",
+    price: "Vendida",
     img: "../plantas/img/planta1_1.jpg",
     desc:
       "Popularmente conocida como Oreja de Panda. Es una suculenta bien resistente, fácil de cultivar tanto en interiores como exteriores.",
@@ -21,7 +21,7 @@ const menu = [
     id: 3,
     title: "Haworthia Cymbiformis",
     category: "suculenta",
-    price: "Vendida!",
+    price: "Vendida",
     img: "../plantas/img/planta3_1.JPG",
     desc:
       'El nombre de cymbiformis significa "con forma de bote", se caracteriza por presentar hojas muy carnosas y jugosas, suaves y que se  hinchan con el agua almacenada.',
@@ -39,7 +39,7 @@ const menu = [
     id: 5,
     title: "Kalanchoe Fedtschenkoi",
     category: "suculenta",
-    price: "Vendida!",
+    price: "Vendida",
     img: "../plantas/img/planta5_1.JPG",
     desc:
       "Se caracterizan por abrir sus flores haciendo crecer nuevas células en la superficie interior de los pétalos para forzarlas a salir y en la parte exterior para cerrarlas.",
@@ -48,7 +48,7 @@ const menu = [
     id: 6,
     title: "Aglanomea Prosperity",
     category: "ornamental",
-    price: "Vendida!",
+    price: "Vendida",
     img: "../plantas/img/planta6_1.JPG",
     desc:
       "Esta es una hermosa planta de interior, tiene un hermoso color verde con hojas rojas con manchas y rayas llamativas. Las aglaonemas son de crecimiento lento, atractivas y son plantas de excelente follaje. Lo mejor de todo es que no le gusta el sol directo, por lo que es perfecta para interiores.",
