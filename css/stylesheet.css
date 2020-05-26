@@ -4,7 +4,7 @@
   --gray: #d7d9d2;
   --light: #ffffff;
   --dark: #333333;
-  --shadow: 5px 6px 8px 0px rgba(82,82,82,0.41);
+  --shadow: 5px 6px 8px 0px rgba(125,125,125,0.6);
   --shadow2: 0 12px 15px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   --shadow3: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21);
   --whitegradient: linear-gradient(
@@ -1588,8 +1588,8 @@ body.product-modal {
   max-width: 100vw;
   grid-template-columns: 33.33% 33.33% 33.33%;
   grid-template-rows: repeat(auto-fit, fit-content(250px));
-  place-items: center;
-  justify-content: space-evenly;
+ align-items: center;
+  justify-content:space-around;
   padding: 2rem 0 ;
   margin: auto 6rem;
   gap: 25px;
@@ -1633,13 +1633,14 @@ body.product-modal {
 
 .menu-item {
   display: grid;
-  width:80%;
+  width:75%;
   grid-template-columns: auto 60%;
   padding: 1rem;
 }
 
 .item-info {
- place-self: center start;
+  width: auto;
+ place-self: center;
 }
 
 .photo-wrapper {
@@ -1670,7 +1671,6 @@ position: relative;
   height: 50px;
   width: 100%;
   vertical-align: middle;
-  justify-content: space-around ;
   padding: 0 ;
   padding-left: 1rem;
   border-bottom: 1px solid var(--green);
