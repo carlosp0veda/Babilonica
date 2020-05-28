@@ -1997,7 +1997,7 @@ position: relative;
 
 .tabs {
   display: grid;
-  width: 25%;
+  width: 40%;
   margin: auto;
   overflow: hidden;
   border-bottom: 1px solid rgba(139, 101, 165, 0.7);
@@ -2031,7 +2031,7 @@ opacity: 1;
 /* Style the tab content */
 .tabcontent {
   display: none;
-  width: 50vw;
+  width: 80vw;
   margin: auto;
   padding: 2rem 0;
   text-align: justify;

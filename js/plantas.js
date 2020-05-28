@@ -173,9 +173,6 @@ function displayMenuItems(menuItems) {
             </div
           </div>
         </div>
-        <div class="wa-cta">
-            <a href="https://wa.me/50578214564" class="wa-link"><i class="fab fa-whatsapp fa-pulse fa-fw"></i></a>
-          </div>
       </article>`;
   });
 
