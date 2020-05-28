@@ -1,5 +1,4 @@
 import { data } from "./data.js";
-console.log(data);
 
 const catalogo = data;
 
@@ -12,7 +11,7 @@ window.addEventListener("DOMContentLoaded", function () {
 // filter btn
 filterBtns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
-    inactiveFilters = filterBtns.forEach(removeFilter);
+    let inactiveFilters = filterBtns.forEach(removeFilter);
     function removeFilter(btn) {
       btn.classList.remove("active-filter");
     }
@@ -130,8 +129,6 @@ UI.prototype.showActiveLink = function () {
 
   menuLink.forEach(function (link) {
     let url = link.href;
-    console.log(url);
-    console.log(activePageURL);
     if (url === activePageURL) {
       link.classList.add("active-link");
     } else {
