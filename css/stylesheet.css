@@ -1879,6 +1879,10 @@ position: relative;
 
 /* end plant catalog  */
 
+
+
+
+
 /* Plant Product Page */
 
 .plant-wrapper {
@@ -1988,12 +1992,12 @@ position: relative;
 
 /* tabs  */
 .guide {
-  width: 100%;
+  width: 100vw;
 }
 
 .tabs {
   display: grid;
-  width: 80%;
+  width: 25%;
   margin: auto;
   overflow: hidden;
   border-bottom: 1px solid rgba(139, 101, 165, 0.7);
@@ -2027,7 +2031,7 @@ opacity: 1;
 /* Style the tab content */
 .tabcontent {
   display: none;
-  width: 80vw;
+  width: 50vw;
   margin: auto;
   padding: 2rem 0;
   text-align: justify;
