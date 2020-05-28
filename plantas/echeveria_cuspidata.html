@@ -18,7 +18,7 @@
   <body>
     <!-- pre loader -->
     <div class="preloader">
-      <img data-lazy="css/img/preloader.gif" class="preloader_item" />
+      <img data-lazy="../css/img/preloader.gif" class="preloader_item" />
     </div>
     <!-- end preloader -->
 
@@ -161,7 +161,55 @@
     <!-- end footer -->
 
     <script type="module" src="../js/product.js"></script>
-
-    <script></script>
   </body>
+  <script defer src="../js/tabs.js"></script>
+  <script type="text/javascript">
+    const targets = document.querySelectorAll("img");
+
+    const lazyLoad = (target) => {
+      const io = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            const src = img.getAttribute("data-lazy");
+
+            img.setAttribute("src", src);
+            observer.disconnect();
+          }
+        });
+      });
+
+      io.observe(target);
+    };
+
+    targets.forEach(lazyLoad);
+
+    EventListener();
+    function EventListener() {
+      const ui = new UI();
+      // window list
+
+      window.addEventListener("load", function () {
+        ui.hidePreloader();
+      });
+
+      // nav btn
+
+      document.querySelector(".navBtn").addEventListener("click", function () {
+        ui.showNav();
+      });
+    }
+
+    function UI() {}
+
+    // hide preloader
+    UI.prototype.hidePreloader = function () {
+      document.querySelector(".preloader").style.display = "none";
+    };
+
+    // show Nav
+    UI.prototype.showNav = function () {
+      document.querySelector(".nav").classList.toggle("nav-show");
+    };
+  </script>
 </html>
