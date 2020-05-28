@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="/Fonts/font.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato|Muli|Raleway|Ubuntu&display=swap"
+      href="https://fonts.googleapis.com/css?family=Lato|Muli|Roboto|Balsamiq+Sans|Raleway|Montserrat|Ubuntu&display=swap"
       rel="stylesheet"
     />
     <title>Babilonica</title>
@@ -120,15 +120,60 @@
       /></a>
     </div>
 
-    <main class="plant-wrapper">
-      <h1 class="tba-heading">Estamos en crecimiento...</h1>
-      <div class="gif-wrapper">
-        <img data-lazy="/css/img/loading.gif" class="loading-gif" />
-      </div>
-      <p class="item-text">
-        Esta página se encuentra en construcción, si tienes alguna consulta
-        puedes contactarnos por <a href="../contact.html">acá.</a>
-      </p>
+    <main class="plant-wrapper2">
+      <article class="product-wrapper">
+        <section class="product-gallery">
+          <div class="side-photos">
+            <div class="side-photo"><img class="photo-s" data-lazy="/plantas/img/planta1_1.jpg" alt=""></div>
+            <div class="side-photo"><img class="photo-s" data-lazy="/plantas/img/planta1_2.jpg" alt=""></div>
+            <div class="side-photo"><img class="photo-s" data-lazy="/plantas/img/planta1_3.jpg" alt=""></div>
+          </div>
+          <div class="main-photo">
+            <!-- <img class="photo-m" data-lazy="/plantas/img/planta1_1.jpg" alt=""> -->
+          </div>
+        </section>
+        <section class="product-body">
+          <h2>Nombre Planta</h2>
+          <h3>$15</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non accusantium fugit obcaecati natus ea quo, facere ducimus aliquid corrupti, nesciunt quaerat aliquam beatae molestias provident possimus magni ut quis delectus!</p>
+          <button>Escribenos!</button>
+          
+        </section>
+      </article>
+      <article class="guide">
+        <!-- Tab links -->
+        <div class="tabs">
+          <button
+            class="tablinks"
+            id="open"
+            onclick="openTab(event, 'careguide')"
+          >
+            Guía de Cuidos
+          </button>
+          <button class="tablinks" onclick="openTab(event, 'entrega')">
+            Tiempo de Entrega
+          </button>
+          <button class="tablinks" onclick="openTab(event, 'aviso')">
+            Aviso
+          </button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="careguide" class="tabcontent">
+          <p class="tab-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sed laudantium a dolorum possimus suscipit repudiandae alias esse. Nisi harum nihil totam, eius aperiam quibusdam consequuntur iusto dolorum, repellendus mollitia vel iste nostrum minima dignissimos unde minus earum, eveniet beatae inventore corporis? Temporibus, impedit? Sequi illum ullam possimus molestias explicabo?</p class="tab-text">
+        </div>
+
+        <div id="entrega" class="tabcontent">
+          <p class="tab-text">De 1 a 3 días en dependencia de nuestra disponibilidad de colores, nivel de personalización
+             y magnitud del pedido. </p>
+        </div>
+
+        <div id="aviso" class="tabcontent">
+          <p class="tab-text">Las fotos de ejemplo son usando una paleta de colores recomendada por nosotras para cada 
+            planta en específico, avísanos por mensaje si deseas algún cambio en los colores.
+          </p>
+        </div>
+      </article>
     </main>
 
     <!-- footer -->
@@ -218,6 +263,28 @@
       UI.prototype.showNav = function () {
         document.querySelector(".nav").classList.toggle("nav-show");
       };
+
+      function openTab(evt, tabName) {
+        // Declare all variables
+
+        // Get all elements with class="tabcontent" and hide them
+        const tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        const tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+      document.getElementById("open").click();
     </script>
   </body>
 </html>

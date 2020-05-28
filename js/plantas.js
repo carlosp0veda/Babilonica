@@ -5,6 +5,8 @@ const menu = [
     category: "suculenta",
     price: "Vendida",
     img: "../plantas/img/planta1_1.jpg",
+    img2: "../plantas/img/planta1_2.jpg",
+    img3: "../plantas/img/planta1_3.jpg",
     desc:
       "Popularmente conocida como Oreja de Panda. Es una suculenta bien resistente, fácil de cultivar tanto en interiores como exteriores.",
   },
