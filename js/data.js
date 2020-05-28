@@ -2,6 +2,7 @@ const data = [
   {
     id: 1,
     title: "Kalanchoe Tomentosa",
+    url: "kalanchoe_tomentosa.html",
     category: "suculenta",
     price: "Vendida",
     img: "../plantas/img/planta1_1.jpg",
@@ -9,6 +10,8 @@ const data = [
     img3: "../plantas/img/planta1_3.jpg",
     desc:
       "Popularmente conocida como Oreja de Panda. Es una suculenta bien resistente, fácil de cultivar tanto en interiores como exteriores.",
+    care:
+      "Necesitan una exposición a pleno sol y, gracias a sus pelillos, resisten bien la insolación. No le convienen temperaturas inferiores a 8 ºC, siendo su temperatura ideal en invierno de unos 10 ºC. El calanchoe aterciopelado se cultivará en un suelo formado, a partes iguales, de turba, arena y mantillo. Son plantas resistentes a la sequía que sólo necesitan un moderado riego semanal durante todo el año, menos en invierno que será cada 2 semanas.",
   },
   {
     id: 2,
@@ -16,6 +19,8 @@ const data = [
     category: "suculenta",
     price: "$12",
     img: "../plantas/img/planta2_1.JPG",
+    img2: "../plantas/img/planta2_2.jpg",
+    img3: "../plantas/img/planta2_3.jpg",
     desc:
       "Nuestra variedad zaragozae es de mis favoritas, especialmente cuando están presentes las flores de color naranja rojizo brillante y los tallos florecientes.",
   },
@@ -25,15 +30,19 @@ const data = [
     category: "suculenta",
     price: "Vendida",
     img: "../plantas/img/planta3_1.JPG",
+    img2: "../plantas/img/planta3_2.jpg",
+    img3: "../plantas/img/planta3_3.jpg",
     desc:
       'El nombre de cymbiformis significa "con forma de bote", se caracteriza por presentar hojas muy carnosas y jugosas, suaves y que se  hinchan con el agua almacenada.',
   },
   {
     id: 4,
-    title: "Crassula Ovata Variegada",
+    title: "Crassula Ovata Variegata",
     category: "suculenta",
     price: "$20",
     img: "../plantas/img/planta4_1.JPG",
+    img2: "../plantas/img/planta4_2.jpg",
+    img3: "../plantas/img/planta4_3.jpg",
     desc:
       'Conociada como "árbol de jade", característico por sus hojas carnosas y su forma de arbolito, su resistencia a sequías la hace una buena especie para principiantes.',
   },
@@ -43,6 +52,8 @@ const data = [
     category: "suculenta",
     price: "Vendida",
     img: "../plantas/img/planta5_1.JPG",
+    img2: "../plantas/img/planta5_2.jpg",
+    img3: "../plantas/img/planta5_3.jpg",
     desc:
       "Se caracterizan por abrir sus flores haciendo crecer nuevas células en la superficie interior de los pétalos para forzarlas a salir y en la parte exterior para cerrarlas.",
   },
@@ -52,6 +63,8 @@ const data = [
     category: "ornamental",
     price: "Vendida",
     img: "../plantas/img/planta6_1.JPG",
+    img2: "../plantas/img/planta6_2.jpg",
+    img3: "../plantas/img/planta6_3.jpg",
     desc:
       "Esta es una hermosa planta de interior, tiene un hermoso color verde con hojas rojas con manchas y rayas llamativas. Las aglaonemas son de crecimiento lento, atractivas y son plantas de excelente follaje. Lo mejor de todo es que no le gusta el sol directo, por lo que es perfecta para interiores.",
   },

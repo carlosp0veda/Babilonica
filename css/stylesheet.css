@@ -1886,14 +1886,9 @@ position: relative;
 
 /* Plant Product Page */
 
-.plant-wrapper {
-  padding-top: 15vh;
-  display: grid;
-  grid-template-rows: repeat(2, fit-content(500px));
-  justify-items: center;
-}
 
-.plant-wrapper2 {
+
+.plant-wrapper {
   padding-top: 20vh;
   display: grid;
   grid-template-columns: 100vw;
@@ -1906,7 +1901,7 @@ position: relative;
 .product-wrapper {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 85vh fit-content(800px);
+  grid-template-rows: 90vh fit-content(800px);
   margin: 0 auto;
   justify-content: center;
 }
@@ -1915,20 +1910,20 @@ position: relative;
 
 .product-gallery {
   display: grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: auto fit-content(150px);
+  grid-template-columns: 100%;
+  grid-template-rows: 75vh fit-content(150px);
   margin: 0 auto;
   justify-items: center;
 }
 
 
-.main-photo {
+#main-photo {
   width: 320px;
   display: block;
-  height: auto;
+  height: 100%;
   margin: 0 auto;
-  background-image: url(/plantas/img/planta1_1.jpg);
-  background-size: cover;
+  /* background-image: url(/plantas/img/planta1_1.jpg); */
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   order: -1;
@@ -1949,7 +1944,7 @@ position: relative;
   width: 75px;
   height: 75px;
   overflow: hidden;
-  margin: 0 10px;
+  margin: 10px;
   cursor: pointer;
 }
 
@@ -1963,10 +1958,16 @@ position: relative;
   height: auto;
 }
 
+.photo-m {
+  display: block;
+  height: 100%;
+}
+
+
  .product-body {
    gap: 20px;
-   padding: 1rem 10%;
-   padding-bottom: 6rem;
+   padding: 0 10%;
+   padding-top: 6rem;
    text-align: start;
    align-items: center;
  }
@@ -2043,7 +2044,7 @@ position: relative;
 }
 
 /* Create an active/current tablink class */
-.tabs button.active {
+.active-tab {
 opacity: 1;
 }
 
@@ -2068,40 +2069,58 @@ opacity: 1;
   to {opacity: 1;}
 }
 
-/* @media screen and (min-width:568px) {
-
-  .plant-wrapper2 {
-  padding-top: 15vh;
-  display: grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: 80vh auto;
-  }
+@media screen and (min-width:568px) {
 
   .product-wrapper {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 80vh auto;
-  margin: 0;
-  justify-content: center;
+  grid-template-rows: 85vh fit-content(800px);
+}
+.product-gallery {
+    grid-template-columns: fit-content(150px) auto;
+    grid-template-rows: 70vh;
+  }
+
+  .side-photos {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: auto;
+  margin: 10px;
+  align-items: center;
+  justify-content: start;
+  margin-top: 0;
+}
+
+#main-photo {
+  order: 0;
+}
+
+.side-photo {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 910px) {
+
+    .product-wrapper {
+      grid-template-columns: 50vw 50vw;
+      grid-template-rows: 90vh;
+      justify-items: center;
+    }
   }
 
   .product-gallery {
-    grid-template-columns: 100px auto;
-    grid-template-rows: 80vh;
+    grid-template-columns: fit-content(150px) auto;
+    grid-template-rows: 75vh;
+    margin: 0;
+    margin-left: auto;
   }
 
-
-  .main-photo {
-  width: 100%;
-  height: auto
-  }
-
-  .side-photo {
-    margin: 15px 0 ;
-    margin-left: 2rem;
-    height: 100%;
-  
-  }
+   .product-body {
+     margin: 0;
+   margin-right: auto;
+ }
 
   .tabs {
     width: fit-content;
@@ -2115,44 +2134,15 @@ opacity: 1;
   border-radius: 0.1rem;
   }
 
-  .tabcontent {
+  .active-tab {
+    opacity: 1;
+  border-top: 2px solid var(--purple);
+  border-radius: 0.1rem;
+  }
+
+ .tabcontent {
     width: 40vw;
     font-size: 1.1rem;
     line-height: 1.5rem;
   }
-
-  @media screen and (min-width: 910px) {
-
-    .plant-wrapper2 {
-  grid-template-rows: 80vh auto;
 }
-
-    .product-wrapper {
-      grid-template-columns: 50vw 50vw;
-      grid-template-rows: 80vh;
-    }
-
-    
-  .side-photos {
-  display: flex;
-  width: 100px;
-  height: auto;
-  overflow: hidden;
-  margin: 20px auto;
-  align-items: center;
-}
-
-  .main-photo {
-    order: 0;
-  }
-  .side-photos {
-    align-content: center;
-    flex-direction: column;
-  }
-
-  .side-photo {
-    margin-left: 0;
-  }
-
-  }
-} */
