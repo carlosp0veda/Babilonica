@@ -16,6 +16,7 @@ const data = [
   {
     id: 2,
     title: "Echeveria Cuspidata",
+    url: "echeveria_cuspidata.html",
     category: "suculenta",
     price: "$12",
     img: "../plantas/img/planta2_1.JPG",
@@ -27,6 +28,7 @@ const data = [
   {
     id: 3,
     title: "Haworthia Cymbiformis",
+    url: "haworthia_cymbiformis.html",
     category: "suculenta",
     price: "Vendida",
     img: "../plantas/img/planta3_1.JPG",
@@ -38,6 +40,7 @@ const data = [
   {
     id: 4,
     title: "Crassula Ovata Variegata",
+    url: "crassula_ovata_variegata.html",
     category: "suculenta",
     price: "$20",
     img: "../plantas/img/planta4_1.JPG",
@@ -49,6 +52,7 @@ const data = [
   {
     id: 5,
     title: "Kalanchoe Fedtschenkoi",
+    url: "kalanchoe_fedtschenkoi.html",
     category: "suculenta",
     price: "Vendida",
     img: "../plantas/img/planta5_1.JPG",
@@ -60,6 +64,7 @@ const data = [
   {
     id: 6,
     title: "Aglanomea Prosperity",
+    url: "aglanomea_prosperity.html",
     category: "ornamental",
     price: "Vendida",
     img: "../plantas/img/planta6_1.JPG",

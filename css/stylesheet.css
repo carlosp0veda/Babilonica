@@ -2096,8 +2096,10 @@ opacity: 1;
 }
 
 .side-photo {
+  display: inline-block;
   margin-top: 0px;
   margin-bottom: 20px;
+  vertical-align: middle;
 }
 
 .tabs {
