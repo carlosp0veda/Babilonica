@@ -38,7 +38,7 @@ function displayProduct(plantas) {
             <h2>${displayProduct.title}</h2>
             <h3>${displayProduct.price}</h3>
             <p>${displayProduct.desc}</p>
-            <button class="product-main-cta"><a class="product-main-cta-link" href="https://www.babilonica.co/contact.html">Escribenos!</a></button>
+            <button class="product-main-cta"><a class="product-main-cta-link" href="https://www.babilonica.co/contact.html">Reservala YA!</a></button>
 
           </section>
         </article>
