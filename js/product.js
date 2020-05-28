@@ -26,9 +26,9 @@ function displayProduct(plantas) {
     return ` <article class="product-wrapper">
           <section class="product-gallery">
             <div class="side-photos">
-              <div class="side-photo"><img class="photo-s" src=${displayProduct.img} alt=""></div>
-              <div class="side-photo"><img class="photo-s" src=${displayProduct.img2} alt=""></div>
-              <div class="side-photo"><img class="photo-s" src=${displayProduct.img3} alt=""></div>
+              <div class="side-photo"><img class="photo-s" src=${displayProduct.img} alt="${displayProduct.title}"></div>
+              <div class="side-photo"><img class="photo-s" src=${displayProduct.img2} alt="${displayProduct.title}"></div>
+              <div class="side-photo"><img class="photo-s" src=${displayProduct.img3} alt="${displayProduct.title}"></div>
             </div>
             <div id="main-photo">
                 <img class="photo-m" src=${displayProduct.img} alt="">
@@ -94,7 +94,7 @@ function displayProduct(plantas) {
 
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active-tab";
+    evt.currentTarget.className += "active-tab";
   }
 
   document.getElementById("open").click();

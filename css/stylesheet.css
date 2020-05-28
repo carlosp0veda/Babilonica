@@ -2020,7 +2020,7 @@ position: relative;
 
 .tabs {
   display: grid;
-  width: 80%;
+  width: fit-content;
   margin: auto;
   overflow: hidden;
   border-bottom: 1px solid rgba(139, 101, 165, 0.7);
