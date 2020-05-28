@@ -76,6 +76,7 @@ const data = [
   {
     id: 7,
     title: "Parodia Ottonis",
+    url: "parodia_ottonis.html",
     category: "cacti",
     price: "$15",
     img: "../plantas/img/planta7_1.JPG",
@@ -85,6 +86,7 @@ const data = [
   {
     id: 8,
     title: "Graptosedum “Bronze”",
+    url: "graptosedum_bronze.html",
     category: "suculenta",
     price: "$12",
     img: "../plantas/img/planta8_1.JPG",
@@ -93,6 +95,7 @@ const data = [
   {
     id: 9,
     title: "Echeveria “Topsy Turvy”",
+    url: "echeveria_topsy_turvy.html",
     category: "suculenta",
     price: "$15",
     img: "../plantas/img/planta9_1.JPG",
@@ -101,6 +104,7 @@ const data = [
   {
     id: 10,
     title: 'Echeveria "White Line"',
+    url: "echeveria_white_line.html",
     category: "suculenta",
     price: "$15",
     img: "../plantas/img/planta10_1.JPG",
@@ -109,6 +113,7 @@ const data = [
   {
     id: 11,
     title: "Echeveria “Hércules”",
+    url: "echeveria_hercules.html",
     category: "suculenta",
     price: "$15",
     img: "../plantas/img/planta11_1.JPG",
@@ -117,6 +122,7 @@ const data = [
   {
     id: 12,
     title: "Gymnocalycium Monvillei",
+    url: "gymnocalycium_monvillei.html",
     category: "cacti",
     price: "$12",
     img: "../plantas/img/planta12_1.JPG",
@@ -125,6 +131,7 @@ const data = [
   {
     id: 13,
     title: "Crassula Ovata Gollum",
+    url: "crassula_ovata_gollum.html",
     category: "suculenta",
     price: "$20",
     img: "../plantas/img/planta13_1.JPG",
@@ -133,6 +140,7 @@ const data = [
   {
     id: 14,
     title: "Haworthia Spiralis",
+    url: "haworthia_spiralis.html",
     category: "suculenta",
     price: "$12",
     img: "../plantas/img/planta14_1.JPG",
