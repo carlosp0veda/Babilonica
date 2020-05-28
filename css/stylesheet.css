@@ -1889,7 +1889,7 @@ position: relative;
 .plant-wrapper {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: fit-content(170vh) auto;
+  grid-template-rows: fit-content(150vh) auto;
 }
 
 
@@ -1897,7 +1897,7 @@ position: relative;
   padding-top: 15vh;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 100vh fit-content(800px);
+  grid-template-rows: 95vh fit-content(800px);
   margin: 0 auto;
   align-items: center;
   justify-items: center;
@@ -1909,7 +1909,7 @@ position: relative;
 .product-gallery {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 75vh fit-content(150px);
+  grid-template-rows: 70vh fit-content(150px);
   margin: 0 auto;
   justify-items: center;
 }
@@ -1939,11 +1939,11 @@ position: relative;
 }
 
 .side-photo {
+  display: inline-block;
   width: 75px;
   height: 75px;
   overflow: hidden;
   margin: 10px;
-  cursor: pointer;
 }
 
 .side-photo:hover {
@@ -1954,6 +1954,11 @@ position: relative;
   display: block;
   width: 100%;
   height: auto;
+}
+
+.photo-s {
+   align-self: center;
+  justify-self: center;
 }
 
 .photo-m {
@@ -2104,7 +2109,7 @@ opacity: 1;
 
 .tabs {
   display: grid;
-  width: 90%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
   border-bottom: 1px solid rgba(139, 101, 165, 0.7);
@@ -2154,7 +2159,7 @@ opacity: 1;
   }
 
  .tabcontent {
-    width: 40%;
+    width: 50%;
     font-size: 1.1rem;
     line-height: 1.5rem;
   }
