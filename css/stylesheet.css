@@ -1541,10 +1541,11 @@ body.product-modal {
 }
 
 .footer-info-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--purple);
   text-align: center;
   padding: 5px;
+  text-transform: uppercase;
 }
 
 .footer-link {
@@ -1555,10 +1556,10 @@ body.product-modal {
 
 .footer-info-text {
   width: 100%;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: var(--light);
   text-align: start;
-  padding-bottom: 1rem;
+  padding: 1rem;
   left: 50%;
 }
 
@@ -1965,7 +1966,7 @@ position: relative;
  .product-body {
    gap: 20px;
    padding: 1rem 10%;
-   padding-bottom: 3rem;
+   padding-bottom: 6rem;
    text-align: start;
    align-items: center;
  }
