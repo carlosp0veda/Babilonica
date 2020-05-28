@@ -1886,23 +1886,21 @@ position: relative;
 
 /* Plant Product Page */
 
-
-
 .plant-wrapper {
-  padding-top: 20vh;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: min-content(100vh) 100px;
-  justify-items: center;
-  align-items: center;
-  box-sizing: border-box;
+  grid-template-rows: fit-content(170vh) auto;
 }
 
+
 .product-wrapper {
+  padding-top: 15vh;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 90vh fit-content(800px);
+  grid-template-rows: 100vh fit-content(800px);
   margin: 0 auto;
+  align-items: center;
+  justify-items: center;
   justify-content: center;
 }
 
@@ -1967,7 +1965,6 @@ position: relative;
  .product-body {
    gap: 20px;
    padding: 0 10%;
-   padding-top: 6rem;
    text-align: start;
    align-items: center;
  }
@@ -2013,11 +2010,12 @@ position: relative;
 /* tabs  */
 .guide {
   width: 100vw;
+  padding-top: 5rem;
 }
 
 .tabs {
   display: grid;
-  width: 40%;
+  width: 80%;
   margin: auto;
   overflow: hidden;
   border-bottom: 1px solid rgba(139, 101, 165, 0.7);
@@ -2051,7 +2049,7 @@ opacity: 1;
 /* Style the tab content */
 .tabcontent {
   display: none;
-  width: 80vw;
+  width: 80%;
   margin: auto;
   padding: 2rem 0;
   text-align: justify;
@@ -2079,6 +2077,7 @@ opacity: 1;
 .product-gallery {
     grid-template-columns: fit-content(150px) auto;
     grid-template-rows: 70vh;
+    margin: 0 auto;
   }
 
   .side-photos {
@@ -2101,11 +2100,25 @@ opacity: 1;
   margin-bottom: 20px;
 }
 
+.tabs {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(139, 101, 165, 0.7);
+}
+
+.tabcontent {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
 @media screen and (min-width: 910px) {
 
     .product-wrapper {
       grid-template-columns: 50vw 50vw;
-      grid-template-rows: 90vh;
+      grid-template-rows: 85vh;
       justify-items: center;
     }
   }
@@ -2114,12 +2127,10 @@ opacity: 1;
     grid-template-columns: fit-content(150px) auto;
     grid-template-rows: 75vh;
     margin: 0;
-    margin-left: auto;
   }
 
    .product-body {
      margin: 0;
-   margin-right: auto;
  }
 
   .tabs {
@@ -2141,7 +2152,7 @@ opacity: 1;
   }
 
  .tabcontent {
-    width: 40vw;
+    width: 40%;
     font-size: 1.1rem;
     line-height: 1.5rem;
   }
