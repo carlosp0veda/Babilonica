@@ -1965,6 +1965,7 @@ position: relative;
  .product-body {
    gap: 20px;
    padding: 1rem 10%;
+   padding-bottom: 3rem;
    text-align: start;
    align-items: center;
  }
@@ -1987,6 +1988,23 @@ position: relative;
    font-family: "Montserrat";
    font-weight: 700;
    color: var(--green);
+ }
+
+ .product-main-cta {
+   display: block;
+   outline: none;
+   border: none;
+   width: 120px;
+   height: 40px;
+   background-color: var(--green);
+   margin: 0 auto;
+ }
+
+ .product-main-cta-link {
+   text-decoration: none;
+   font-family: "Montserrat";
+   color: var(--light);
+   font-size: 1rem;
  }
 
 
