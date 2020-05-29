@@ -58,8 +58,10 @@ filterBtns.forEach(function (btn) {
 
     if (category === "todas") {
       displayMenuItems(catalogo);
+      lazyLoad();
     } else {
       displayMenuItems(menuCategory);
+      lazyLoad();
     }
   });
 });
