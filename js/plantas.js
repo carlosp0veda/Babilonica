@@ -15,8 +15,6 @@ window.addEventListener("load", function () {
 
 function lazyLoad() {
   var targets = document.querySelectorAll("img");
-  console.log(targets);
-
   var lazyLoad = (target) => {
     const io = new IntersectionObserver((entries, observer) => {
       entries.forEach((entry) => {
@@ -95,9 +93,9 @@ function EventListener() {
   const ui = new UI();
   // window list
 
-  // window.addEventListener("load", function () {
-  //   ui.hidePreloader();
-  // });
+  window.addEventListener("load", function () {
+    ui.hidePreloader();
+  });
 
   // nav btn
 
@@ -114,19 +112,14 @@ function EventListener() {
 function UI() {}
 
 // hide preloader
-// UI.prototype.hidePreloader = function () {
-//   document.querySelector(".preloader").style.display = "none";
-// };
+UI.prototype.hidePreloader = function () {
+  document.querySelector(".preloader").style.display = "none";
+};
 
 // show Nav
 UI.prototype.showNav = function () {
   document.querySelector(".nav").classList.toggle("nav-show");
 };
-
-// hide preloader
-// UI.prototype.hideLoader = function () {
-//   document.querySelectorAll(".loader").style.display = "none";
-// };
 
 // show active menu link
 UI.prototype.showActiveLink = function () {
