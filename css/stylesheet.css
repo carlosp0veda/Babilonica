@@ -325,7 +325,7 @@ strong {
 }
 
 #imgban2 {
-  background-image: url(/css/img/img1.jpg);
+  background-image: url(/css/img/banner7.jpg);
   background-size: 100vw 100vh;
   background-position: center top;
   background-repeat: no-repeat;
@@ -333,7 +333,7 @@ strong {
 }
 
 #imgban3 {
-  background-image: url(/css/img/banner6.jpg);
+  background-image: url(/css/img/banner8.jpg);
   background-size: 100vw 100vh;
   background-position: center top;
   background-repeat: no-repeat;
@@ -637,7 +637,6 @@ strong {
 .about-wrapper {
   padding-top: 15vh;
 }
-
 .about {
   display: grid;
   width: 100vw;
@@ -2032,6 +2031,7 @@ position: relative;
   max-width: fit-content;
   justify-self: center;
   border: none;
+  background-color: transparent;
   outline: none;
   cursor: pointer;
   padding: 8px 16px;
@@ -2165,12 +2165,10 @@ opacity: 1;
       }
 
     .tablinks:hover {
-      opacity: 1;
       border-top: 2px solid var(--purple);
     }
 
     .active-tab {
-      opacity: 1;
     border-top: 2px solid var(--purple);
     }
 
