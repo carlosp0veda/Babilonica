@@ -59,13 +59,13 @@ function displayProduct(plantas) {
           </div>
 
           <div id="entrega" class="tabcontent">
-            <p class="tab-text">De 1 a 3 días en dependencia de nuestra disponibilidad de colores, nivel de personalización
-              y magnitud del pedido. </p>
+            <p class="tab-text">De 1 a 3 días en dependencia de la disponibilidad de colores, nivel de personalización
+              y magnitud de la orden. Entregas a todo Managua sin costo adicional, hay un costo por envíos a otros departamentos. </p>
           </div>
 
           <div id="aviso" class="tabcontent">
             <p class="tab-text">Las fotos de ejemplo son usando una paleta de colores recomendada por nosotras para cada
-              planta en específico, avísanos por mensaje si deseas algún cambio en los colores.
+              planta en específico, puedes preguntar por nuestra disponibilidad de colores.
             </p>
           </div>
         </article>

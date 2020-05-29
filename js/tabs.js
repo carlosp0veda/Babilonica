@@ -19,8 +19,8 @@ function openTab(evt, tabName) {
 }
 
 // Change gallery photo
-function changePhoto(e, photoURL) {
-  const clickedPhoto = photoURL;
-  const main_frame = document.getElementsByClassName("photo-m");
-  main_frame[0].src = clickedPhoto;
-}
+// function changePhoto(e, photoURL) {
+//   const clickedPhoto = photoURL;
+//   const main_frame = document.getElementsByClassName("photo-m");
+//   main_frame[0].src = clickedPhoto;
+// }
