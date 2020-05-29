@@ -160,16 +160,15 @@
     </footer>
     <!-- end footer -->
 
-    <script type="module" src="../js/product.js"></script>
-    <script>
-      function changePhoto(e, photoURL) {
-        const clickedPhoto = photoURL;
-        const main_frame = document.getElementsByClassName("photo-m");
-        main_frame[0].src = clickedPhoto;
-      }
-    </script>
+    <script type="module" defer src="../js/product.js"></script>
   </body>
-  <script defer src="../js/tabs.js"></script>
+  <script>
+    function changePhoto(e, photoURL) {
+      const clickedPhoto = photoURL;
+      const main_frame = document.getElementsByClassName("photo-m");
+      main_frame[0].src = clickedPhoto;
+    }
+  </script>
   <script type="text/javascript">
     const targets = document.querySelectorAll("img");
 
