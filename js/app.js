@@ -249,7 +249,6 @@ UI.prototype.showProductModal = function (event) {
   event.preventDefault();
   if (event.target.parentElement.classList.contains("cta-product-btn"));
   let id = event.target.parentElement.dataset.id;
-  console.log(id);
 
   const modal = document.querySelector(".product-modal");
   const modalItem = document.querySelector(".product-modal_item");
@@ -272,8 +271,6 @@ UI.prototype.showActiveLink = function () {
 
   menuLink.forEach(function (link) {
     let url = link.href;
-    console.log(url);
-    console.log(activePageURL);
     if (url === activePageURL) {
       link.classList.add("active-link");
     } else {
