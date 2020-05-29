@@ -17,3 +17,10 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active-tab";
 }
+
+// Change gallery photo
+function changePhoto(e, photoURL) {
+  const clickedPhoto = photoURL;
+  const main_frame = document.getElementsByClassName("photo-m");
+  main_frame[0].src = clickedPhoto;
+}

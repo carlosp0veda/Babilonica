@@ -23,12 +23,12 @@ function displayProduct(plantas) {
     return ` <article class="product-wrapper">
           <section class="product-gallery">
             <div class="side-photos">
-              <div class="side-photo"><img class="photo-s" src=${displayProduct.img} alt="${displayProduct.title}"></div>
-              <div class="side-photo"><img class="photo-s" src=${displayProduct.img2} alt="${displayProduct.title}"></div>
-              <div class="side-photo"><img class="photo-s" src=${displayProduct.img3} alt="${displayProduct.title}"></div>
+              <div class="side-photo" onclick="changePhoto(event, '${displayProduct.img}')"><img class="photo-s" src=${displayProduct.img} alt="${displayProduct.title}"></div>
+              <div class="side-photo" onclick="changePhoto(event, '${displayProduct.img2}')"><img class="photo-s" src=${displayProduct.img2} alt="${displayProduct.title}"></div>
+              <div class="side-photo" onclick="changePhoto(event, '${displayProduct.img3}')"><img class="photo-s" src=${displayProduct.img3} alt="${displayProduct.title}"></div>
             </div>
             <div id="main-photo">
-                <img class="photo-m" src=${displayProduct.img} alt="">
+                <img class="photo-m" src=${displayProduct.img} alt="${displayProduct.title}">
             </div>
           </section>
           <section class="product-body">
@@ -74,9 +74,8 @@ function displayProduct(plantas) {
 
   productBody.innerHTML = displayedProductPage;
 
+  // Product tabs
   function openTab(evt, tabName) {
-    // Declare all variables
-
     // Get all elements with class="tabcontent" and hide them
     const tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -95,4 +94,6 @@ function displayProduct(plantas) {
   }
 
   document.getElementById("open").click();
+
+  //   Product gallery
 }
