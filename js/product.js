@@ -1,9 +1,6 @@
 import { data } from "./data.js";
 
 const catalogo = data;
-
-const currentPageURL = window.location.href;
-
 const productBody = document.querySelector(".plant-wrapper");
 
 window.addEventListener("DOMContentLoaded", function () {
@@ -12,7 +9,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 function displayProduct(plantas) {
   const currentPlantPage = window.document.title;
-  let matchedProduct = plantas.filter(function (planta) {
+  const matchedProduct = plantas.filter((planta) => {
     if (planta.title === currentPlantPage) {
       return planta;
     } else {
