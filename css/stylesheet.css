@@ -1327,15 +1327,15 @@ body.product-modal {
   gap: 20px;
   max-width: 90vw;
   margin: 1.5rem auto;
-  grid-template-columns: repeat(auto-fit, 200px);
-  grid-template-rows: repeat(auto-fit, max-height: 250px);
+  grid-template-columns: repeat(auto-fit, 100px);
+  grid-template-rows: repeat(auto-fit, max-height: 75px);
   justify-content: center;
 }
 
 .work-item_img {
   top: 50%;
   width: 100%;
-  height: 150px;
+  height: 75px;
   display: block;
   object-fit: cover;
   transition: all 0.25s ease-in;
@@ -1373,6 +1373,26 @@ body.product-modal {
 .work-item_icon:hover {
   color: var(--purple);
   cursor: pointer;
+}
+
+@media screen and (min-width: 720px) {
+
+  .work-container {
+  max-width: 90vw;
+  margin: 1.5rem auto;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: repeat(auto-fit, max-height: 150px);
+  justify-content: center;
+}
+
+.work-item_img {
+  top: 50%;
+  width: 100%;
+  height: 150px;
+  display: block;
+  object-fit: cover;
+  transition: all 0.25s ease-in;
+
 }
 
 /* @media screen and (min-width: 576px) {
