@@ -313,7 +313,12 @@ strong {
 }
 
 #imgban1 {
-  background-image: url(/css/img/banner5.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(143, 177, 73, 0.2)
+    ),
+    url(/css/img/banner7.jpg);
   background-size: 100vw 100vh;
   background-position: 0% 15%;
   background-repeat: no-repeat;
@@ -321,12 +326,7 @@ strong {
 }
 
 #imgban2 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgba(143, 177, 73, 0.2)
-    ),
-    url(/css/img/banner7.jpg);
+  background-image: url(/css/img/banner5.jpg);
   background-size: 100vw 100vh;
   background-position: 0% 15%;
   background-repeat: no-repeat;
