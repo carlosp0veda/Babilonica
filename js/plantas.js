@@ -8,6 +8,34 @@ const filterBtns = document.querySelectorAll(".filter-btn");
 window.addEventListener("DOMContentLoaded", function () {
   displayMenuItems(catalogo);
 });
+
+window.addEventListener("load", function () {
+  lazyLoad();
+});
+
+function lazyLoad() {
+  var targets = document.querySelectorAll("img");
+  console.log(targets);
+
+  var lazyLoad = (target) => {
+    const io = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          const src = img.getAttribute("data-lazy");
+
+          img.setAttribute("src", src);
+          observer.disconnect();
+        }
+      });
+    });
+
+    io.observe(target);
+  };
+
+  targets.forEach(lazyLoad);
+}
+
 // filter btn
 filterBtns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
@@ -40,7 +68,7 @@ function displayMenuItems(menuItems) {
   let displayMenu = menuItems.map(function (item) {
     return `<article class="menu-item">
         <div class="photo-wrapper">
-          <img src="${item.img}" class="photo" loading="lazy" alt=${item.title} />
+          <img data-lazy="${item.img}" class="photo" loading="lazy" alt=${item.title} />
         </div>
         <div class="item-info">
           <header class="productItem-header">
@@ -58,30 +86,6 @@ function displayMenuItems(menuItems) {
 
   displayMenu = displayMenu.join("");
   sectionCenter.innerHTML = displayMenu;
-  // lazy loading
-
-  // var targets = document.querySelectorAll("img");
-  // console.log(targets);
-
-  // var lazyLoad = (target) => {
-  //   const io = new IntersectionObserver((entries, observer) => {
-  //     entries.forEach((entry) => {
-  //       if (entry.isIntersecting) {
-  //         const img = entry.target;
-  //         const src = img.getAttribute("data-lazy");
-
-  //         img.setAttribute("src", src);
-  //         observer.disconnect();
-  //       }
-  //     });
-  //   });
-
-  //   io.observe(target);
-  // };
-
-  // targets.forEach(lazyLoad);
-
-  // finish lazy loading
 }
 
 EventListener();
