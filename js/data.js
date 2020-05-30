@@ -177,18 +177,18 @@ const data = [
     desc: " ",
     care: " ",
   },
-  {
-    id: 15,
-    title: "Nuevo Cactus",
-    url: "nuevo_cactus.html",
-    category: "cacti",
-    price: "$10",
-    img: "../plantas/img/planta15_1.JPG",
-    img2: "../plantas/img/planta15_2.JPG",
-    img3: "../plantas/img/planta15_3.JPG",
-    desc: "Este es un nuevo cactus blablabla ",
-    care: "Este cactus se cuid blablabla",
-  },
+  //   {
+  //     id: 15,
+  //     title: "Nuevo Cactus",
+  //     url: "nuevo_cactus.html",
+  //     category: "cacti",
+  //     price: "$10",
+  //     img: "../plantas/img/planta15_1.JPG",
+  //     img2: "../plantas/img/planta15_2.JPG",
+  //     img3: "../plantas/img/planta15_3.JPG",
+  //     desc: "Este es un nuevo cactus blablabla ",
+  //     care: "Este cactus se cuid blablabla",
+  //   },
 ];
 
 export { data };
