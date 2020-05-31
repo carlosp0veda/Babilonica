@@ -1965,7 +1965,6 @@ body.product-modal {
   background-repeat: no-repeat;
   background-position: center;
   order: -1;
-  box-shadow: var(--shadow2);
 }
 
 .side-photos {
@@ -2005,7 +2004,7 @@ body.product-modal {
 
 .photo-m {
   display: block;
-  height: 100%;
+  box-shadow: var(--shadow2);
 }
 
 .product-body {
