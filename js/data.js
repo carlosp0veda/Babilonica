@@ -18,7 +18,7 @@ const data = [
     title: "Echeveria Cuspidata",
     url: "echeveria_cuspidata.html",
     category: "suculenta",
-    price: "$15",
+    price: "Vendida",
     img: "../plantas/img/planta2_1.JPG",
     img2: "../plantas/img/planta2_2.jpg",
     img3: "../plantas/img/planta2_3.jpg",
