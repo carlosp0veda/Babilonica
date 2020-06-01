@@ -1978,6 +1978,7 @@ body.product-modal {
 
 .side-photo {
   display: inline-block;
+  background: url(/css/img/loading.gif) center/36px no-repeat;
   width: 75px;
   height: 75px;
   overflow: hidden;
@@ -1991,7 +1992,6 @@ body.product-modal {
 .photo-s,
 .photo-m {
   display: block;
-  background: url(/css/img/loading.gif) center/70px no-repeat;
   width: 100%;
   height: auto;
 }
@@ -2095,7 +2095,7 @@ h3 {
 /* Style the tab content */
 .tabcontent {
   display: none;
-  width: 66.66%;
+  width: 80%;
   margin: auto;
   padding: 2rem 0;
   text-align: justify;

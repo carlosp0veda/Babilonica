@@ -24,7 +24,8 @@ const data = [
     img3: "../plantas/img/planta2_3.jpg",
     desc:
       "Nuestra variedad zaragozae es de mis favoritas, especialmente cuando están presentes las flores de color naranja rojizo brillante y los tallos florecientes.",
-    care: " ",
+    care:
+      "El riego tiene que ser más bien escaso. Durante el verano riega tu Echeveria una vez por semana, como máximo dos, y el resto del año cada 10-15 días.",
   },
   {
     id: 3,
@@ -37,7 +38,8 @@ const data = [
     img3: "../plantas/img/planta3_3.jpg",
     desc:
       'El nombre de cymbiformis significa "con forma de bote", se caracteriza por presentar hojas muy carnosas y jugosas, suaves y que se  hinchan con el agua almacenada.',
-    care: " ",
+    care:
+      "La Haworthia cymbiformis, es fácil de cultivar en el jardín o en macetas, aunque es delicada fente al exceso de agua y las bajas temperaturas invernales. En cuánto a la iluminación, debemos evitar el pleno sol directo, ya que puede llegar a quemarla. Ideal es mantenerla en la semisombra.",
   },
   {
     id: 4,
@@ -88,7 +90,7 @@ const data = [
     img2: "../plantas/img/planta7_2.JPG",
     img3: "../plantas/img/planta7_3.JPG",
     desc:
-      "Caracterizados por tener flores de colores vibrantes, como son el amarillo, el naranja y el rojo. Estamos frente a un género especial para principiantes. Son cactus fáciles de mantener en maceta, pero siempre teniendo en cuenta los consejos básicos.",
+      "Son cactus pequeños de cuerpo globular que producen numerosos hijuelos que no suelen superar los 12 cm de altura. Y particularmente es divertido, ya que madura y florece a una edad temprana. Las espectaculares flores amarillas de hasta 6 cm de diámetro surgen en el ápice de la planta.",
     care: " ",
   },
   {
@@ -100,8 +102,10 @@ const data = [
     img: "../plantas/img/planta8_1.JPG",
     img2: "../plantas/img/planta8_2.JPG",
     img3: " ",
-    desc: "Cualquier cosa. ",
-    care: "Otra cosa. ",
+    desc:
+      "Se trata de una pequeña planta suculenta de hermoso color cobrizo. Forma rosetas que a medida que se van desarrollando dan paso a robustos tallos cubiertos de huellas dejadas por las hojas más viejas que han ido desapareciendo. Las rosetas están compuestas de hojas cortas y gruesas de color verde grisáceo cuando aparecen, para ir variando a una tonalidad bronce al envejecer.",
+    care:
+      "Es importante proveerles pleno sol durante todo el año. En periodos de calor humedecer en profundidad el sustrato y dejar que se seque para regar de nuevo. En invierno los riegos deben ser de forma ligera y de tanto en tanto.",
   },
   {
     id: 9,
@@ -111,11 +115,11 @@ const data = [
     price: "Vendida",
     img: "../plantas/img/planta9_1.JPG",
     img2: "../plantas/img/planta9_2.JPG",
-    img2: " ",
     img3: " ",
     desc:
       "Una espléndida planta que se desarrolla de manera sencilla y rápida. Tiene hojas maravillosamente distorsionadas.Produce muchas rosetas nuevas en su base y no crece un tallo alto y desnudó como otros cultivos de Echeveria.",
-    care: " ",
+    care:
+      "Necesita un sustrato que drene bien, y riego moderado en el periodo vegetativo, dejándola casi en seco durante el invierno. Es una planta muy susceptible con el exceso de agua, pudriéndose fácilmente. Le gusta estar en una zona bien iluminada con algunas horas de sol al día. Se debe proteger de las heladas durante el invierno.",
   },
   {
     id: 10,
@@ -126,8 +130,10 @@ const data = [
     img: "../plantas/img/planta10_1.JPG",
     img2: "../plantas/img/planta10_2.JPG",
     img3: "../plantas/img/planta10_3.JPG",
-    desc: " ",
-    care: " ",
+    desc:
+      "Una de nuestras plantas importadas, que se caracteriza por desarollar racimos fácilmente desde una corta edad. Tiene hojas deldagas y alargadas, de color verde grisáceo, producido por su pruina. La pruina es una sustancia reflectante y disipadora del calor que evita que las hojas de las suculentas sufran quemaduras solares.",
+    care:
+      "Necesita un sustrato que drene bien, y riego moderado en el periodo vegetativo, dejándola casi en seco durante el invierno. Es una planta muy susceptible con el exceso de agua, pudriéndose fácilmente. Le gusta estar en una zona bien iluminada con algunas horas de sol al día. Se debe proteger de las heladas durante el invierno.",
   },
   {
     id: 11,
@@ -138,8 +144,10 @@ const data = [
     img: "../plantas/img/planta11_1.JPG",
     img2: " ",
     img3: " ",
-    desc: " ",
-    care: " ",
+    desc:
+      "Esta variedad tiene una tasa de crecimiento más lenta en comparación con otras Echeverias. La planta tiene un crecimiento bajo, sus rosetas no desarrollan el tallo, y alcanzan un diámetro de unos 12 cms. Sus hojas son carnosas, de color verde azulado pálido y una distintiva punta roja. Con el tiempo, cuando la planta madure, desarrollará un gran número de hijuelos que saldrán de la base de la planta madre.",
+    care:
+      "Crece mejor con sol total o parcial. Colócala en una zona de tu jardín o casa que reciba al menos 6 horas de sol. Regar las plantas de forma moderada, procurar no mojar las hojas especialmente evitar mojar el centro de la roseta para evitar pudriciones, es recomendable que el agua vaya directamente a la tierra. La cantidad debe ser moderada y hay que distanciar los riegos esperando que el sustrato se seque entre ellos.",
   },
   {
     id: 12,
@@ -149,9 +157,11 @@ const data = [
     price: "$12",
     img: "../plantas/img/planta12_1.JPG",
     img2: "../plantas/img/planta12_2.JPG",
-    img3: " ",
-    desc: " ",
-    care: " ",
+    img3: "",
+    desc:
+      "Es un cactus que crece normalmente de forma solitaria. Son pequeños cactus de forma esférica que no suelen superar los 15 cm de diámetro. Presentan largas espinas coloreadas en sus prominentes costillas. Producen grandes y vistosas flores que surgen de tallos terminales.",
+    care:
+      "Este cactus necesita una exposición bien iluminada pero sin recibir directamente los rayos de sol. No le convienen temperaturas inferiores a los 10 ºC. <br><br> Un buen suelo para estos cactus sería una mezcla de 2/3 de sustrato comercial normal y 1/3 de arena gruesa. <br><br> En verano regar dejando que la tierra se seque antes de volver a regar. En invierno es mejor casi no regarlas. ",
   },
   {
     id: 13,
@@ -163,7 +173,7 @@ const data = [
     img2: "../plantas/img/planta13_2.JPG",
     img3: " ",
     desc:
-      "La Crássula ovata -Gollum,  es una suculenta arbustiva muy compacta, perenne, de hasta 60-90 cm de altura y unos 40-60 cm de anchura. Sus hojas son muy carnosas y forma como de arbolito enano.Muy resistente a la sequía y requiere pocos cuidados, lo que la hace atractiva para principiantes. Comúnmente es llamada “Oreja de Shrek” por su parecido a las orejas del personaje de animado.",
+      "Comúnmente es llamada “Oreja de Shrek” por su parecido a las orejas del personaje de animado, es una suculenta arbustiva muy compacta, perenne, de hasta 60-90 cm de altura y unos 40-60 cm de anchura. Sus hojas son muy carnosas y forma como de arbolito enano.Muy resistente a la sequía y requiere pocos cuidados, lo que la hace atractiva para principiantes.",
     care:
       "Se necesita sol indirecto o semisombra ya que el sol directo puede quemar sus hojas. <br><br> Pueden pasar el invierno en zonas de interior, siempre con muy buena iluminación. Estas plantas se deben regar bien y luego dejarse secar completamente, antes de regar de nuevo. <br><br> Lo mejor es regarla a primeras horas de la mañana o la tarde, para así evitar el sol del mediodía y que se puedan llegar a quemar las raíces, con el agua recalentada por la alta temperatura del sustrato al sol. La Crássula ovata – Gollum, nos avisará de que necesita un riego, cuando se empiezan a arrugar las hojas.",
   },
