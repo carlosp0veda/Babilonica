@@ -151,8 +151,8 @@ const data = [
   },
   {
     id: 12,
-    title: "Gymnocalycium Monvillei",
-    url: "gymnocalycium_monvillei.html",
+    title: "Gymnocalycium Eurypleurum",
+    url: "gymnocalycium_eurypleurum.html",
     category: "cacti",
     price: "$12",
     img: "../plantas/img/planta12_1.JPG",
