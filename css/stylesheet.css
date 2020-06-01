@@ -1671,7 +1671,6 @@ body.product-modal {
   position: relative;
   box-shadow: var(--shadow2);
   background: url(/css/img/loading.gif) center/70px no-repeat;
-  position: relative;
 }
 
 .photo {
@@ -1992,6 +1991,7 @@ body.product-modal {
 .photo-s,
 .photo-m {
   display: block;
+  background: url(/css/img/loading.gif) center/70px no-repeat;
   width: 100%;
   height: auto;
 }
