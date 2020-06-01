@@ -1979,7 +1979,6 @@ body.product-modal {
 
 .side-photo {
   display: inline-block;
-  background: url(/css/img/loading.gif) center/50px no-repeat;
   width: 75px;
   height: 75px;
   overflow: hidden;
@@ -1994,10 +1993,10 @@ body.product-modal {
 .photo-m {
   display: block;
   width: 100%;
-  height: auto;
 }
 
 .photo-s {
+  height: auto;
   transform: translateY(-1rem);
   align-self: center;
   justify-self: center;
