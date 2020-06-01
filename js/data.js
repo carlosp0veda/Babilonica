@@ -140,7 +140,7 @@ const data = [
     title: "Echeveria “Hércules”",
     url: "echeveria_hercules.html",
     category: "suculenta",
-    price: "Vendida",
+    price: "$13",
     img: "../plantas/img/planta11_1.JPG",
     img2: " ",
     img3: " ",

@@ -1929,6 +1929,7 @@ body.product-modal {
 
 .plant-wrapper {
   display: grid;
+  padding-top: 5vh;
   grid-template-columns: 100vw;
   grid-template-rows: fit-content(150vh) auto;
 }
@@ -1937,7 +1938,7 @@ body.product-modal {
   padding-top: 15vh;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 95vh fit-content(800px);
+  grid-template-rows: auto fit-content(800px);
   margin: 0 auto;
   align-items: center;
   justify-items: center;
@@ -1949,7 +1950,7 @@ body.product-modal {
 .product-gallery {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 70vh fit-content(150px);
+  grid-template-rows: auto fit-content(150px);
   margin: 0 auto;
   justify-items: center;
 }
@@ -1978,7 +1979,7 @@ body.product-modal {
 
 .side-photo {
   display: inline-block;
-  background: url(/css/img/loading.gif) center/20px no-repeat;
+  background: url(/css/img/loading.gif) center/50px no-repeat;
   width: 75px;
   height: 75px;
   overflow: hidden;
@@ -2009,7 +2010,7 @@ body.product-modal {
 
 .product-body {
   gap: 20px;
-  padding: 0 10%;
+  padding: 5vh 10%;
   text-align: start;
   align-items: center;
 }
@@ -2144,7 +2145,7 @@ h3 {
 
   .product-body {
     gap: 20px;
-    padding: 0 20%;
+    padding: 3rem 20%;
     text-align: justify;
     justify-items: center;
     align-items: center;
