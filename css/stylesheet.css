@@ -1978,7 +1978,7 @@ body.product-modal {
 
 .side-photo {
   display: inline-block;
-  background: url(/css/img/loading.gif) center/36px no-repeat;
+  background: url(/css/img/loading.gif) center/20px no-repeat;
   width: 75px;
   height: 75px;
   overflow: hidden;
