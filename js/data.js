@@ -85,7 +85,7 @@ const data = [
     title: "Parodia Ottonis",
     url: "parodia_ottonis.html",
     category: "cacti",
-    price: "$15",
+    price: "$12",
     img: "../plantas/img/planta7_1.JPG",
     img2: "../plantas/img/planta7_2.JPG",
     img3: "../plantas/img/planta7_3.JPG",
