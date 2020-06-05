@@ -98,7 +98,7 @@ const data = [
     title: "Graptosedum “Bronze”",
     url: "graptosedum_bronze.html",
     category: "suculenta",
-    price: "$12",
+    price: "Vendida",
     img: "../plantas/img/planta8_1.JPG",
     img2: "../plantas/img/planta8_2.JPG",
     img3: " ",
