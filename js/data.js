@@ -43,15 +43,15 @@ const data = [
   },
   {
     id: 4,
-    title: "Crassula Ovata Variegata",
-    url: "crassula_ovata_variegata.html",
+    title: "Crassula Ovata Variegada",
+    url: "crassula_ovata_variegada.html",
     category: "suculenta",
     price: "$20",
     img: "../plantas/img/planta4_1.JPG",
     img2: "../plantas/img/planta4_2.jpg",
     img3: "../plantas/img/planta4_3.jpg",
     desc:
-      'Conociada como "árbol de jade", característico por sus hojas carnosas y su forma de arbolito, su resistencia a sequías la hace una buena especie para principiantes.',
+      'Conociada como "árbol de jade", característico por sus hojas carnosas y su forma de arbolito, su resistencia a sequías la hace una buena especie para principiantes.<br><br> Esta en particular es una especie variegada. El fenómeno de la variegación se caracteriza por la aparición de zonas con diferente coloración en las hojas o en los tallos debido a una variedad de causas.',
     care: " ",
   },
   {
