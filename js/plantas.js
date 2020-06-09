@@ -65,7 +65,7 @@ filterBtns.forEach(function (btn) {
 });
 
 function displayMenuItems(menuItems) {
-  let displayMenu = menuItems.map(function (item) {
+  let displayMenu = menuItems.reverse().map(function (item) {
     return `<article class="menu-item">
         <div class="photo-wrapper">
           <img data-lazy="${item.img}" class="photo" loading="lazy" alt=${item.title} />
