@@ -173,7 +173,7 @@ const data = [
     img2: "../plantas/img/planta13_2.JPG",
     img3: " ",
     desc:
-      "Comúnmente es llamada “Oreja de Shrek” por su parecido a las orejas del personaje de animado, es una suculenta arbustiva muy compacta, perenne, de hasta 60-90 cm de altura y unos 40-60 cm de anchura. Sus hojas son muy carnosas y forma como de arbolito enano.Muy resistente a la sequía y requiere pocos cuidados, lo que la hace atractiva para principiantes.",
+      "Comúnmente es llamada “Oreja de Shrek” por su parecido a las orejas del personaje, es una suculenta arbustiva muy compacta, perenne, de hasta 60-90 cm de altura y unos 40-60 cm de anchura. Sus hojas son muy carnosas y forma como de arbolito enano.Muy resistente a la sequía y requiere pocos cuidados, lo que la hace atractiva para principiantes.",
     care:
       "Se necesita sol indirecto o semisombra ya que el sol directo puede quemar sus hojas. <br><br> Pueden pasar el invierno en zonas de interior, siempre con muy buena iluminación. Estas plantas se deben regar bien y luego dejarse secar completamente, antes de regar de nuevo. <br><br> Lo mejor es regarla a primeras horas de la mañana o la tarde, para así evitar el sol del mediodía y que se puedan llegar a quemar las raíces, con el agua recalentada por la alta temperatura del sustrato al sol. La Crássula ovata – Gollum, nos avisará de que necesita un riego, cuando se empiezan a arrugar las hojas.",
   },
