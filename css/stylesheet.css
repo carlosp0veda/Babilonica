@@ -1923,8 +1923,8 @@ body.product-modal {
 }
 
 #lens {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border: 2px solid black;
   background-repeat: no-repeat;
   position: absolute;

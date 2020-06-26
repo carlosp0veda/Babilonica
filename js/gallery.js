@@ -31,7 +31,7 @@ function imageZoom(imgID) {
   let mainframe = document.getElementsByClassName(imgID);
   let lens = document.getElementById("lens");
 
-  let ratio = 2.5;
+  let ratio = 2;
 
   lens.style.backgroundImage = `url(${mainframe[0].src})`;
   lens.style.backgroundSize = `${mainframe[0].width * ratio}px`;
@@ -82,7 +82,7 @@ function imageZoom(imgID) {
 
     //4
     lens.style.backgroundPosition =
-      "-" + (pos.x * ratio + -50) + "px -" + (pos.y * ratio + -50) + "px";
+      "-" + (pos.x * ratio + -60) + "px -" + (pos.y * ratio + -60) + "px";
   }
 
   function getCursor() {
