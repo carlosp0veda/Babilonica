@@ -78,7 +78,8 @@ const data = [
     img3: "../plantas/img/planta6_3.jpg",
     desc:
       "Esta es una hermosa planta de interior, tiene un hermoso color verde con hojas rojas con manchas y rayas llamativas. Las aglaonemas son de crecimiento lento, atractivas y son plantas de excelente follaje. Lo mejor de todo es que no le gusta el sol directo, por lo que es perfecta para interiores.",
-    care: " ",
+    care:
+      "<ul><li><strong>Luz:</strong> Prefieren la sombra o la semisombra. El exceso de sol decolora y quema las hojas.</li> <br> <li><strong>Riego:</strong> Las aglaonemas necesitan una atmósfera húmeda para que los bordes y puntas de las hojas no se resequen y acartonen. Conviene pulverizarlas con agua. En cambio, precisan riego moderado, y más espaciado en invierno. El encharcamiento les resulta muy perjudicial.</li> <br> <li><strong>Abonado:</strong> Cada 15 días, de marzo a septiembre, precisan abono para plantas de interior.</li> <br> <li><strong>Trasplante:</strong> Se deben cambiar a un tiesto mayor cada dos años. De paso se pueden obtener esquejes para multipicarlas.</li> <br> <li><strong>Enemigos:</strong> La cochinilla algodonosa y la botrytis, que provoca podredumbre y aparece cuando el sustrato está demasiado mojado.</li></ul>",
   },
   {
     id: 7,
@@ -202,7 +203,7 @@ const data = [
     img3: "../plantas/img/planta15_3.JPG",
     desc: "Este es un nuevo cactus blablabla ",
     care:
-      "<ul><li>Luz: se ha de colocar en una zona donde le dé la luz del sol de manera directa.</li> <li>Riego: una o dos veces por semana.</li><li>Abonado: en primavera y verano, con abonos orgánicos líquidos, bien con abonos para cactus(importante decir que no es un cactus, sino una crasa, pero estos abonos les son muy beneficiosos).</li> <li>Trasplante: cada dos años, en primavera. Sustrato: ha de tener buen drenaje.Muy recomendable usar turba negra y perlita a partes iguales, o bien añadir a esta mezcla un 20% de arena de río lavada.</li></ul>",
+      "<ul><li><strong>Luz:</strong> se ha de colocar en una zona donde le dé la luz del sol de manera directa.</li> <br> <li><strong>Riego:</strong> una o dos veces por semana.</li> <br> <li><strong>Abonado:</strong> en primavera y verano, con abonos orgánicos líquidos, bien con abonos para cactus(importante decir que no es un cactus, sino una crasa, pero estos abonos les son muy beneficiosos).</li> <br> <li><strong>Trasplante:</strong> cada dos años, después del invierno. </li> <br> <li><strong>Sustrato:</strong> ha de tener buen drenaje. Muy recomendable usar turba negra y perlita a partes iguales, o bien añadir a esta mezcla un 20% de arena de río lavada.</li></ul>",
   },
   {
     id: 16,
