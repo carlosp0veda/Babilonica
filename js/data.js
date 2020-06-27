@@ -204,6 +204,20 @@ const data = [
     care:
       "<ul><li>Luz: se ha de colocar en una zona donde le dé la luz del sol de manera directa.</li> <li>Riego: una o dos veces por semana.</li><li>Abonado: en primavera y verano, con abonos orgánicos líquidos, bien con abonos para cactus(importante decir que no es un cactus, sino una crasa, pero estos abonos les son muy beneficiosos).</li> <li>Trasplante: cada dos años, en primavera. Sustrato: ha de tener buen drenaje.Muy recomendable usar turba negra y perlita a partes iguales, o bien añadir a esta mezcla un 20% de arena de río lavada.</li></ul>",
   },
+  {
+    id: 16,
+    title: "Aglaonema King of Siam",
+    url: "aglaonema_king_of_siam.html",
+    category: "ornamental",
+    price: "$20",
+    img: "../plantas/img/planta16_1.JPG",
+    img2: "../plantas/img/planta16_2.JPG",
+    img3: "../plantas/img/planta16_3.JPG",
+    desc:
+      "De las más bonitas e imponentes, sus hojas brillantes tienen tonos en verde claro con las nervaduras y tallo en color blanco. Esta variedad suele producir hijos basales. A fines de primavera comienzos de verano, asomarán nuevas plántulas de la superficie del sustrato. ",
+    care:
+      "<ul><li>Luz: se ha de colocar en una zona donde le dé la luz del sol de manera directa.</li> <li>Riego: una o dos veces por semana.</li><li>Abonado: en primavera y verano, con abonos orgánicos líquidos, bien con abonos para cactus(importante decir que no es un cactus, sino una crasa, pero estos abonos les son muy beneficiosos).</li> <li>Trasplante: cada dos años, en primavera. Sustrato: ha de tener buen drenaje.Muy recomendable usar turba negra y perlita a partes iguales, o bien añadir a esta mezcla un 20% de arena de río lavada.</li></ul>",
+  },
 ];
 
 export { data };
