@@ -1842,16 +1842,16 @@ body.product-modal {
 
 .plant-wrapper {
   display: grid;
-  padding-top: 5vh;
+  /* padding-top: 5vh; */
   grid-template-columns: 100vw;
-  grid-template-rows: fit-content(150vh) auto;
+  grid-template-rows: fit-content(120vh) auto;
 }
 
 .product-wrapper {
   padding-top: 15vh;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: auto fit-content(800px);
+  grid-template-rows: max-content fit-content(800px);
   margin: 0 auto;
   align-items: center;
   justify-items: center;
@@ -1919,6 +1919,7 @@ body.product-modal {
 
 .photo-m {
   display: block;
+  max-height: 100vh;
   box-shadow: var(--shadow2);
 }
 
@@ -2052,7 +2053,7 @@ h3 {
 
   .product-gallery {
     grid-template-columns: fit-content(150px) auto;
-    grid-template-rows: 70vh;
+    grid-template-rows: auto;
     margin: 0 auto;
   }
 
