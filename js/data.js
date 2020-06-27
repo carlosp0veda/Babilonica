@@ -194,8 +194,8 @@ const data = [
   },
   {
     id: 15,
-    title: "Haworthia Limifolia",
-    url: "haworthia_limifolia.html",
+    title: "Haworthia Attenuata",
+    url: "haworthia_attenuata.html",
     category: "suculentas",
     price: "$12",
     img: "../plantas/img/planta15_1.JPG",
