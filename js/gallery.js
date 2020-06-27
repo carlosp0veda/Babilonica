@@ -31,7 +31,7 @@ function imageZoom(imgID) {
   let mainframe = document.getElementsByClassName(imgID);
   let lens = document.getElementById("lens");
 
-  let ratio = 2;
+  let ratio = 1.5;
 
   lens.style.backgroundImage = `url(${mainframe[0].src})`;
   lens.style.backgroundSize = `${mainframe[0].width * ratio}px`;

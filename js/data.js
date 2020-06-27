@@ -191,18 +191,19 @@ const data = [
     care:
       "Esta haworthia lucirá mejor en una exposición de semisombra o de luz indirecta pues el sol directo en sus hojas puede quemarlas. <br><br> Lo más importante es que el suelo drene muy bien para lo cual utilizaremos un sustrato para cactus añadiendo un buen puñado de arena gruesa. <br><br> Regar moderadamente en verano, siempre esperando a que la tierra se seque por completo.  <br><br> En época lluviosa reducir los riegos hasta que en invierno se rieguen un sola vez. <br> <br> Es importante que la ventilación sea buena para no acumular humedad ambiental. Podemos abonar con fertilizante mineral para cactus luego del invierno pero diluido a la mitad de la dosis habitual.  <br><br>  La única poda que pueden necesitar es la eliminación de los tallos florales marchitos.  <br><br> No suelen presentar graves problemas de plagas y enfermedades si no nos excedemos con el riego.  <br><br>  Se multiplican de manera bastante fácil a partir de los hijuelos que produce la planta madre. ",
   },
-  //   {
-  //     id: 15,
-  //     title: "Nuevo Cactus",
-  //     url: "nuevo_cactus.html",
-  //     category: "cacti",
-  //     price: "$10",
-  //     img: "../plantas/img/planta15_1.JPG",
-  //     img2: "../plantas/img/planta15_2.JPG",
-  //     img3: "../plantas/img/planta15_3.JPG",
-  //     desc: "Este es un nuevo cactus blablabla ",
-  //     care: "Este cactus se cuid blablabla",
-  //   },
+  {
+    id: 15,
+    title: "Haworthia Limifolia",
+    url: "haworthia_limifolia.html",
+    category: "suculentas",
+    price: "$12",
+    img: "../plantas/img/planta15_1.JPG",
+    img2: "../plantas/img/planta15_2.JPG",
+    img3: "../plantas/img/planta15_3.JPG",
+    desc: "Este es un nuevo cactus blablabla ",
+    care:
+      "<ul><li>Luz: se ha de colocar en una zona donde le dé la luz del sol de manera directa.</li> <li>Riego: una o dos veces por semana.</li><li>Abonado: en primavera y verano, con abonos orgánicos líquidos, bien con abonos para cactus(importante decir que no es un cactus, sino una crasa, pero estos abonos les son muy beneficiosos).</li> <li>Trasplante: cada dos años, en primavera. Sustrato: ha de tener buen drenaje.Muy recomendable usar turba negra y perlita a partes iguales, o bien añadir a esta mezcla un 20% de arena de río lavada.</li></ul>",
+  },
 ];
 
 export { data };
