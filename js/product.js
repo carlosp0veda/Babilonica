@@ -65,8 +65,8 @@ function displayProduct(plantas) {
           </div>
 
           <div id="aviso" class="tabcontent">
-            <p class="tab-text">Las fotos de ejemplo son usando una paleta de colores recomendada por nosotras para cada
-              planta en específico, puedes preguntar por nuestra disponibilidad de colores.
+            <p class="tab-text">Las fotos de ejemplo son usando una macetera con la paleta de colores recomendada por nosotras para cada
+              planta en específico, puedes preguntar por nuestra disponibilidad de colores y plantas.
             </p>
           </div>
         </article>
