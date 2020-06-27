@@ -1925,7 +1925,7 @@ body.product-modal {
 #lens {
   width: 120px;
   height: 120px;
-  border: 2px solid black;
+  border: 2px solid var(--purple);
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
