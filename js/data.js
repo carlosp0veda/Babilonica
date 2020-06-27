@@ -203,7 +203,7 @@ const data = [
     img3: "../plantas/img/planta15_3.JPG",
     desc: "Este es un nuevo cactus blablabla ",
     care:
-      "<ul><li><strong>Luz:</strong> se ha de colocar en una zona donde le dé la luz del sol de manera directa.</li> <br> <li><strong>Riego:</strong> una o dos veces por semana.</li> <br> <li><strong>Abonado:</strong> en primavera y verano, con abonos orgánicos líquidos, bien con abonos para cactus(importante decir que no es un cactus, sino una crasa, pero estos abonos les son muy beneficiosos).</li> <br> <li><strong>Trasplante:</strong> cada dos años, después del invierno. </li> <br> <li><strong>Sustrato:</strong> ha de tener buen drenaje. Muy recomendable usar turba negra y perlita a partes iguales, o bien añadir a esta mezcla un 20% de arena de río lavada.</li></ul>",
+      "<ul><li><strong>Luz:</strong> se ha de colocar en una zona donde le dé la luz del sol de manera directa.</li> <br> <li><strong>Riego:</strong> una o dos veces por semana, esperar que la tierra esté seca.</li> <br> <li><strong>Abonado:</strong> en primavera y verano, con abonos orgánicos líquidos, bien con abonos para cactus(importante decir que no es un cactus, sino una crasa, pero estos abonos les son muy beneficiosos).</li> <br> <li><strong>Trasplante:</strong> cada dos años, después del invierno. </li> <br> <li><strong>Sustrato:</strong> ha de tener buen drenaje. Muy recomendable usar turba negra y perlita a partes iguales, o bien añadir a esta mezcla un 20% de arena de río lavada.</li></ul>",
   },
   {
     id: 16,
@@ -214,6 +214,20 @@ const data = [
     img: "../plantas/img/planta16_1.JPG",
     img2: "../plantas/img/planta16_2.JPG",
     img3: "../plantas/img/planta16_3.JPG",
+    desc:
+      "De las más bonitas e imponentes, sus hojas brillantes tienen tonos en verde claro con las nervaduras y tallo en color blanco. Las hojas pueden ser más anchas o más largas y estrechas, pero siempre acabadas en punta. Las matas pueden alzarse hasta el metro de altura, también existen variedades compactas de 13 a 17 centímetros, lo que facilita el placer de coleccionarlas. Además, combinan y conviven bien con otras plantas de interior de similares requerimientos.",
+    care:
+      "<ul><li><strong>Luz:</strong> Prefieren la sombra o la semisombra. El exceso de sol decolora y quema las hojas.</li> <br> <li><strong>Riego:</strong> Las aglaonemas necesitan una atmósfera húmeda para que los bordes y puntas de las hojas no se resequen y acartonen. Conviene pulverizarlas con agua. En cambio, precisan riego moderado, y más espaciado en invierno. El encharcamiento les resulta muy perjudicial.</li> <br> <li><strong>Abonado:</strong> Cada 15 días, de marzo a septiembre, precisan abono para plantas de interior.</li> <br> <li><strong>Trasplante:</strong> Se deben cambiar a un tiesto mayor cada dos años. De paso se pueden obtener esquejes para multipicarlas.</li> <br> <li><strong>Enemigos:</strong> La cochinilla algodonosa y la botrytis, que provoca podredumbre y aparece cuando el sustrato está demasiado mojado.</li></ul>",
+  },
+  {
+    id: 17,
+    title: "Aloe Juvenna",
+    url: "aloe_juvenna.html",
+    category: "suculenta",
+    price: "$20",
+    img: "../plantas/img/planta17_1.JPG",
+    img2: "../plantas/img/planta17_2.JPG",
+    img3: "../plantas/img/planta17_3.JPG",
     desc:
       "De las más bonitas e imponentes, sus hojas brillantes tienen tonos en verde claro con las nervaduras y tallo en color blanco. Las hojas pueden ser más anchas o más largas y estrechas, pero siempre acabadas en punta. Las matas pueden alzarse hasta el metro de altura, también existen variedades compactas de 13 a 17 centímetros, lo que facilita el placer de coleccionarlas. Además, combinan y conviven bien con otras plantas de interior de similares requerimientos.",
     care:
