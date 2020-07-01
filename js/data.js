@@ -247,6 +247,20 @@ const data = [
     care:
       "<ul><li><strong>Luz:</strong> prefiere una exposición de semisombra ya que el pleno sol puede quemar las puntas de las hojas.</li> <br> <li><strong>Riego:</strong> Regar de forma moderada esperando a que se haya secado bien la tierra; si la planta necesita agua se le ponen marrones las puntas de las hojas. Estas plantas tienen su periodo de reposo en verano por lo que se reducirán drásticamente los riegos. En época lluviosa regar una vez al mes como mucho.</li> <br> <li><strong>Trasplante:</strong> Se deben cambiar a un tiesto mayor cada dos años. </li> <br> <li><strong>Enemigos:</strong> La cochinilla algodonosa y la botrytis, que provoca podredumbre y aparece cuando el sustrato está demasiado mojado.</li></ul>",
   },
+  {
+    id: 19,
+    title: "Aloe Maculata",
+    url: "aloe_maculata.html",
+    category: "suculenta",
+    price: "$13",
+    img: "../plantas/img/planta19_1.JPG",
+    img2: "../plantas/img/planta19_2.JPG",
+    img3: "../plantas/img/planta19_3.JPG",
+    desc:
+      "Son plantas suculentas con hojas dispuestas en roseta de hasta unos 8 cm de diámetro. Sus hojas son de color verde oscuro con manchas blancas en el envés, pequeñas protuberancias en el haz, presentan espinas en el margen y en la punta tienen una especie de fibra blanca que parece un pelo. Las flores son poco aparentes y no tienen interés decorativo.",
+    care:
+      "<ul><li><strong>Luz:</strong> La exposición ideal es de semisombra.</li> <br><li><Strong>Suelo: </strong>podría ser una mezcla de 1/3 de tierra de jardín suelta y ligera, 1/3 de arena gruesa silícea y otro tercio de turba con mantillo de hojas.</li> <br> <li><strong>Riego:</strong> Regar de forma moderada teniendo en cuenta que resisten bien la sequía; aumentar ligeramente los riegos en verano pero siempre esperar a que se seque la tierra antes de aportar más agua.</li></ul>",
+  },
 ];
 
 export { data };
