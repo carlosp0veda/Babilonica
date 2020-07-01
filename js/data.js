@@ -231,7 +231,21 @@ const data = [
     desc:
       "De las más bonitas e imponentes, sus hojas brillantes tienen tonos en verde claro con las nervaduras y tallo en color blanco. Las hojas pueden ser más anchas o más largas y estrechas, pero siempre acabadas en punta. Las matas pueden alzarse hasta el metro de altura, también existen variedades compactas de 13 a 17 centímetros, lo que facilita el placer de coleccionarlas. Además, combinan y conviven bien con otras plantas de interior de similares requerimientos.",
     care:
-      "<ul><li><strong>Luz:</strong> Prefieren la sombra o la semisombra. El exceso de sol decolora y quema las hojas.</li> <br> <li><strong>Riego:</strong> Las aglaonemas necesitan una atmósfera húmeda para que los bordes y puntas de las hojas no se resequen y acartonen. Conviene pulverizarlas con agua. En cambio, precisan riego moderado, y más espaciado en invierno. El encharcamiento les resulta muy perjudicial.</li> <br> <li><strong>Abonado:</strong> Cada 15 días, de marzo a septiembre, precisan abono para plantas de interior.</li> <br> <li><strong>Trasplante:</strong> Se deben cambiar a un tiesto mayor cada dos años. De paso se pueden obtener esquejes para multipicarlas.</li> <br> <li><strong>Enemigos:</strong> La cochinilla algodonosa y la botrytis, que provoca podredumbre y aparece cuando el sustrato está demasiado mojado.</li></ul>",
+      "<ul><li><strong>Luz:</strong> Prefieren la sombra o la semisombra. El exceso de sol decolora y quema las hojas.</li> <br>  <li><strong>Riego:</strong> Las aglaonemas necesitan una atmósfera húmeda para que los bordes y puntas de las hojas no se resequen y acartonen. Conviene pulverizarlas con agua. En cambio, precisan riego moderado, y más espaciado en invierno. El encharcamiento les resulta muy perjudicial.</li> <br> <li><strong>Suelo:</strong> Tiene que drenar muy bien para lo cual puede servir un sustrato comercial para cactus o una mezcla, a partes iguales, de arena silícea, mantillo de hojas y turba rubia.</li> <br> <li><strong>Trasplante:</strong> Se deben cambiar a un tiesto mayor cada dos años. De paso se pueden obtener esquejes para multipicarlas.</li> <br> <li><strong>Enemigos:</strong> Suelen verse libres de plagas pero son sensibles al exceso de humedad.</li></ul>",
+  },
+  {
+    id: 18,
+    title: "Haworthia Herbacea",
+    url: "haworthia_herbacea.html",
+    category: "suculenta",
+    price: "$20",
+    img: "../plantas/img/planta18_1.JPG",
+    img2: "../plantas/img/planta18_2.JPG",
+    img3: "../plantas/img/planta18_3.JPG",
+    desc:
+      "Son plantas suculentas con hojas dispuestas en roseta de hasta unos 8 cm de diámetro. Sus hojas son de color verde oscuro con manchas blancas en el envés, pequeñas protuberancias en el haz, presentan espinas en el margen y en la punta tienen una especie de fibra blanca que parece un pelo. Las flores son poco aparentes y no tienen interés decorativo.",
+    care:
+      "<ul><li><strong>Luz:</strong> prefiere una exposición de semisombra ya que el pleno sol puede quemar las puntas de las hojas.</li> <br> <li><strong>Riego:</strong> Regar de forma moderada esperando a que se haya secado bien la tierra; si la planta necesita agua se le ponen marrones las puntas de las hojas. Estas plantas tienen su periodo de reposo en verano por lo que se reducirán drásticamente los riegos. En época lluviosa regar una vez al mes como mucho.</li> <br> <li><strong>Trasplante:</strong> Se deben cambiar a un tiesto mayor cada dos años. </li> <br> <li><strong>Enemigos:</strong> La cochinilla algodonosa y la botrytis, que provoca podredumbre y aparece cuando el sustrato está demasiado mojado.</li></ul>",
   },
 ];
 
