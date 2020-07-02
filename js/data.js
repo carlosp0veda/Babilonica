@@ -317,6 +317,20 @@ const data = [
     care:
       "<ul><li><strong>Luz:</strong> Necesita una alta exposición a luz y pleno sol.</li> <br><li><strong>Suelo: </strong>se cultivará en un suelo formado, a partes iguales, de turba, arena y mantillo.</li> <br> <li> <strong>Riego: </strong>Para el riego debe ser considerada como una planta suculenta. Se riega sólo cuando el sustrato se seca. No hace falta exagerar con el agua porque el rizoma se pudriría.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
   },
+  {
+    id: 24,
+    title: "Stapelia Grandiflora",
+    url: "stapelia_grandiflora.html",
+    category: "ornamental",
+    price: "$15",
+    img: "../plantas/img/planta24_1.jpg",
+    img2: "../plantas/img/planta24_2.jpg",
+    img3: "../plantas/img/planta24_3.jpg",
+    desc:
+      "Las <em>Stapelias</em> son plantas suculentas, muy ambicionadas por los apasionados por las plantas, ya que no puede faltar en sus colecciones las flores espectaculares y únicas caracterísitcas de estas especies. La<em> S. Grandiflora </em>es considerada la más bonita entre las especies de este género.  <br><br> Es una planta que desarrolla tallos robustos de hasta 30 cm de alto. Las flores son anchas, hasta de 15 cm de diámetro, de color morado oscuro-castaño y con pelos blancos bastante largos a lo largo de los márgenes de la flor.",
+    care:
+      "<ul><li><strong>Luz:</strong>  Las <em>Stapelia</em> como todas las plantas suculentas quieren el sol en todos los períodos del año. Más bien en este caso el sol es una condición indispensable para estimular la floración. Lo que es un límite para estas plantas son las temperaturas mínimas que no tienen que bajar de 10-13°C.</li> <br><li><strong>Suelo: </strong>Utilice un terreno compuesto por mantillo para cactáceas y arena gruesa a partes iguales y tenga cuidado de colocar sobre el fondo de la maceta trozos de barro cocido de modo que favorezca un drenaje óptimo del agua de riego, fundamental para esta planta.</li> <br> <li> <strong>Riego: </strong> En época seca se riega sólo cuando el sustrato se seca. No estancar el agua durante el riego. Durante el período lluvioso los riegos deben ser reducidos manteniendo el terreno levemente húmedo, nunca completamente seco porque los tallos se marchitarían rápidamente. Sólo si las temperaturas se hunden sensiblemente hace falta reducir ulteriormente los riegos.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
+  },
 ];
 
 export { data };
