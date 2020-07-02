@@ -180,8 +180,8 @@ const data = [
   },
   {
     id: 14,
-    title: "Haworthia Spiralis",
-    url: "haworthia_spiralis.html",
+    title: "Haworthia Limifolia Spiralis",
+    url: "haworthia_limifolia_spiralis.html",
     category: "suculenta",
     price: "$12",
     img: "../plantas/img/planta14_1.JPG",
