@@ -291,15 +291,15 @@ const data = [
   },
   {
     id: 22,
-    title: "Sedums Adolphii & Golden Glow",
-    url: "sedums_adolphii_golden_glow.html",
+    title: "Sedums Adolphii",
+    url: "sedums_adolphii.html",
     category: "suculenta",
     price: "$15",
     img: "../plantas/img/planta22_1.jpg",
     img2: "../plantas/img/planta22_2.jpg",
     img3: "../plantas/img/planta22_3.jpg",
     desc:
-      "Esta especie se caracteriza por formar pequeños arbustos (es una planta subarbustiva) con tallos ramificados y rastreros o colgantes (los tallos más pequeños mantienen un porte erecto temporal). Generalmente crece sobre sustratos rocosos a los cuales se adhiere fuertemente. El follaje se caracteriza por tener forma lanceolada con un ligera inclinación hacia arriba y presentar una coloración verde clara que puede tornarse rojiza (específicamente color cobre) si recibe mucha luz.",
+      "Estas especies se caracterizan por formar pequeños arbustos (es una planta subarbustiva) con tallos ramificados y rastreros o colgantes (los tallos más pequeños mantienen un porte erecto temporal). Generalmente crece sobre sustratos rocosos a los cuales se adhiere fuertemente. El follaje se caracteriza por tener forma lanceolada con un ligera inclinación hacia arriba y presentar una coloración verde clara que puede tornarse rojiza (específicamente color cobre) si recibe mucha luz.",
     care:
       "<ul><li><strong>Luz:</strong> Es imprescindible una intensa iluminación para que el follaje tome una coloración rojiza. Esta especie tolera la exposición directa al sol durante todo el año (solo se debe resguardar un poco del sol intenso del mediodía en verano) aunque también crece sin problemas a semisombra.</li> <br><li><strong>Suelo: </strong>Prefiere crecer en sustratos rocosos pero es muy tolerante a cualquier otro tipo. Es imprescindible una buena permeabilidad de estos para evitar pudriciones de las raíces.</li> <br> <li> <strong>Riego: </strong>Es una planta que necesita muy poca agua para sobrevivir durante todo el año. En épocas cálidas se debe regar solo cuando el sustrato se haya secado por completo. En invierno el riego debe ser reducido o totalmente suspendido para evitar pudriciones.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
   },
