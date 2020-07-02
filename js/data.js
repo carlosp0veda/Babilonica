@@ -277,10 +277,10 @@ const data = [
   },
   {
     id: 21,
-    title: "Kalanchoe Tomentosa",
+    title: "Kalanchoe Tomentosa 2",
     url: "kalanchoe_tomentosa_2.html",
     category: "suculenta",
-    price: "Vendida",
+    price: "$15",
     img: "../plantas/img/planta21_1.jpg",
     img2: "../plantas/img/planta21_2.jpg",
     img3: "../plantas/img/planta21_3.jpg",
