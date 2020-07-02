@@ -235,17 +235,17 @@ const data = [
   },
   {
     id: 18,
-    title: "Haworthia Herbacea",
-    url: "haworthia_herbacea.html",
+    title: "Aristaloe Aristata",
+    url: "aristaloe_aristata.html",
     category: "suculenta",
     price: "$20",
     img: "../plantas/img/planta18_1.JPG",
     img2: "../plantas/img/planta18_2.JPG",
     img3: "../plantas/img/planta18_3.JPG",
     desc:
-      "Son plantas suculentas con hojas dispuestas en roseta de hasta unos 8 cm de diámetro. Sus hojas son de color verde oscuro con manchas blancas en el envés, pequeñas protuberancias en el haz, presentan espinas en el margen y en la punta tienen una especie de fibra blanca que parece un pelo. Las flores son poco aparentes y no tienen interés decorativo.",
+      "Se conoce por los nombres vulgares de Antorcha, Planta Antorcha o Antorchas. <br> <br> Se trata de pequeñas plantas suculentas de porte cubridor que no superan los 20-30 cm de altura. Las hojas son de color verde oscuro; presentan espinas y tubérculos blancos y cerdas en el ápice. Producen flores tubulares y de color naranja que atraen a las abejas por su néctar.",
     care:
-      "<ul><li><strong>Luz:</strong> prefiere una exposición de semisombra ya que el pleno sol puede quemar las puntas de las hojas.</li> <br> <li><strong>Riego:</strong> Regar de forma moderada esperando a que se haya secado bien la tierra; si la planta necesita agua se le ponen marrones las puntas de las hojas. Estas plantas tienen su periodo de reposo en verano por lo que se reducirán drásticamente los riegos. En época lluviosa regar una vez al mes como mucho.</li> <br> <li><strong>Trasplante:</strong> Se deben cambiar a un tiesto mayor cada dos años. </li> <br> <li><strong>Enemigos:</strong> La cochinilla algodonosa y la botrytis, que provoca podredumbre y aparece cuando el sustrato está demasiado mojado.</li></ul>",
+      "<ul><li><strong>Luz:</strong> prefiere una exposición de semisombra ya que el pleno sol puede quemar las puntas de las hojas.</li> <br> <li><strong>Suelo: </strong> Seco y arenoso es el ideal para estas plantas pues necesitan un buen drenaje.</li> <br> <li><strong>Riego:</strong> Regar de forma moderada esperando a que se haya secado bien la tierra; si la planta necesita agua se le ponen marrones las puntas de las hojas. Estas plantas tienen su periodo de reposo en verano por lo que se reducirán drásticamente los riegos. En época lluviosa regar una vez al mes como mucho.</li> <br> <li><strong>Enemigos:</strong> El exceso de riego que provoca pudrición de las raíces y amarilleo de las hojas. Si sufre sequía prolongada se marchitan las hojas.</li></ul>",
   },
   {
     id: 19,
@@ -260,6 +260,34 @@ const data = [
       "Son plantas suculentas con hojas dispuestas en roseta de hasta unos 8 cm de diámetro. Sus hojas son de color verde oscuro con manchas blancas en el envés, pequeñas protuberancias en el haz, presentan espinas en el margen y en la punta tienen una especie de fibra blanca que parece un pelo. Las flores son poco aparentes y no tienen interés decorativo.",
     care:
       "<ul><li><strong>Luz:</strong> La exposición ideal es de semisombra.</li> <br><li><Strong>Suelo: </strong>podría ser una mezcla de 1/3 de tierra de jardín suelta y ligera, 1/3 de arena gruesa silícea y otro tercio de turba con mantillo de hojas.</li> <br> <li><strong>Riego:</strong> Regar de forma moderada teniendo en cuenta que resisten bien la sequía; aumentar ligeramente los riegos en verano pero siempre esperar a que se seque la tierra antes de aportar más agua.</li></ul>",
+  },
+  {
+    id: 20,
+    title: "Alworthia 'Black Gem'",
+    url: "alworthia_blackgem.html",
+    category: "suculenta",
+    price: "$13",
+    img: "../plantas/img/planta20_1.JPG",
+    img2: "../plantas/img/planta20_2.JPG",
+    img3: "../plantas/img/planta20_3.JPG",
+    desc:
+      "Es un híbrido intergenérico obtenido mediante el cruce de las plantas <strong><i>Aloe Speciosa</i></strong> y <strong><i>Haworthia Cymbiformis.</i></strong> Este híbrido fue obtenido por el hombre debido a que la hibridación natural entre las especies de estos dos géneros es extremadamente rara. Es una planta muy apreciada en las colecciones debido a la belleza de sus hojas (diferentes tonalidades de colores en dependencia de la intensidad lumínica que reciban), fácil cultivo y multiplicación.",
+    care:
+      "<ul><li><strong>Luz:</strong> Agradece la exposición duradera a fuentes de iluminación intensa tolerando incluso el sol directo. En verano se aconseja protegerla del sol directo del mediodía en los países tropicales para evitar posibles quemaduras del follaje.</li> <br><li><Strong>Suelo: </strong>Nosotras recomendamos una mezcla formada por 2/3 de materia orgánica desinfectada y 1/3 de gravilla o arena gruesa para favorecer el drenaje.</li> <br> <li><strong>Riego:</strong> Regar preferiblemente en estaciones cálidas luego de seco el sustrato y reducir considerablemente el riego cuando las temperaturas sean inferiores a los 10⁰C. Los riegos deben ser profundos pero sin encharcar nunca el sustrato para evitar pudriciones de las raíces.</li> <br> <li><strong>Enemigos: </strong> Es atacada con frecuencia por caracoles y babosas que devoran secciones de hojas o plantas enteras en pocas horas (mantener la planta elevada si son frecuentes en el jardín). Sufre afectaciones por cochinillas que se alojan principalmente en la base de las hojas.</li></ul>",
+  },
+  {
+    id: 21,
+    title: "Kalanchoe Tomentosa",
+    url: "kalanchoe_tomentosa_2.html",
+    category: "suculenta",
+    price: "Vendida",
+    img: "../plantas/img/planta21_1.jpg",
+    img2: "../plantas/img/planta21_2.jpg",
+    img3: "../plantas/img/planta21_3.jpg",
+    desc:
+      "Popularmente conocida como Oreja de Panda. Es una suculenta bien resistente, fácil de cultivar tanto en interiores como exteriores.",
+    care:
+      "Necesitan una exposición a pleno sol y, gracias a sus pelillos, resisten bien la insolación. No le convienen temperaturas inferiores a 8 ºC, siendo su temperatura ideal en invierno de unos 10 ºC. El calanchoe aterciopelado se cultivará en un suelo formado, a partes iguales, de turba, arena y mantillo. Son plantas resistentes a la sequía que sólo necesitan un moderado riego semanal durante todo el año, menos en invierno que será cada 2 semanas.",
   },
 ];
 

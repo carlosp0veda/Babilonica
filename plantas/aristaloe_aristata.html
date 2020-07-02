@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="/css/img/favicon.svg" />
+    <link href="/fas/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="/Fonts/font.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Muli|Roboto|Balsamiq+Sans|Raleway|Montserrat|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <title>Aristaloe Aristata</title>
+  </head>
+
+  <body>
+    <!-- pre loader -->
+    <!-- <div class="preloader">
+      <img data-lazy="../css/img/preloader.gif" class="preloader_item" />
+    </div> -->
+    <!-- end preloader -->
+
+    <!-- top nav -->
+    <nav class="nav-top" id="nav-top">
+      <ul class="navlinks-top">
+        <li class="topnav-item">
+          <ul class="navlinks-top-left">
+            <li class="link-item">
+              <a href="../index.html" class="top_nav_single_link">Inicio</a>
+            </li>
+            <li class="link-item">
+              <a href="../plantas.html" class="top_nav_single_link">Plantas</a>
+            </li>
+          </ul>
+        </li>
+        <li class="topnav-item">
+          <div class="topnav_logo_container">
+            <a href="../index.html"
+              ><img
+                data-lazy="/css/img/logo1.png"
+                class="top-nav-logo"
+                alt="Babilonica"
+            /></a>
+          </div>
+        </li>
+        <li class="topnav-item">
+          <ul class="navlinks-top-right">
+            <li class="link-item">
+              <a href="../about.html" class="top_nav_single_link">Nosotras</a>
+            </li>
+            <li class="link-item">
+              <a href="../contact.html" class="top_nav_single_link">contacto</a>
+            </li>
+            <!-- <li><a href="#blog" class="top_nav_single_link">blog</a></li> -->
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- end top nav -->
+
+    <!-- nav mobile  -->
+    <!-- nav btn -->
+    <div class="navBtn"><i class="fas fa-bars"></i></div>
+    <!-- end nav btn -->
+    <nav class="nav">
+      <ul class="navlinks">
+        <li>
+          <div class="top_logo_container">
+            <a href="../index.html"
+              ><img
+                data-lazy="/css/img/logo.png"
+                class="nav-logo"
+                alt="Babilonica"
+              />
+            </a>
+          </div>
+        </li>
+        <li><a href="../index.html" class="nav_single_link">inicio</a></li>
+        <li><a href="../about.html" class="nav_single_link">nosotras</a></li>
+        <li><a href="../plantas.html" class="nav_single_link">plantas</a></li>
+        <li><a href="../contact.html" class="nav_single_link">contacto</a></li>
+        <!-- <li><a href="#blog" class="nav_single_link">blog</a></li> -->
+        <li>
+          <div class="mobile_icons" id="mobile-icons">
+            <div class="nav-icon-wrapper">
+              <a
+                href="https://www.facebook.com/babilonica.ni/"
+                class="mobile_social_icon"
+                target="_blank"
+                ><i class="fab fa-facebook fa-fw"></i
+              ></a>
+            </div>
+            <div class="nav-icon-wrapper">
+              <a
+                href="https://www.instagram.com/babilonica.ni/"
+                class="mobile_social_icon"
+                target="_blank"
+                ><i class="fab fa-instagram fa-fw"></i
+              ></a>
+            </div>
+            <div class="nav-icon-wrapper">
+              <a href="https://wa.me/50578214564" class="mobile_social_icon"
+                ><i class="fab fa-whatsapp fa-fw"></i
+              ></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- end nav -->
+
+    <div class="top-logo-padding">
+      <a href="../index.html"
+        ><img
+          data-lazy="/css/img/logo.png"
+          class="top-nav-logo"
+          alt="Babilonica"
+      /></a>
+    </div>
+
+    <main class="plant-wrapper"></main>
+
+    <!-- footer -->
+    <footer class="footer-container">
+      <div class="contact-info-container">
+        <ul class="contact-info-list">
+          <li class="info-bullet schedule-bullet">
+            <h2 class="footer-info-title">Horarios de atención</h2>
+            <p class="footer-info-text">
+              Lunes - Viernes: 9:00am - 6:00pm
+              <br />
+              Sábado: 10:00am - 3:00pm <br />
+              Domingo: Cerrado
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_content">
+        <p class="footer-text">Copyright &copy 2020 Babilonica</p>
+        <div class="footer_icons" id="footer-icons">
+          <a
+            href="https://www.facebook.com/babilonica.ni/"
+            class="footer_social_icon"
+            target="_blank"
+            ><i class="fab fa-facebook fa-fw"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/babilonica.ni/"
+            class="footer_social_icon"
+            target="_blank"
+            ><i class="fab fa-instagram fa-fw"></i
+          ></a>
+          <a href="https://wa.me/50578214564" class="footer_social_icon"
+            ><i class="fab fa-whatsapp fa-fw"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script type="module" src="../js/product.js"></script>
+    <script src="../js/gallery.js"></script>
+  </body>
+  <script type="text/javascript">
+    const targets = document.querySelectorAll("img");
+
+    const lazyLoad = (target) => {
+      const io = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            const src = img.getAttribute("data-lazy");
+
+            img.setAttribute("src", src);
+            observer.disconnect();
+          }
+        });
+      });
+
+      io.observe(target);
+    };
+
+    targets.forEach(lazyLoad);
+
+    EventListener();
+    function EventListener() {
+      const ui = new UI();
+      // window list
+
+      // window.addEventListener("load", function () {
+      //   ui.hidePreloader();
+      // });
+
+      // nav btn
+
+      document.querySelector(".navBtn").addEventListener("click", function () {
+        ui.showNav();
+      });
+    }
+
+    function UI() {}
+
+    // hide preloader
+    // UI.prototype.hidePreloader = function () {
+    //   document.querySelector(".preloader").style.display = "none";
+    // };
+
+    // show Nav
+    UI.prototype.showNav = function () {
+      document.querySelector(".nav").classList.toggle("nav-show");
+    };
+  </script>
+</html>
