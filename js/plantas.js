@@ -55,10 +55,10 @@ filterBtns.forEach(function (btn) {
     });
 
     if (category === "todas") {
-      displayMenuItems(catalogo);
+      displayMenuItems(catalogo.reverse());
       lazyLoad();
     } else {
-      displayMenuItems(menuCategory);
+      displayMenuItems(menuCategory.reverse());
       lazyLoad();
     }
   });
