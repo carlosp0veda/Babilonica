@@ -12,10 +12,16 @@
       href="https://fonts.googleapis.com/css?family=Lato|Muli|Roboto|Balsamiq+Sans|Raleway|Montserrat|Ubuntu&display=swap"
       rel="stylesheet"
     />
-    <title>Kalanchoe Tomentosa x2</title>
+    <title>Sansevieria Trifasciata</title>
   </head>
 
   <body>
+    <!-- pre loader -->
+    <!-- <div class="preloader">
+      <img data-lazy="../css/img/preloader.gif" class="preloader_item" />
+    </div> -->
+    <!-- end preloader -->
+
     <!-- top nav -->
     <nav class="nav-top" id="nav-top">
       <ul class="navlinks-top">
@@ -183,18 +189,23 @@
       const ui = new UI();
       // window list
 
+      // window.addEventListener("load", function () {
+      //   ui.hidePreloader();
+      // });
+
       // nav btn
 
       document.querySelector(".navBtn").addEventListener("click", function () {
         ui.showNav();
       });
-
-      //  document.querySelectorAll(".side-photo").addEventListener("click", function() {
-      //    ui.changeMainPhoto();
-      //  })
     }
 
     function UI() {}
+
+    // hide preloader
+    // UI.prototype.hidePreloader = function () {
+    //   document.querySelector(".preloader").style.display = "none";
+    // };
 
     // show Nav
     UI.prototype.showNav = function () {

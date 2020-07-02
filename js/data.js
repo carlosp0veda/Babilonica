@@ -196,7 +196,7 @@ const data = [
     id: 15,
     title: "Haworthia Attenuata",
     url: "haworthia_attenuata.html",
-    category: "suculentas",
+    category: "suculenta",
     price: "$12",
     img: "../plantas/img/planta15_1.JPG",
     img2: "../plantas/img/planta15_2.JPG",
@@ -277,7 +277,7 @@ const data = [
   },
   {
     id: 21,
-    title: "Kalanchoe Tomentosa 2",
+    title: "Kalanchoe Tomentosa x2",
     url: "kalanchoe_tomentosa_2.html",
     category: "suculenta",
     price: "$15",
@@ -285,9 +285,37 @@ const data = [
     img2: "../plantas/img/planta21_2.jpg",
     img3: "../plantas/img/planta21_3.jpg",
     desc:
-      "Popularmente conocida como Oreja de Panda. Es una suculenta bien resistente, fácil de cultivar tanto en interiores como exteriores.",
+      "Popularmente conocida como Oreja de Panda. Es una suculenta bien resistente, fácil de cultivar tanto en interiores como exteriores. Porque dos es mejor que una.",
     care:
       "<ul><li><strong>Luz:</strong> Necesitan una exposición a pleno sol y, gracias a sus pelillos, resisten bien la insolación.</li> <br><li><Strong>Suelo: </strong>se cultivará en un suelo formado, a partes iguales, de turba, arena y mantillo.</li> <br> <li> <strong>Riego: </strong>Son plantas resistentes a la sequía que sólo necesitan un moderado riego semanal durante todo el año, menos en invierno que será cada 2 semanas.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
+  },
+  {
+    id: 22,
+    title: "Sedums Adolphii & Golden Glow",
+    url: "sedums_adolphii_golden_glow.html",
+    category: "suculenta",
+    price: "$15",
+    img: "../plantas/img/planta22_1.jpg",
+    img2: "../plantas/img/planta22_2.jpg",
+    img3: "../plantas/img/planta22_3.jpg",
+    desc:
+      "Esta especie se caracteriza por formar pequeños arbustos (es una planta subarbustiva) con tallos ramificados y rastreros o colgantes (los tallos más pequeños mantienen un porte erecto temporal). Generalmente crece sobre sustratos rocosos a los cuales se adhiere fuertemente. El follaje se caracteriza por tener forma lanceolada con un ligera inclinación hacia arriba y presentar una coloración verde clara que puede tornarse rojiza (específicamente color cobre) si recibe mucha luz.",
+    care:
+      "<ul><li><strong>Luz:</strong> Es imprescindible una intensa iluminación para que el follaje tome una coloración rojiza. Esta especie tolera la exposición directa al sol durante todo el año (solo se debe resguardar un poco del sol intenso del mediodía en verano) aunque también crece sin problemas a semisombra.</li> <br><li><strong>Suelo: </strong>Prefiere crecer en sustratos rocosos pero es muy tolerante a cualquier otro tipo. Es imprescindible una buena permeabilidad de estos para evitar pudriciones de las raíces.</li> <br> <li> <strong>Riego: </strong>Es una planta que necesita muy poca agua para sobrevivir durante todo el año. En épocas cálidas se debe regar solo cuando el sustrato se haya secado por completo. En invierno el riego debe ser reducido o totalmente suspendido para evitar pudriciones.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
+  },
+  {
+    id: 23,
+    title: "Sansevieria Trifasciata",
+    url: "sansevieria_trifasciata.html",
+    category: "ornamental",
+    price: "$15",
+    img: "../plantas/img/planta23_1.jpg",
+    img2: "../plantas/img/planta23_2.jpg",
+    img3: "../plantas/img/planta23_3.jpg",
+    desc:
+      'Popularmente conocida como "lengua de suegra", es originaria de África Occidental. Presenta hojas carnosas, sésiles, sin pecíolo, estrechas y largas, jaspeadas de verde y de blanco, con el borde amarillo. Esta planta merece alguna mención más porque se trata de una quimera, es decir que las células de su ápice vegetativo mutan presentando un número de cromosomas diferente de lo normal. En la práctica existe una alternancia entre las células normales y las células mutadas. De hecho, el borde blanco / amarillo corresponde a las células mutadas, carentes de clorofila, que se encuentran entre los tejidos normales formados por las células normales.',
+    care:
+      "<ul><li><strong>Luz:</strong> Necesita una alta exposición a luz y pleno sol.</li> <br><li><strong>Suelo: </strong>se cultivará en un suelo formado, a partes iguales, de turba, arena y mantillo.</li> <br> <li> <strong>Riego: </strong>Para el riego debe ser considerada como una planta suculenta. Se riega sólo cuando el sustrato se seca. No hace falta exagerar con el agua porque el rizoma se pudriría.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
   },
 ];
 
