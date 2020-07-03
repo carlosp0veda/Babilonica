@@ -194,8 +194,8 @@ const data = [
   },
   {
     id: 15,
-    title: "Haworthia Attenuata",
-    url: "haworthia_attenuata.html",
+    title: 'Aloe "Tiki Thai"',
+    url: "aloe_tiki_thai.html",
     category: "suculenta",
     price: "$12",
     img: "../plantas/img/planta15_1.JPG",
@@ -255,7 +255,7 @@ const data = [
     price: "$13",
     img: "../plantas/img/planta19_1.JPG",
     img2: "../plantas/img/planta19_2.JPG",
-    img3: "../plantas/img/planta19_3.JPG",
+    img3: null,
     desc:
       "Son plantas suculentas con hojas dispuestas en roseta de hasta unos 8 cm de diámetro. Sus hojas son de color verde oscuro con manchas blancas en el envés, pequeñas protuberancias en el haz, presentan espinas en el margen y en la punta tienen una especie de fibra blanca que parece un pelo. Las flores son poco aparentes y no tienen interés decorativo.",
     care:
@@ -291,10 +291,10 @@ const data = [
   },
   {
     id: 22,
-    title: "Sedums Adolphii / Nussbaumerianum",
+    title: "Sedums Adolphii / Dorado",
     url: "sedums_adolphii.html",
     category: "suculenta",
-    price: "$15",
+    price: "$20",
     img: "../plantas/img/planta22_1.jpg",
     img2: "../plantas/img/planta22_2.jpg",
     img3: "../plantas/img/planta22_3.jpg",
@@ -313,7 +313,7 @@ const data = [
     img2: "../plantas/img/planta23_2.jpg",
     img3: "../plantas/img/planta23_3.jpg",
     desc:
-      'Popularmente conocida como "lengua de suegra", es originaria de África Occidental. Presenta hojas carnosas, sésiles, sin pecíolo, estrechas y largas, jaspeadas de verde y de blanco, con el borde amarillo. Esta planta merece alguna mención más porque se trata de una quimera, es decir que las células de su ápice vegetativo mutan presentando un número de cromosomas diferente de lo normal. En la práctica existe una alternancia entre las células normales y las células mutadas. De hecho, el borde blanco / amarillo corresponde a las células mutadas, carentes de clorofila, que se encuentran entre los tejidos normales formados por las células normales.',
+      'Popularmente conocida como "lengua de suegra", es originaria de África Occidental. Presenta hojas carnosas, sésiles, sin pecíolo, estrechas y largas, jaspeadas de verde y de blanco, con el borde amarillo. <br><br>Esta planta merece alguna mención más porque se trata de una quimera, es decir que las células de su ápice vegetativo mutan presentando un número de cromosomas diferente de lo normal. En la práctica existe una alternancia entre las células normales y las células mutadas. De hecho, el borde blanco / amarillo corresponde a las células mutadas, carentes de clorofila, que se encuentran entre los tejidos normales formados por las células normales.',
     care:
       "<ul><li><strong>Luz:</strong> Necesita una alta exposición a luz y pleno sol.</li> <br><li><strong>Suelo: </strong>se cultivará en un suelo formado, a partes iguales, de turba, arena y mantillo.</li> <br> <li> <strong>Riego: </strong>Para el riego debe ser considerada como una planta suculenta. Se riega sólo cuando el sustrato se seca. No hace falta exagerar con el agua porque el rizoma se pudriría.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
   },
@@ -336,7 +336,7 @@ const data = [
     title: "Aloe Juvenna",
     url: "aloe_juvenna.html",
     category: "suculenta",
-    price: "$18",
+    price: "$13",
     img: "../plantas/img/planta25_1.JPG",
     img2: "../plantas/img/planta25_2.JPG",
     img3: "../plantas/img/planta25_3.JPG",
