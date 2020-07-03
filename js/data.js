@@ -221,8 +221,8 @@ const data = [
   },
   {
     id: 17,
-    title: "Aloe Juvenna",
-    url: "aloe_juvenna.html",
+    title: "Aloes Juvennas",
+    url: "aloes_juvennas.html",
     category: "suculenta",
     price: "$20",
     img: "../plantas/img/planta17_1.JPG",
@@ -277,21 +277,21 @@ const data = [
   },
   {
     id: 21,
-    title: "Kalanchoe Tomentosa x2",
-    url: "kalanchoe_tomentosa_2.html",
+    title: "Kalanchoes Tomentosas",
+    url: "kalanchoes_tomentosas.html",
     category: "suculenta",
     price: "$15",
     img: "../plantas/img/planta21_1.jpg",
     img2: "../plantas/img/planta21_2.jpg",
     img3: "../plantas/img/planta21_3.jpg",
     desc:
-      "Popularmente conocida como Oreja de Panda. Es una suculenta bien resistente, fácil de cultivar tanto en interiores como exteriores. Porque dos es mejor que una.",
+      "Popularmente conocidas como Oreja de Panda. Es una suculenta bien resistente, fácil de cultivar tanto en interiores como exteriores. Porque dos es mejor que una.",
     care:
       "<ul><li><strong>Luz:</strong> Necesitan una exposición a pleno sol y, gracias a sus pelillos, resisten bien la insolación.</li> <br><li><Strong>Suelo: </strong>se cultivará en un suelo formado, a partes iguales, de turba, arena y mantillo.</li> <br> <li> <strong>Riego: </strong>Son plantas resistentes a la sequía que sólo necesitan un moderado riego semanal durante todo el año, menos en invierno que será cada 2 semanas.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
   },
   {
     id: 22,
-    title: "Sedums Adolphii",
+    title: "Sedums Adolphii / Nussbaumerianum",
     url: "sedums_adolphii.html",
     category: "suculenta",
     price: "$15",
@@ -333,8 +333,8 @@ const data = [
   },
   {
     id: 25,
-    title: "Aloe Juvenna 2",
-    url: "aloe_juvenna_2.html",
+    title: "Aloe Juvenna",
+    url: "aloe_juvenna.html",
     category: "suculenta",
     price: "$15",
     img: "../plantas/img/planta25_1.JPG",
@@ -344,6 +344,20 @@ const data = [
       "De las más bonitas e imponentes, sus hojas brillantes tienen tonos en verde claro con las nervaduras y tallo en color blanco. Las hojas pueden ser más anchas o más largas y estrechas, pero siempre acabadas en punta. Las matas pueden alzarse hasta el metro de altura, también existen variedades compactas de 13 a 17 centímetros, lo que facilita el placer de coleccionarlas. Además, combinan y conviven bien con otras plantas de interior de similares requerimientos.",
     care:
       "<ul><li><strong>Luz:</strong> Prefieren la sombra o la semisombra. El exceso de sol decolora y quema las hojas.</li> <br>  <li><strong>Riego:</strong> Las aglaonemas necesitan una atmósfera húmeda para que los bordes y puntas de las hojas no se resequen y acartonen. Conviene pulverizarlas con agua. En cambio, precisan riego moderado, y más espaciado en invierno. El encharcamiento les resulta muy perjudicial.</li> <br> <li><strong>Suelo:</strong> Tiene que drenar muy bien para lo cual puede servir un sustrato comercial para cactus o una mezcla, a partes iguales, de arena silícea, mantillo de hojas y turba rubia.</li> <br> <li><strong>Trasplante:</strong> Se deben cambiar a un tiesto mayor cada dos años. De paso se pueden obtener esquejes para multipicarlas.</li> <br> <li><strong>Enemigos:</strong> Suelen verse libres de plagas pero son sensibles al exceso de humedad.</li></ul>",
+  },
+  {
+    id: 26,
+    title: "Sedum Pachyphyllum",
+    url: "sedum_pachyphyllum.html",
+    category: "suculenta",
+    price: "$15",
+    img: "../plantas/img/planta22_1.jpg",
+    img2: "../plantas/img/planta22_2.jpg",
+    img3: "../plantas/img/planta22_3.jpg",
+    desc:
+      "Estas especies se caracterizan por formar pequeños arbustos (es una planta subarbustiva) con tallos ramificados y rastreros o colgantes (los tallos más pequeños mantienen un porte erecto temporal). Generalmente crece sobre sustratos rocosos a los cuales se adhiere fuertemente. El follaje se caracteriza por tener forma lanceolada con un ligera inclinación hacia arriba y presentar una coloración verde clara que puede tornarse rojiza (específicamente color cobre) si recibe mucha luz.",
+    care:
+      "<ul><li><strong>Luz:</strong> Es imprescindible una intensa iluminación para que el follaje tome una coloración rojiza. Esta especie tolera la exposición directa al sol durante todo el año (solo se debe resguardar un poco del sol intenso del mediodía en verano) aunque también crece sin problemas a semisombra.</li> <br><li><strong>Suelo: </strong>Prefiere crecer en sustratos rocosos pero es muy tolerante a cualquier otro tipo. Es imprescindible una buena permeabilidad de estos para evitar pudriciones de las raíces.</li> <br> <li> <strong>Riego: </strong>Es una planta que necesita muy poca agua para sobrevivir durante todo el año. En épocas cálidas se debe regar solo cuando el sustrato se haya secado por completo. En invierno el riego debe ser reducido o totalmente suspendido para evitar pudriciones.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
   },
 ];
 
