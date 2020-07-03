@@ -299,7 +299,7 @@ const data = [
     img2: "../plantas/img/planta22_2.jpg",
     img3: "../plantas/img/planta22_3.jpg",
     desc:
-      "Estas especies se caracterizan por formar pequeños arbustos (es una planta subarbustiva) con tallos ramificados y rastreros o colgantes (los tallos más pequeños mantienen un porte erecto temporal). Generalmente crece sobre sustratos rocosos a los cuales se adhiere fuertemente. El follaje se caracteriza por tener forma lanceolada con un ligera inclinación hacia arriba y presentar una coloración verde clara que puede tornarse rojiza (específicamente color cobre) si recibe mucha luz.",
+      "La pieza combina dos sedums sutilmente distintos (adolphii y nussbaumerianum), estas especies se caracterizan por formar pequeños arbustos (es una planta subarbustiva) con tallos ramificados y rastreros o colgantes (los tallos más pequeños mantienen un porte erecto temporal). Generalmente crece sobre sustratos rocosos a los cuales se adhiere fuertemente. El follaje se caracteriza por tener forma lanceolada con un ligera inclinación hacia arriba y presentar una coloración verde clara que puede tornarse rojiza (específicamente color cobre) si recibe mucha luz. El sedum adolphii tiene hojas más chatas.",
     care:
       "<ul><li><strong>Luz:</strong> Es imprescindible una intensa iluminación para que el follaje tome una coloración rojiza. Esta especie tolera la exposición directa al sol durante todo el año (solo se debe resguardar un poco del sol intenso del mediodía en verano) aunque también crece sin problemas a semisombra.</li> <br><li><strong>Suelo: </strong>Prefiere crecer en sustratos rocosos pero es muy tolerante a cualquier otro tipo. Es imprescindible una buena permeabilidad de estos para evitar pudriciones de las raíces.</li> <br> <li> <strong>Riego: </strong>Es una planta que necesita muy poca agua para sobrevivir durante todo el año. En épocas cálidas se debe regar solo cuando el sustrato se haya secado por completo. En invierno el riego debe ser reducido o totalmente suspendido para evitar pudriciones.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
   },
@@ -336,7 +336,7 @@ const data = [
     title: "Aloe Juvenna",
     url: "aloe_juvenna.html",
     category: "suculenta",
-    price: "$15",
+    price: "$18",
     img: "../plantas/img/planta25_1.JPG",
     img2: "../plantas/img/planta25_2.JPG",
     img3: "../plantas/img/planta25_3.JPG",
