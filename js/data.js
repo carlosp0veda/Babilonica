@@ -331,6 +331,20 @@ const data = [
     care:
       "<ul><li><strong>Luz:</strong>  Las <em>Stapelia</em> como todas las plantas suculentas quieren el sol en todos los períodos del año. Más bien en este caso el sol es una condición indispensable para estimular la floración. Lo que es un límite para estas plantas son las temperaturas mínimas que no tienen que bajar de 10-13°C.</li> <br><li><strong>Suelo: </strong>Utilice un terreno compuesto por mantillo para cactáceas y arena gruesa a partes iguales y tenga cuidado de colocar sobre el fondo de la maceta trozos de barro cocido de modo que favorezca un drenaje óptimo del agua de riego, fundamental para esta planta.</li> <br> <li> <strong>Riego: </strong> En época seca se riega sólo cuando el sustrato se seca. No estancar el agua durante el riego. Durante el período lluvioso los riegos deben ser reducidos manteniendo el terreno levemente húmedo, nunca completamente seco porque los tallos se marchitarían rápidamente. Sólo si las temperaturas se hunden sensiblemente hace falta reducir ulteriormente los riegos.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
   },
+  {
+    id: 25,
+    title: "Aloe Juvenna 2",
+    url: "aloe_juvenna_2.html",
+    category: "suculenta",
+    price: "$15",
+    img: "../plantas/img/planta25_1.JPG",
+    img2: "../plantas/img/planta25_2.JPG",
+    img3: "../plantas/img/planta25_3.JPG",
+    desc:
+      "De las más bonitas e imponentes, sus hojas brillantes tienen tonos en verde claro con las nervaduras y tallo en color blanco. Las hojas pueden ser más anchas o más largas y estrechas, pero siempre acabadas en punta. Las matas pueden alzarse hasta el metro de altura, también existen variedades compactas de 13 a 17 centímetros, lo que facilita el placer de coleccionarlas. Además, combinan y conviven bien con otras plantas de interior de similares requerimientos.",
+    care:
+      "<ul><li><strong>Luz:</strong> Prefieren la sombra o la semisombra. El exceso de sol decolora y quema las hojas.</li> <br>  <li><strong>Riego:</strong> Las aglaonemas necesitan una atmósfera húmeda para que los bordes y puntas de las hojas no se resequen y acartonen. Conviene pulverizarlas con agua. En cambio, precisan riego moderado, y más espaciado en invierno. El encharcamiento les resulta muy perjudicial.</li> <br> <li><strong>Suelo:</strong> Tiene que drenar muy bien para lo cual puede servir un sustrato comercial para cactus o una mezcla, a partes iguales, de arena silícea, mantillo de hojas y turba rubia.</li> <br> <li><strong>Trasplante:</strong> Se deben cambiar a un tiesto mayor cada dos años. De paso se pueden obtener esquejes para multipicarlas.</li> <br> <li><strong>Enemigos:</strong> Suelen verse libres de plagas pero son sensibles al exceso de humedad.</li></ul>",
+  },
 ];
 
 export { data };
