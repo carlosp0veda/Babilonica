@@ -1965,7 +1965,7 @@ h3 {
   display: block;
   outline: none;
   border: none;
-  width: 120px;
+  width: 160px;
   height: 40px;
   background-color: var(--green);
   margin: 0 auto;
@@ -1974,7 +1974,7 @@ h3 {
 .product-main-cta-link {
   text-decoration: none;
   font-family: "Montserrat";
-  color: var(--light);
+  color: white;
   font-size: 1rem;
 }
 

@@ -36,7 +36,7 @@ function displayProduct(plantas) {
             <h2>${displayProduct.title}</h2>
             <h3>${displayProduct.price}</h3>
             <p>${displayProduct.desc}</p>
-            <button class="product-main-cta"><a class="product-main-cta-link" href="https://www.babilonica.co/contact.html">Reservala YA!</a></button>
+            <button class="product-main-cta"><a class="product-main-cta-link" href="https://api.whatsapp.com/send?phone=50578214564&text=Hola!%20Me%20interesa%20la%20planta%20${displayProduct.title}%20:)">Reservala YA!  <i class="fab fa-whatsapp fa-lg fa-pulse fa-fw"></i></a></button>
 
           </section>
         </article>
