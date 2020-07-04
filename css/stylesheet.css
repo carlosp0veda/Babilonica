@@ -1963,18 +1963,45 @@ h3 {
 
 .product-main-cta {
   display: block;
+  color: white;
   outline: none;
   border: none;
-  width: 160px;
+  width: fit-content;
   height: 40px;
   background-color: var(--green);
   margin: 0 auto;
+  padding: 0 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.product-main-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  color: var(--green);
+  margin: 0 auto;
+  transition: all ease 350ms;
+  z-index: -1;
+}
+
+.product-main-cta:hover::before {
+  width: 100%;
+}
+
+.product-main-cta:hover .product-main-cta-link {
+  color: var(--green);
+  transition: all linear 100ms;
 }
 
 .product-main-cta-link {
   text-decoration: none;
-  font-family: "Montserrat";
   color: white;
+  font-family: "Montserrat";
   font-size: 1rem;
 }
 
