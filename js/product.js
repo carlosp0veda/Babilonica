@@ -43,7 +43,7 @@ function displayProduct(plantas) {
         <article class="guide">
           <!-- Tab links -->
           <div class="tabs">
-            <button class="tablinks" id="open" onclick="openTab(event, 'careguide')">
+            <button class="tablinks active-tab" id="open" onclick="openTab(event, 'careguide')">
               Guía de Cuidos
             </button>
             <button class="tablinks" onclick="openTab(event, 'entrega')">
