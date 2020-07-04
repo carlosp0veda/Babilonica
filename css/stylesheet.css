@@ -1995,6 +1995,7 @@ h3 {
 
 .product-main-cta:hover .product-main-cta-link {
   color: var(--green);
+  font-weight: bolder;
   transition: all linear 100ms;
 }
 
