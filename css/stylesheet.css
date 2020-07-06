@@ -1990,7 +1990,7 @@ h3 {
 }
 
 .product-main-cta:hover::before {
-  width: 96%;
+  width: 95%;
 }
 
 .product-main-cta:hover .product-main-cta-link {
