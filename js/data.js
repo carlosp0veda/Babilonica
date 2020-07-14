@@ -159,7 +159,7 @@ const data = [
     desc:
       "Esta variedad tiene una tasa de crecimiento más lenta en comparación con otras Echeverias. La planta tiene un crecimiento bajo, sus rosetas no desarrollan el tallo, y alcanzan un diámetro de unos 12 cms. Sus hojas son carnosas, de color verde azulado pálido y una distintiva punta roja. Con el tiempo, cuando la planta madure, desarrollará un gran número de hijuelos que saldrán de la base de la planta madre.",
     care:
-      "<ul><li><strong>Luz: </strong>Crece mejor con sol total o parcial. Colócala en una zona de tu jardín o casa que reciba al menos 6 horas de sol.</li> <br> <li><strong>Riego: </strong>Regar las plantas de forma moderada, procurar no mojar las hojas especialmente evitar mojar el centro de la roseta para evitar pudriciones, es recomendable que el agua vaya directamente a la tierra. Distanciar los riegos esperando que el sustrato se seque entre ellos.</li> <br> <li><strong>Suelo: ></strong>Debe tener buen drenaje.</li></ul>",
+      "<ul><li><strong>Luz: </strong>Crece mejor con sol total o parcial. Colócala en una zona de tu jardín o casa que reciba al menos 6 horas de sol.</li> <br> <li><strong>Riego: </strong>Regar las plantas de forma moderada, procurar no mojar las hojas especialmente evitar mojar el centro de la roseta para evitar pudriciones, es recomendable que el agua vaya directamente a la tierra. Distanciar los riegos esperando que el sustrato se seque entre ellos.</li> <br> <li><strong>Suelo: </strong>Debe tener buen drenaje.</li></ul>",
   },
   {
     id: 12,
