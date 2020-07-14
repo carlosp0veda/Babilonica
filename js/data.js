@@ -151,8 +151,8 @@ const data = [
     title: "Echeveria “Hércules”",
     url: "echeveria_hercules.html",
     category: "suculenta",
-    price: "Vendida",
-    disponibilidad: false,
+    price: "$13",
+    disponibilidad: true,
     img: "../plantas/img/planta11_1.JPG",
     img2: " ",
     img3: " ",
@@ -204,7 +204,7 @@ const data = [
     desc:
       "Son plantas pequeñas con hojas de 6 cm de altura y 10 cm de diámetro que tienden a producir hijuelos laterales. Las hojas son de color verde oscuro brillante, esta variedad tiene un forma de espiral y presentan rugosidades que recuerdan a la piel del cocodrilo. Las pequeñas flores de color blanco con líneas verdes aparecen en largos tallos de hasta 30 cm de altura.",
     care:
-      "Esta haworthia lucirá mejor en una exposición de semisombra o de luz indirecta pues el sol directo en sus hojas puede quemarlas. <br><br> Lo más importante es que el suelo drene muy bien para lo cual utilizaremos un sustrato para cactus añadiendo un buen puñado de arena gruesa. <br><br> Regar moderadamente en verano, siempre esperando a que la tierra se seque por completo.  <br><br> En época lluviosa reducir los riegos hasta que en invierno se rieguen un sola vez. <br> <br> Es importante que la ventilación sea buena para no acumular humedad ambiental. Podemos abonar con fertilizante mineral para cactus luego del invierno pero diluido a la mitad de la dosis habitual.  <br><br>  La única poda que pueden necesitar es la eliminación de los tallos florales marchitos.  <br><br> No suelen presentar graves problemas de plagas y enfermedades si no nos excedemos con el riego.  <br><br>  Se multiplican de manera bastante fácil a partir de los hijuelos que produce la planta madre. ",
+      "<ul><li><strong>Luz: </strong>Esta haworthia lucirá mejor en una exposición de semisombra o de luz indirecta pues el sol directo en sus hojas puede quemarlas.</li> <br> <li><strong>Suelo: </strong> Lo más importante es que el suelo drene muy bien para lo cual utilizaremos un sustrato para cactus añadiendo un buen puñado de arena gruesa.</li> <br> <li><strong>Riego: </strong> Regar moderadamente en verano, siempre esperando a que la tierra se seque por completo. En época lluviosa reducir los riegos a una sola vez. Es importante que la ventilación sea buena para no acumular humedad ambiental.</li> <br> <li><strong>Enemigos: </strong> No suelen presentar graves problemas de plagas y enfermedades si no nos excedemos con el riego. </li></ul>",
   },
   {
     id: 15,
