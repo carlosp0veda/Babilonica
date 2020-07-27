@@ -1642,13 +1642,6 @@ body.product-modal {
   opacity: 0.9;
 }
 
-.pricenotice {
-  font-size: small;
-  color: var(--green);
-  text-align: center;
-  vertical-align: sub;
-}
-
 .cta-item-btn {
   display: block;
   font-family: "brixtonbold";
