@@ -396,7 +396,7 @@ const data = [
     img2: "../plantas/img/planta27_2.jpg",
     img3: null,
     desc:
-      "¡Una combinación que nos encanta! En esta variedad de Monstera, la hoja es pequeña y necesita más soporte, por lo que sembramos dos varas de Serenito. Según vayan creciendo ambas plantas, se entrelazarán y la combinación de colores realzará la belleza de cada una. La pieza incluye la estructura de madera.",
+      "¡Una combinación que nos encanta! En esta variedad de Monstera, la hoja es pequeña y necesita más soporte, por lo que sembramos dos varas de Serenito. Según vayan creciendo ambas plantas, se entrelazarán y la combinación de colores realzará la belleza de cada una. <br><br><strong>Estructura de madera incluida*</strong>",
     care:
       "<ul><li><strong>Luz:</strong> Teniendo en cuenta que la Monstera Adansonii suele crecer bajo árboles más grandes, es una planta acostumbrada a la semisombra. Busca un lugar con buena iluminación para ella y evita que los rayos solares alcancen sus hojas, especialmente en las horas centrales del día.</li> <br><li><strong>Suelo: </strong>Necesitan un suelo rico, con abundante materia orgánica, ligero y a la vez capaz de retener cierto grado de humedad. Es importante que drene bien para impedir que se produzcan encharcamientos.</li> <br> <li> <strong>Riego: </strong>Como buena planta tropical, la Monstera Adansonii prefiere humedad elevada y poca agua pero frecuente, especialmente en los meses de más calor.</li> <br> <li><strong>Enemigos: </strong> Su rusticidad hace que ni cochinilla algodonosa, ni araña roja ni el casi omnipresente pulgón la ataquen.</li></ul>",
   },
