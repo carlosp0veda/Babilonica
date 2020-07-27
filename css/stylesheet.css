@@ -2254,3 +2254,23 @@ h3 {
   padding: 1rem;
   left: 50%;
 }
+
+.tba-text {
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.tba-wrapper {
+  display: grid;
+  place-items: center;
+  padding-top: 15vh;
+}
+.gif-wrapper {
+  width: 250px;
+  height: 250px;
+  margin: 50px;
+}
+
+.loading-gif {
+  width: 100%;
+}
