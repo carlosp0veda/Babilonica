@@ -387,7 +387,7 @@ const data = [
   },
   {
     id: 27,
-    title: "Monstera Adansonii + Serenito",
+    title: "Monstera Adansonii",
     url: "monstera_adansonii.html",
     category: "ornamental",
     price: "$40",
