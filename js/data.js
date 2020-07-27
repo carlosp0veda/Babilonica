@@ -375,13 +375,28 @@ const data = [
     title: "Sedum Pachyphyllum",
     url: "sedum_pachyphyllum.html",
     category: "suculenta",
-    price: "$15",
-    disponibilidad: true,
+    price: "Vendida",
+    disponibilidad: false,
     img: "../plantas/img/planta26_1.jpg",
     img2: "../plantas/img/planta26_2.jpg",
     img3: "../plantas/img/planta26_3.jpg",
     desc:
       "Popularmente conocida como Sedo, Dedos de Dios, Uva de gato, Dedos o Deditos es una suculenta de tallos rastreros que no levanta más de 25 cm del suelo. Las curiosas hojas; de color verde azulado(con la punta rojiza), son carnosas, cilíndricas, se curvan hacia arriba y pueden desprender fácilmente si reciben golpes aunque sean ligeros. <br> <br> Se utilizan como plantas cubridoras en las zonas más secas y soleadas del jardín, en rocallas o en macetas y jardineras para patios, terrazas y balcones. Son ideales para jardines junto al mar o en grandes ciudades pues toleran la salinidad y la contaminación atmosférica.",
+    care:
+      "<ul><li><strong>Luz:</strong> Es imprescindible una intensa iluminación para que el follaje tome una coloración rojiza. Esta especie tolera la exposición directa al sol durante todo el año (solo se debe resguardar un poco del sol intenso del mediodía en verano) aunque también crece sin problemas a semisombra.</li> <br><li><strong>Suelo: </strong>Prefiere crecer en sustratos rocosos pero es muy tolerante a cualquier otro tipo. Es imprescindible una buena permeabilidad de estos para evitar pudriciones de las raíces.</li> <br> <li> <strong>Riego: </strong>Es una planta que necesita muy poca agua para sobrevivir durante todo el año. En épocas cálidas se debe regar solo cuando el sustrato se haya secado por completo. En invierno el riego debe ser reducido o totalmente suspendido para evitar pudriciones.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
+  },
+  {
+    id: 27,
+    title: "Monstera Adansonii + 2 varas de Serenito",
+    url: "monstera_adansonii.html",
+    category: "ornamental",
+    price: "$40",
+    disponibilidad: true,
+    img: "../plantas/img/planta27_1.jpg",
+    img2: "../plantas/img/planta27_2.jpg",
+    img3: null,
+    desc:
+      "Una combinación que nos encanta 🌈💚En esta variedad de Monstera, la hoja es pequeña y necesita más soporte, por lo que sembramos dos varas de Serenito. Según vayan creciendo ambas plantas, se entrelazarán y la combinación de colores realzará la belleza de cada una.",
     care:
       "<ul><li><strong>Luz:</strong> Es imprescindible una intensa iluminación para que el follaje tome una coloración rojiza. Esta especie tolera la exposición directa al sol durante todo el año (solo se debe resguardar un poco del sol intenso del mediodía en verano) aunque también crece sin problemas a semisombra.</li> <br><li><strong>Suelo: </strong>Prefiere crecer en sustratos rocosos pero es muy tolerante a cualquier otro tipo. Es imprescindible una buena permeabilidad de estos para evitar pudriciones de las raíces.</li> <br> <li> <strong>Riego: </strong>Es una planta que necesita muy poca agua para sobrevivir durante todo el año. En épocas cálidas se debe regar solo cuando el sustrato se haya secado por completo. En invierno el riego debe ser reducido o totalmente suspendido para evitar pudriciones.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
   },
