@@ -390,7 +390,8 @@ const data = [
     title: "Monstera Adansonii",
     url: "monstera_adansonii.html",
     category: "ornamental",
-    price: "$40",
+    price:
+      '$40 <span class="pricenotice">(incluye estructura de madera)</span>',
     disponibilidad: true,
     img: "../plantas/img/planta27_1.jpg",
     img2: "../plantas/img/planta27_2.jpg",
@@ -398,7 +399,7 @@ const data = [
     desc:
       "Una combinación que nos encanta 🌈💚En esta variedad de Monstera, la hoja es pequeña y necesita más soporte, por lo que sembramos dos varas de Serenito. Según vayan creciendo ambas plantas, se entrelazarán y la combinación de colores realzará la belleza de cada una.",
     care:
-      "<ul><li><strong>Luz:</strong> Es imprescindible una intensa iluminación para que el follaje tome una coloración rojiza. Esta especie tolera la exposición directa al sol durante todo el año (solo se debe resguardar un poco del sol intenso del mediodía en verano) aunque también crece sin problemas a semisombra.</li> <br><li><strong>Suelo: </strong>Prefiere crecer en sustratos rocosos pero es muy tolerante a cualquier otro tipo. Es imprescindible una buena permeabilidad de estos para evitar pudriciones de las raíces.</li> <br> <li> <strong>Riego: </strong>Es una planta que necesita muy poca agua para sobrevivir durante todo el año. En épocas cálidas se debe regar solo cuando el sustrato se haya secado por completo. En invierno el riego debe ser reducido o totalmente suspendido para evitar pudriciones.</li> <br> <li><strong>Enemigos: </strong> Cochinillas (elimínalas con alcohol isopropílico).</li></ul>",
+      "<ul><li><strong>Luz:</strong> Teniendo en cuenta que la Monstera Adansonii suele crecer bajo árboles más grandes, es una planta acostumbrada a la semisombra. Busca un lugar con buena iluminación para ella y evita que los rayos solares alcancen sus hojas, especialmente en las horas centrales del día.</li> <br><li><strong>Suelo: </strong>Necesitan un suelo rico, con abundante materia orgánica, ligero y a la vez capaz de retener cierto grado de humedad. Es importante que drene bien para impedir que se produzcan encharcamientos.</li> <br> <li> <strong>Riego: </strong>Como buena planta tropical, la Monstera Adansonii prefiere humedad elevada y poca agua pero frecuente, especialmente en los meses de más calor.</li> <br> <li><strong>Enemigos: </strong> Su rusticidad hace que ni cochinilla algodonosa, ni araña roja ni el casi omnipresente pulgón la ataquen.</li></ul>",
   },
 ];
 
