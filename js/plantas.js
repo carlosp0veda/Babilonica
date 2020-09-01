@@ -68,7 +68,9 @@ function displayMenuItems(menuItems) {
   let displayMenu = menuItems.reverse().map(function (item) {
     return `<article class="menu-item">
         <div class="photo-wrapper">
-          <img data-lazy="${item.img}" class="photo" loading="lazy" alt=${item.title} />
+          <img data-lazy="${
+            item.img
+          }" class="photo" loading="lazy" alt=${item.title} />
         </div>
         <div class="item-info">
           <header class="productItem-header">
@@ -76,8 +78,12 @@ function displayMenuItems(menuItems) {
           </header>
           <div class="cta-container-wrapper">
             <div class="cta-container">
-              <span class="plant-price">${item.price}</span>
-              <span class="cta-item-btn"><a href="https://www.babilonica.co/plantas/${item.url}" <strong>Ver más...</strong></a></span>
+              <span class="plant-price">${
+                item.salePrice ? item.salePrice : item.price
+              }</span>
+              <span class="cta-item-btn"><a href="https://www.babilonica.co/plantas/${
+                item.url
+              }" <strong>Ver más...</strong></a></span>
             </div
           </div>
         </div>

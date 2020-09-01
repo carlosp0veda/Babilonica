@@ -1879,7 +1879,6 @@ body.product-modal {
   background-position: center;
   order: -1;
   position: relative;
-  cursor: none;
 }
 
 .side-photos {
@@ -1923,6 +1922,23 @@ body.product-modal {
   box-shadow: var(--shadow2);
 }
 
+.sale::before {
+  content: "Descuento";
+  font-family: "PT Sans";
+  position: absolute;
+  color: var(--light);
+  text-align: center;
+  line-height: 65px;
+  font-size: 0.7rem;
+  font-weight: 900;
+  top: 10px;
+  right: 10px;
+  height: 65px;
+  width: 65px;
+  background-color: crimson;
+  border-radius: 50%;
+}
+
 #lens {
   width: 120px;
   height: 120px;
@@ -1959,6 +1975,10 @@ h3 {
   font-family: "Montserrat";
   font-weight: 700;
   color: var(--green);
+}
+
+.salePrice {
+  color: crimson;
 }
 
 .product-main-cta {
