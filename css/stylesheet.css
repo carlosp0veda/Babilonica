@@ -1888,7 +1888,6 @@ body.product-modal {
   margin: 10px auto;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 
 .side-photo {
@@ -1897,6 +1896,7 @@ body.product-modal {
   height: 75px;
   overflow: hidden;
   margin: 10px;
+  cursor: pointer;
 }
 
 .side-photo:hover {
