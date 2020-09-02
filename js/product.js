@@ -39,9 +39,9 @@ function displayProduct(plantas) {
         }"></div>
               <div class="side-photo" onclick="changePhoto(event, '${
                 displayProduct.img3
-              }')"><img class="photo-s" src=${
-          displayProduct.img3 ? displayProduct.img3 : null
-        } alt="${displayProduct.title}"></div>
+              }')"><img class="photo-s" src=${displayProduct.img3} alt="${
+          displayProduct.title
+        }"></div>
             </div>
             <div class=${displayProduct.sale ? "sale" : null} id="main-photo">
                 <img class="photo-m" src=${displayProduct.img} alt="${
@@ -108,9 +108,9 @@ function displayProduct(plantas) {
         }"></div>
               <div class="side-photo" onclick="changePhoto(event, '${
                 displayProduct.img3
-              }')"><img class="photo-s" src=${
-          displayProduct.img3 ? displayProduct.img3 : null
-        } alt="${displayProduct.title}"></div>
+              }')"><img class="photo-s" src=${displayProduct.img3} alt="${
+          displayProduct.title
+        }"></div>
             </div>
             <div class=${displayProduct.sale ? "sale" : null} id="main-photo">
                 <img class="photo-m" src=${displayProduct.img} alt="${
