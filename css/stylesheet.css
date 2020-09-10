@@ -116,12 +116,6 @@ strong {
   padding-top: 4px;
 }
 
-@media screen and (max-width: 568px) {
-  .noticia {
-    height: 7vh;
-  }
-}
-
 /* TOP NAV BAR */
 .nav-top {
   width: 100vw;
