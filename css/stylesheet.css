@@ -113,7 +113,7 @@ strong {
   text-align: center;
   text-transform: uppercase;
   display: block;
-  padding-top: 1rem;
+  padding-top: 4px;
 }
 
 @media screen and (max-width: 568px) {
