@@ -81,7 +81,7 @@ function displayMenuItems(menuItems) {
               <span class="plant-price">${
                 item.salePrice ? item.salePrice : item.price
               }</span>
-              <span class="cta-item-btn"><a href="https://www.babilonica.co/plantas/${
+              <span class="cta-item-btn"><a href="/plantas/${
                 item.url
               }" <strong>Ver más...</strong></a></span>
             </div
